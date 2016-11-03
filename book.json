@@ -1,0 +1,12 @@
+{
+  "gitbook": "3.x.x",
+  "plugins": [ "collapsible-menu" ],
+  "pluginsConfig": {
+    "fontSettings": {
+      "theme": "light"
+    }
+  },
+  "styles": {
+    "website": "assets/web.css"
+  }
+}
