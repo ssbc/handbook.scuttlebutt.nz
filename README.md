@@ -6,7 +6,8 @@ You can build and serve this with gitbook. The following assumes you're running 
 
 ```bash
 npm install gitbook-cli git-ssb -g
-git clone ssb://address ssb-handbook 
+git clone ssb://%lJsDWwnF4bDxHWYuSjw/bW37xg+saF8WtPZYZsefKj0=.sha256 ssb-handbook 
+
 cd ssb-handbook
 gitbook install
 gitbook serve
