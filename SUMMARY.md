@@ -1,5 +1,4 @@
 
-* ![](assets/hermes.png)
 * [Introduction](README.md)
 * [Concepts](concepts/index.md)
   - [Identity](concepts/identity.md)
