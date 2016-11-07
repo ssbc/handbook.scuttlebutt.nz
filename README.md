@@ -14,7 +14,9 @@ Scuttlebutt is a decent(ralised) secure gossip platform.
 
 ## About This Handbook
 
-You can build and serve this with gitbook. The following assumes you're running a scuttlebot server and are in the follow neighbourhood of mixmix or his pub.
+To view the public gitbook, browse to <https://mixmix.gitbooks.io/ssb-handbook/content/>.
+
+You can also build and serve this with gitbook locally. The following assumes you're running a scuttlebot server and are in the follow neighbourhood of mixmix or his pub.
 
 ```bash
 npm install gitbook-cli git-ssb -g
