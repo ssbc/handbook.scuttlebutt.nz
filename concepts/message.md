@@ -2,13 +2,14 @@
 
 Each message contains:
 
-A signature
-The signing public key
-A content-hash of the previous message
-A sequence number
-A timestamp
-An identifier of the hashing algorithm in use (currently only "sha256" is supported)
-A content object
+- A signature
+- The signing public key
+- A content-hash of the previous message
+- A sequence number
+- A timestamp
+- An identifier of the hashing algorithm in use (currently only "sha256" is supported)
+- A content object
+
 Here's an example message:
 
 ```
