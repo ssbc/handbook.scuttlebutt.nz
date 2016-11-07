@@ -1,5 +1,7 @@
 * [Introduction](README.md)
 * [Applications](applications.md)
+* [Stories](stories/index.md)
+  - [Gossiping Securely is the new Email](stories/gossiping-securely-is-the-new-email.md)
 * [Modules](modules.md)
 * [Concepts](concepts/index.md)
   - [Identity](concepts/identity.md)
