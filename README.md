@@ -27,9 +27,11 @@ gitbook serve
 
 The `SUMMARY.md` is the manifest on which the compiled gitbook is based. Edit that if you want content in/out of the book.
 
+> If you see a job that needs doing - that is your job.
+
 ## Other Projects
 
-Scuttlebutt is not the only project working in a decentralised encrypted space. Here are a few other projects also working on solutions:
+Scuttlebutt is not the only project working in a decentralised space. Here are a few other projects also working on solutions:
 
 - [Matrix](http://matrix.org/)
 - [Bitcoin](https://bitcoin.org/)
@@ -40,3 +42,8 @@ Scuttlebutt is not the only project working in a decentralised encrypted space. 
 - [Dat](http://datproject.org/)
 - [Solid](https://github.com/solid/solid)
 - [cjdns](https://github.com/cjdelisle/cjdns)
+- [Syncthing](https://syncthing.net/)
+- [Indie](https://ind.ie/)
+- [Twister](http://twister.net.co/)
+- [WebTorrent](https://webtorrent.io/)
+- [StrongLink](https://github.com/btrask/stronglink)
