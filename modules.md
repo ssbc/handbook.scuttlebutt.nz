@@ -1,12 +1,12 @@
-# modules
+# Modules
 
-## streams
+## Streams
 
 [`pull-stream`](https://github.com/pull-stream/pull-stream): minimal composable streams with lazy back pressure and error propagation
 
-see more at [pull-stream.github.io](https://pull-stream.github.io)
+See more at [pull-stream.github.io](https://pull-stream.github.io)
 
-## database
+## Database
 
 [`secure-scuttlebutt`](https://github.com/ssbc/secure-scuttlebutt): database of unforgable append-only feeds, optimized for efficient peer-to-peer replication
 
@@ -18,12 +18,12 @@ see more at [pull-stream.github.io](https://pull-stream.github.io)
 - [`multiblob`](https://github.com/dominictarr/multiblob): a content-addressable-store that supports multiple hashing algorithms
 - [`map-filter-reduce`](https://github.com/dominictarr/map-filter-reduce): A functional query engine, that operates over streams of js objects, and can be optimized via database indexes.
 
-## crypto
+## Crypto
 
 - [`secret-handshake`](https://github.com/auditdrivencrypto/secret-handshake): secure-channel based on a a mutually authenticating key agreement handshake, with forward secure identity metadata.
 - [`private-box`](https://github.com/auditdrivencrypto/private-box): private message between two parties (with no `to` field)
 
-## server
+## Server
 
 [`scuttlebot`](https://github.com/ssbc/scuttlebot): peer-to-peer log store used as a database, identity provider, and messaging system
 
@@ -32,7 +32,7 @@ see more at [pull-stream.github.io](https://pull-stream.github.io)
 - [`muxrpcli`](https://github.com/ssbc/muxrpcli): command-line interface to mux rpc servers
 - [`secret-stack`](https://github.com/ssbc/secret-stack): connect peers to each other using secret-handshakes
 
-## client
+## Client
 
 - [`ssb-notifier`](https://github.com/ssbc/ssb-notifier): desktop notifications for secure-scuttlebutt activity
 - [`ssb-client`](https://github.com/ssbc/ssb-client): client library to scuttlebot
