@@ -1,6 +1,6 @@
-
 * [Introduction](README.md)
 * [Applications](applications.md)
+* [Modules](modules.md)
 * [Concepts](concepts/index.md)
   - [Identity](concepts/identity.md)
   - [Feed](concepts/feed.md)
@@ -11,4 +11,3 @@
   - [Local](concepts/local.md)
   - [Pub](concepts/pub.md)
   - [Blob](concepts/blob.md)
-
