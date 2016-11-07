@@ -1,5 +1,6 @@
 
 * [Introduction](README.md)
+* [Applications](applications.md)
 * [Concepts](concepts/index.md)
   - [Identity](concepts/identity.md)
   - [Feed](concepts/feed.md)
