@@ -1,5 +1,13 @@
 # Modules
 
+> isaacs (creator of npm) puts it very well: agreement is very difficult, so limit the amount of agreement necessary.
+>
+> i.e. write modules.
+>
+> With less agreement required, it's easier to find points of agreement, and so we can have _more_ agreements overall.
+
+- %88KMgyXpuyF1O1VtKjkycJ+R5j7sJ/DgFwLVAS19J4U=.sha256
+
 ## Streams
 
 [`pull-stream`](https://github.com/pull-stream/pull-stream): minimal composable streams with lazy back pressure and error propagation

@@ -1,13 +1,5 @@
 # Local
 
-## Subjective
-
-Scuttlebutt embraces subjectivity. You are your own central authority on truth.
-
-There is no "objective" truth, no global singleton, no consensus process.
-
-Each peer can publish whatever they want, and interpret another message however they want. The meaning is created when two peers have the same interpretation. You don't get to choose how someone interprets you, but you may choose how you interpret them.
-
 ## Hostless
 
 Scuttlebutt is hostless: each computer installs the same copy of software and has equal rights in the network.

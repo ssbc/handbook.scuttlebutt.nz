@@ -11,13 +11,19 @@
 
 - %tN76rhfhajvOPB7qx0HZLIdjxzy3/5+h6eRv9aChGr8=.sha256
 
-## Resilience
+## Subjectivity
 
-> When it comes to emergency survival situations, it helps a lot if your survival equipment is also the equipment that you use every day. Then you know it works, is maintained, and you know how to use it!
+> "the meaning of an action is not the label on the button, it's how the humans use it, and how other humans react to the behavior that computers execute. buttons labeled 'like' or 'trust' do not necessarily mean that. We have to think about it like anthropologists"
 
-- %GAjTyOlMxMNGwKX+qeggyBzcWfJXLsBGkAIXuDibVPs=.sha256
+- %P1see8CMH8StoXs9CMzwIahrjE+Ht8FeCNjsV3eRgZw=.sha256
 
-## Governance
+## Usability
+
+> I think the concept of "usability" applies at every layer in the stack, for example, nacl is a lot more usable than openssl. That means, it broadens development of crypto, and then those projects have the opportunity to be more usable in turn to their users.
+
+- %xXabtralTRa1aMpSmR42GhYBCqt1DbfcwPrIWIn7RVM=.sha256
+
+## Community
 
 > teaching a man to fish is the easy part, you must then teach his community how to [govern a commons](https://en.wikipedia.org/wiki/Elinor_Ostrom#Design_principles_for_Common_Pool_Resource_.28CPR.29_institutions)
 
@@ -41,14 +47,14 @@
 
 > It's true, developers do have a lot of power, and users have very little. "user" is another of these words which are problematic in this context. In terms of political empowerment, the implications of "user" is a lot like "pleb". Developers are like the landed gentry.
 >
-> But, there is a natural right that users always have: they can choose whether or not to run a given piece of software. Developers often act to hamper this right, for example, when you use a website your browser always "installs" the latest version. If you download a program and run it, you can at least, keep running the old version, if there isn't an automatic update mechanism (which empowers developers again). There used to be a lot of 3rd party twitter clients, but they stopped that when they introduced advertising, having a centralized system gave them the power to do this easily. The user still has the option to quit facebook, etc, but they must either take it or leave it. It's an ultimatum.
+> But, there is a _natural right_ that users always have: they can choose whether or not to run a given piece of software. Developers often act to hamper this right, for example, when you use a website your browser always "installs" the latest version. If you download a program and run it, you can at least, keep running the old version, if there isn't an automatic update mechanism (which empowers developers again). There used to be a lot of 3rd party twitter clients, but they stopped that when they introduced advertising, having a centralized system gave them the power to do this easily. The user still has the option to quit facebook, etc, but they must either take it or leave it. It's an ultimatum.
 >
-> But since secure scuttlebutt is a protocol, I can never stop someone from implementing, or choosing to use different software to interpret it. That is why I call it a "natural right" it's just there, basically a part of the universe, and you can act to hamper it, but you can never truly take it away
+> But since secure scuttlebutt is a _protocol_, I can never stop someone from implementing, or choosing to use different software to interpret it. That is why I call it a "natural right" it's just there, basically a part of the universe, and you can act to hamper it, but you can never truly take it away.
 >
 > But what happens if you instead act to enhance that natural right?
 If you make it easier for users to choose their interpretation of reality, and harder for developers to impose ultimatums?
 >
-> Developers get their power from users choosing their software, so if users have more freedom to choose, it will force developers to make better software. To create software that helps users live better lives, instead of herding them like cattle into advertising-milking sheds.
+> Developers get their power from users choosing their software, so if users have more freedom to choose, it will force developers to make _better software_. To create software that helps users live better lives, instead of herding them like cattle into advertising-milking sheds.
 >
 > But of course, to do that, we actually have to rethink a bunch of stuff.
 >
@@ -56,7 +62,15 @@ If you make it easier for users to choose their interpretation of reality, and h
 
 - %hQMXHkZBPgO5x8HqiCeHxZKJWFferucYm00Hew9DHEU=.sha256
 
+> "but remember, the value of the internet is ultimately that it's a network of people"
+
+- %P1see8CMH8StoXs9CMzwIahrjE+Ht8FeCNjsV3eRgZw=.sha256
+
 ## Dogfood
+
+> When it comes to emergency survival situations, it helps a lot if your survival equipment is also the equipment that you use every day. Then you know it works, is maintained, and you know how to use it!
+
+- %GAjTyOlMxMNGwKX+qeggyBzcWfJXLsBGkAIXuDibVPs=.sha256
 
 > always be rewriting everything
 
@@ -72,8 +86,38 @@ If you make it easier for users to choose their interpretation of reality, and h
 
 - %4etPxosu6kLyjZ2vqLxVFInbmQGXPVa2XcrTsKLICgc=.sha256
 
+> # The Ikea Architecture
+>
+> What is interesting about well designed but cheaply made flat pack furniture? The way that they manage the distinction between essential elements of their design, and arbitary elements of their design.
+>
+> As is obvious to anyone who has assembled an ikea product, they are mostly made from [MDF](https://en.wikipedia.org/wiki/IKEA#Furniture). But that is only _half the story_. MDF is used for the _arbitary_ part of the design,
+> this season it might look like this, next season, like that. The machinery that cuts out the MDF can cut of any shape (and it's mostly rectangles anyway) so they can iterate on that those aspects of the design as fashion dictates or simply for the sheer hell of it.
+>
+> But there is one thing that doesn't change. [_The Hinges](http://www.ikea.com/us/en/catalog/products/75719200/) incorporate the part of the design that is "objective". Not only are the hinges solidly constructed (probably rated for a much heavier door than your little warddrobe) but they are [adjustable in _3 dimensions_](http://www.wikihow.com/Adjust-Euro-Style-Cabinet-Hinges), this means that if the MDF parts don't fit exactly, or if your floor is crooked and your shelf warps, the hinge can just be adjusted so that the door still closes nicely.
+>
+> Handcrafted solid wood furniture would put a lot of effort into making the body of wardrobe solid and sturdy, and could then [simple "butt" hinges](https://duckduckgo.com/?q=butt+hinge&t=canonical&iax=1&ia=images)
+> But this furniture must be assembled by an expert craftsperson, and cannot be shipped flat.
+>
+> The Ikea Architecture separates _engineering_ from _design_. This means that designers don't need to think hard about engineering problems and can simply focus on what _customers want to buy_.
+>
+> ---
+>
+> _Obviously_ I am actually talking about software. Specifically, about _User Applications_. This does not apply to developer tools, because that is nearly entirely engineering. but if you looked at user software, it's mostly _mdf_, or at least it should be.
+>
+> Tests to check if you have achive Ikea Architecture:
+>
+> * can designers easily break your system (fail)
+> * is it easy to repurpose your work into something different (win)
+> * are the hard parts useful for other things? (win)
+>
+> When we talk about "modular user interfaces" I think it's misleading, because the things you actually see and touch in a user interface is mostly MDF. there may be a lot of code there, but it isn't interesting.
+> If it _is interesting, that is a bad sign_ that means it should be moved out to a place where it can be solved in isolation, you need to put much more effort into a part that will be reused (it *must* be reused, to justify that effort)
+>
+> So I think what we really need, if we want "modular user interfaces" is some quality Hinges, and an easy way of dealing with the MDF.
 
-## [Uncapturable Distribution](https://github.com/mixmix/blogposts/blob/master/uncapturable_distribution.md)
+- %5U+7Fblfzf1iO+bE+anI/wn/L9L0LkpM5A9+Mlf0Wcc=.sha256
+
+## [Uncapturable](https://github.com/mixmix/blogposts/blob/master/uncapturable_distribution.md)
 
 > Q: is the npm registry still open source?
 > A: no. npm, inc is now intergalactic feudal empire

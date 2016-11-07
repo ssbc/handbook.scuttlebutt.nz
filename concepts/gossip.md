@@ -50,6 +50,12 @@ Addressability is the easy part. we want to be able to publish from your phone, 
 
 - %R3FPwcmwWhIra/iTWyctKderB7rcQ5BVNosOtsaf7Z4=.sha256
 
+> oh, sorry. push or pull is a matter of perspective, and this splits the that hair again.
+>
+> Our "pull" is like a "push request". "Give me anything from this feed, asap".
+This would add "let me know when you have something on this feed" which would just send a very short notification, which then maybe you'd switch to "everything, asap" depending on what you are getting from your other connections.
+
+- %Mkex213GELeOnUuSGUCaaPdZ8tYvrVIC+TuRs+1UhuQ=.sha256
 
 ## Network
 
@@ -103,3 +109,7 @@ We can't have centralized moderation, which is necessarily one-size-fits-all and
 > Of course, all of these approaches should probably be considered unproven...
 
 - %oDcN+0dus8WD7J985vjOmewyftoIN9/8j2GrtG3Guck=.sha256
+
+> Oh, the other problem, is that to usable in the face of spam, email as push messaging depends on content and metadata analysis. Encrypted push messaging is gonna be pretty vulnerable to spam. I don't think pull will have that same problem.
+
+- %NMvkFVOBa9+RkCziMthRuSBujJIj7znLod6iGP1bQNs=.sha256

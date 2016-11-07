@@ -1,5 +1,11 @@
 # Link
 
+> what I recall is @substack suggested "cypherlink" as the term for a hash used as a link (also called a merkle link in ipfs) which I liked because it sounded like a riff on "hyperlink" and "cypherpunk". After that, "cypherspace" was pretty obvious.
+>
+> I was staying with @substack and @johnny at the time. The design I had planned was [cyphernet](https://gist.github.com/dominictarr/5990143) but switched to the secure-scuttlebutt design because it was simpler and had more predictable replication performance.
+
+- %mMd+625YFJXxmtDDghUBiVR4jUIqHT+ynlFakBHSWlQ=.sha256
+
 Messages can reference three types of Secure Scuttlebutt entities: messages, feeds, and blobs (i.e. files). Messages and blobs are referred to by their hashes, but a feed is referred to by its signing public key.
 
 To indicate the type of ID, a "sigil" is prepended to the string. They are:
