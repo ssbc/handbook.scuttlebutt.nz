@@ -1,4 +1,5 @@
 * [Introduction](README.md)
+* [Talks](talks.md)
 * [Applications](applications.md)
 * [Principles](principles.md)
 * [Stories](stories/index.md)
