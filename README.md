@@ -14,17 +14,17 @@ Scuttlebutt is a decent(ralised) secure gossip platform.
 
 ## About This Handbook
 
-To view the public gitbook, browse to <https://mixmix.gitbooks.io/ssb-handbook/content/>.
+To view the public gitbook, browse to <http://scuttlebutt.nz>.
 
 You can also build and serve this with gitbook locally. The following assumes you're running a scuttlebot server and are in the follow neighbourhood of mixmix or his pub.
 
 ```bash
-npm install gitbook-cli git-ssb -g
+npm install git-ssb -g
 git clone ssb://%lJsDWwnF4bDxHWYuSjw/bW37xg+saF8WtPZYZsefKj0=.sha256 ssb-handbook
 
 cd ssb-handbook
-gitbook install
-gitbook serve
+npm install
+npm start
 ```
 
 The `SUMMARY.md` is the manifest on which the compiled gitbook is based. Edit that if you want content in/out of the book.
