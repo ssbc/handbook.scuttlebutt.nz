@@ -3,6 +3,18 @@
 The following is an overview of the known Secure Scuttlebutt-based apps.
 Please feel free to extend and modify this registry.
 
+---
+
+## ssb-graphviz
+
+An interactive visualisation of your local scuttleverse.
+Fly with [w,a,s,d] and look with [up,left,down,right].
+Hover over nodes to see who they are and light up their 1st and (dimmer) 2nd degree friendships.
+
+![ssb-graphviz](./assets/graph-viz.png)
+
+SSB : ssb://%hNm67sfnZFtWkD/+1qxH3UfzhXykfpKtOL1C/XbLANA=.sha256
+
 --- 
 
 ## Ferment
