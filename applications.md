@@ -88,3 +88,11 @@ Tour (old version) : [youtube](https://www.youtube.com/watch?v=vmQUfZMCVJ0)
 
 Links : [github](https://github.com/ssbc/patchwork-electron)
 
+---
+
+## easy-ssb-pub 
+
+![](https://github.com/staltz/easy-ssb-pub/raw/master/screenshot.png) 
+
+https://github.com/staltz/easy-ssb-pub
+
