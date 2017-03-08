@@ -58,7 +58,7 @@ SSB : ssb://%n92DiQh7ietE+R+X/I403LQoyf2DtR3WQfCkDKlheQU=.sha256
 
 A recent messaging interface which weaves Patchbay and Ferment ideas together. Built with Matt McKegg's [Mutant](https://github.com/mmckegg/mutant).
 
-![patchwork-next](./assets/patchwork-next.png)
+![patchwork-next](./assets/patchwork-next.jpg)
 
 Links : [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU%3D.sha256) | [github](https://github.com/mmckegg/patchwork-next)
 
