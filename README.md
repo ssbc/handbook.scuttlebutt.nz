@@ -18,6 +18,8 @@ The easiest way to get started is using [patchwork-next](https://github.com/mmck
 
 ![screenshot of patchwork-next](./assets/patchwork-next.jpg)
 
+## Download and Install Patchwork
+
 On macOS, download the latest .dmg file from [patchwork-next/releases](https://github.com/mmckegg/patchwork-next/releases)
 
 On other operating systems, with [node and npm installed](https://github.com/creationix/nvm):
@@ -34,6 +36,20 @@ On Linux you'll need some more dependencies for the spell-checker. On Debian/Ubu
 ```sh
 sudo apt-get install libxext-dev libxtst-dev libxkbfile-dev
 ```
+
+### Be Invited To A Pub
+
+In order to gossip outside your local network, you'll need to connect to a [Pub](./concepts/pub.md).
+
+Here's an 100-use invite to @mixmix's pub:
+
+```txt
+pub.mixmix.io:8008:@uRECWB4KIeKoNMis2UYWyB2aQPvWmS3OePQvBj2zClg=.ed25519~gq+n8AXMdhzwnGWZxWitgczTkbr70drnbEaOi3Noo5M=
+```
+
+In `patchwork-next`, click "+ Join Pub" and paste the code.
+
+This will cause you to follow @mixmix's Pub and vise versa. If you haven't synchronized to this social network yet, prepare to wait a few minutes while your local server synchronizes.
 
 ## About This Handbook
 
