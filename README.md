@@ -14,7 +14,7 @@ Scuttlebutt is a decent(ralised) secure gossip platform.
 
 ## How To Get Started
 
-The easiest to get started is [patchwork-next](https://github.com/mmckegg/patchwork-next), a classic social networking [application](./applications.md).
+The easiest way to get started is using [patchwork-next](https://github.com/mmckegg/patchwork-next), a classic social networking [application](./applications.md).
 
 ![screenshot of patchwork-next](./assets/patchwork-next.jpg)
 
@@ -34,77 +34,6 @@ On Linux you'll need some more dependencies for the spell-checker. On Debian/Ubu
 ```sh
 sudo apt-get install libxext-dev libxtst-dev libxkbfile-dev
 ```
-
-## From NPM
-
-NPM hosts the stable release.
-It will be the least likely to have bugs.
-
-**Dependencies:**
-
- - node v5.3.x (you might like to use [nvm](https://github.com/creationix/nvm))
- - npm v3.5.x ([Instructions to update NPM when using NVM](#updating-npm))
-
-**Install:**
-
-``` bash
-npm install ssb-patchwork -g
-```
-
-**Run:**
-
-```bash
-patchwork
-```
-
-Then open `localhost:7777`.
-
-
-## From Git
-
-GitHub hosts the development version.
-It will contain updates not yet published on NPM.
-
-**Dependencies:**
-
- - node v5.3.x (you might like to use [nvm](https://github.com/creationix/nvm))
- - npm v3.5.x ([Instructions to update NPM when using NVM](#updating-npm))
-
-**Install:**
-
-```bash
-git clone https://github.com/ssbc/patchwork.git
-cd patchwork
-npm install
-```
-
-**Run:**
-
-From directory you cloned patchwork to:
-
-```bash
-npm start
-```
-
-Then open `localhost:7777`.
-
-**Update:**
-
-From directory you cloned patchwork to:
-
-```bash
-git pull origin master
-npm install
-```
-
-```
-
-```
-
-patchwork is a discussion platform that we use to anything and everything concerning ssb and decentralization.
-patchbay is another take on patchwork - it's compatible, less polished, but more modular. The main goal of patchbay is to be very easy to add features to.
-git-ssb is git (& github!) on top of secure-scuttlebutt. Although we still keep our repos on github, primary development is via git-ssb.
-it is recommended to get started with patchwork, and then look into git-ssb and patchbay.
 
 ## About This Handbook
 
