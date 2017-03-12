@@ -72,7 +72,7 @@ The `SUMMARY.md` is the manifest on which the compiled gitbook is based. Edit th
 
 ## Other Projects
 
-Scuttlebutt is not the only project working in a decentralised space. Here are a few other projects also working on solutions:
+Scuttlebutt is not the only project working in a decentralized space. Here are a few other projects also working on solutions:
 
 - [Matrix](http://matrix.org/)
 - [Bitcoin](https://bitcoin.org/)
