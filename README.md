@@ -88,3 +88,5 @@ Scuttlebutt is not the only project working in a decentralized space. Here are a
 - [Twister](http://twister.net.co/)
 - [WebTorrent](https://webtorrent.io/)
 - [StrongLink](https://github.com/btrask/stronglink)
+- [RetroShare](http://retroshare.sourceforge.net)
+- [ZeroNet](http://zeronet.io)
