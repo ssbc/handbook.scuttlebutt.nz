@@ -1,5 +1,9 @@
 # Scuttlebutt Talks
 
+## Mix Irving: Embracing Subjectivity @ nz.js(con); New Zealand JS Conference 2017
+
+https://youtube.com/watch?v=P5K18XssVBg
+
 ## Paul Frazee: Signed Merkel Logs @ Decentralized Web Summit
 
 https://www.youtube.com/watch?v=PfWgin3JlAU&t=20417
