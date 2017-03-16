@@ -20,9 +20,9 @@ The easiest way to get started is using [patchwork](https://github.com/ssbc/patc
 
 ## Download and Install Patchwork
 
-On macOS, download the latest .dmg file from [patchwork/releases](https://github.com/mmckegg/patchwork/releases)
+Download installers for Windows, macOS and Linux from [patchwork/releases](https://github.com/ssbc/patchwork/releases)
 
-On other operating systems, with [node and npm installed](https://github.com/creationix/nvm):
+Or you can build from source with [node and npm installed](https://github.com/creationix/nvm):
 
 ```shell
 $ git clone https://github.com/ssbc/patchwork
