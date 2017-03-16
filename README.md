@@ -14,19 +14,19 @@ Scuttlebutt is a decent(ralised) secure gossip platform.
 
 ## How To Get Started
 
-The easiest way to get started is using [patchwork-next](https://github.com/mmckegg/patchwork-next), a classic social networking [application](./applications.md).
+The easiest way to get started is using [patchwork](https://github.com/ssbc/patchwork), a classic social networking [application](./applications.md).
 
-![screenshot of patchwork-next](./assets/patchwork-next.jpg)
+![screenshot of patchwork](./assets/patchwork.jpg)
 
 ## Download and Install Patchwork
 
-On macOS, download the latest .dmg file from [patchwork-next/releases](https://github.com/mmckegg/patchwork-next/releases)
+On macOS, download the latest .dmg file from [patchwork/releases](https://github.com/mmckegg/patchwork/releases)
 
 On other operating systems, with [node and npm installed](https://github.com/creationix/nvm):
 
 ```shell
-$ git clone https://github.com/mmckegg/patchwork-next
-$ cd patchwork-next
+$ git clone https://github.com/ssbc/patchwork
+$ cd patchwork
 $ npm install
 $ npm start
 ```
@@ -47,7 +47,7 @@ Here's an 100-use invite to @mixmix's pub:
 pub.mixmix.io:8008:@uRECWB4KIeKoNMis2UYWyB2aQPvWmS3OePQvBj2zClg=.ed25519~gq+n8AXMdhzwnGWZxWitgczTkbr70drnbEaOi3Noo5M=
 ```
 
-In `patchwork-next`, click "+ Join Pub" and paste the code.
+In `patchwork`, click "+ Join Pub" and paste the code.
 
 This will cause you to follow @mixmix's Pub and vise versa. If you haven't synchronized to this social network yet, prepare to wait a few minutes while your local server synchronizes.
 

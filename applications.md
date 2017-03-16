@@ -5,15 +5,17 @@ Please feel free to extend and modify this registry.
 
 ---
 
-## ssb-graphviz
+## Patchwork
 
-An interactive visualisation of your local scuttleverse.
-Fly with [w,a,s,d] and look with [up,left,down,right].
-Hover over nodes to see who they are and light up their 1st and (dimmer) 2nd degree friendships.
+A remake of [Patchwork Classic](https://github.com/ssbc/patchwork-classic) using [patchcore](https://github.com/ssbc/patchcore) and UX/ideas from [ferment](https://github.com/mmckegg/ferment).
 
-![ssb-graphviz](./assets/graph-viz.png)
+The goal is to make a standalone, easy to install, "social" view into the ssb world.
 
-SSB : ssb://%hNm67sfnZFtWkD/+1qxH3UfzhXykfpKtOL1C/XbLANA=.sha256
+![patchwork](./assets/patchwork.jpg)
+
+Links : [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU%3D.sha256) | [github](https://github.com/ssbc/patchwork)
+
+SSB : ssb://%bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU=.sha256
 
 --- 
 
@@ -28,7 +30,6 @@ Tour : [youtube](https://www.youtube.com/watch?v=xgvxXbWYmrI)
 Links : [git-ssb](https://git-ssb.celehner.com/%25t3XQv5Gk%2FdzJQM1fWFnMlaTlTvmtd3BHYCTIzhT%2F7G8%3D.sha256) | [github](https://github.com/mmckegg/ferment)
 
 SSB : ssb://%t3XQv5Gk/dzJQM1fWFnMlaTlTvmtd3BHYCTIzhT/7G8=.sha256
-
 
 ---
 
@@ -51,19 +52,17 @@ Links : [git-ssb](https://git-ssb.celehner.com/%25n92DiQh7ietE%2BR%2BX%2FI403LQo
 
 SSB : ssb://%n92DiQh7ietE+R+X/I403LQoyf2DtR3WQfCkDKlheQU=.sha256 
 
-
 ---
 
-## Patchwork-next
+## ssb-graphviz
 
-A recent messaging interface which weaves Patchbay and Ferment ideas together. Built with Matt McKegg's [Mutant](https://github.com/mmckegg/mutant).
+An interactive visualisation of your local scuttleverse.
+Fly with [w,a,s,d] and look with [up,left,down,right].
+Hover over nodes to see who they are and light up their 1st and (dimmer) 2nd degree friendships.
 
-![patchwork-next](./assets/patchwork-next.jpg)
+![ssb-graphviz](./assets/graph-viz.png)
 
-Links : [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU%3D.sha256) | [github](https://github.com/mmckegg/patchwork-next)
-
-SSB : ssb://%bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU=.sha256
-
+SSB : ssb://%hNm67sfnZFtWkD/+1qxH3UfzhXykfpKtOL1C/XbLANA=.sha256
 
 ---
 
@@ -75,18 +74,17 @@ Posts published over time (from the perspective of Cel's pub server). Colors rep
 
 Links : [celehner](https://celehner.com/ssbc/stats/daily.html)
 
-
 ---
 
-## Patchwork
+## Patchwork-Classic
 
-The first major messaging interface built on SSB, using React. Currently has installers for Mac and Linux
+The first major messaging interface built on SSB, using React. Currently has installers for Mac and Linux, and translations.
 
-![patchwork](./assets/patchwork.png)
+![patchwork-classic](./assets/patchwork-classic.png)
 
 Tour (old version) : [youtube](https://www.youtube.com/watch?v=vmQUfZMCVJ0)
 
-Links : [github](https://github.com/ssbc/patchwork-electron)
+Links : [github](https://github.com/ssbc/patchwork-classic-electron)
 
 ---
 
