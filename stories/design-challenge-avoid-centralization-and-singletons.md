@@ -1,6 +1,6 @@
 # Design Challenge: Avoid Centralization and Singletons
 
-SecureScuttlebutt goes out of it's way to avoid both centralization and singletons.
+SecureScuttlebutt goes out of its way to avoid both centralization and singletons.
 
 ## Avoiding Centralization
 
