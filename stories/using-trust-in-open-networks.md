@@ -145,4 +145,3 @@ There are a few applications which I think we should focus our attention on, bec
  - A whois application. Without name authorities, naming becomes a kind of search that must produce only one result. Challenging, but possibly rewarding.
 
 -Paul F
-0Looking

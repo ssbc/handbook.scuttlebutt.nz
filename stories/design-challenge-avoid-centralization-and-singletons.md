@@ -40,4 +40,3 @@ These structures also both make the network unprivate, by making all information
 
 That said, like any good tool, SSB has been built to interoperate with other programs.
 Though it's important to us that core remain viable without singletons, the community is free to add protocols wherever they see fit, and is encouraged to do so.
-0Looking

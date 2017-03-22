@@ -33,4 +33,3 @@ Then graph analysis can be applied to the friend network - spammers may be isola
 By building SecureScuttlebutt around a social network, preventing spam becomes easy.
 Since, in a social network application, you only communicate with trusted peers (friends) anyway, and there is usually an explicit "follow" mechanism which expresses who you trust, and humans are pretty good at detecting frauds.
 This is why SSB was made as an inherently social system.
-0Looking
