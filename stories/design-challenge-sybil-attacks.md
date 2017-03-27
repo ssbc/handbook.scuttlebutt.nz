@@ -23,10 +23,10 @@ The other approach is to use social/trust networks.
 Services like Facebook or Twitter are significantly less vulnerable to spam (if you dont consider the ads spam).
 Instead of receiving personal messages from anyone one who knows your id/address on a social network, you only receive messages from other users you have "followed" or "friended".
 
-I like to call this a "Solicited Spam" system.
+We like to call this a "Solicited Spam" system.
 Following someone on Twitter means you think they are human, or at least, an amusing bot.
 This is actually a pretty strong signal.
-Email doesn't an explicit social network, but the best spam filtered email systems (like gmail) can use the implicit social network in email: if I send you and email and you reply then we are "friends".
+Email doesn't have an explicit social network, but the best spam filtered email systems (like gmail) can use the implicit social network in email: if I send you and email and you reply then we are "friends".
 
 Then graph analysis can be applied to the friend network - spammers may be isolated, or clustered together and can be filtered out.
 
