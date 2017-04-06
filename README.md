@@ -41,15 +41,11 @@ sudo apt-get install libxext-dev libxtst-dev libxkbfile-dev
 
 In order to gossip outside your local network, you'll need to connect to a [Pub](./concepts/pub.md).
 
-Here's an 100-use invite to @mixmix's pub:
+You can find an invite to an available pub at the [Pub servers registry](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers).
 
-```txt
-pub.mixmix.io:8008:@uRECWB4KIeKoNMis2UYWyB2aQPvWmS3OePQvBj2zClg=.ed25519~gq+n8AXMdhzwnGWZxWitgczTkbr70drnbEaOi3Noo5M=
-```
+Get an invite, then in `patchwork`: click "+ Join Pub" and paste the invite code.
 
-In `patchwork`, click "+ Join Pub" and paste the code.
-
-This will cause you to follow @mixmix's Pub and vise versa. If you haven't synchronized to this social network yet, prepare to wait a few minutes while your local server synchronizes.
+This will cause you to follow the Pub and vise versa. If you haven't synchronized to this social network yet, prepare to wait a few minutes while your local server synchronizes.
 
 ## About This Handbook
 
