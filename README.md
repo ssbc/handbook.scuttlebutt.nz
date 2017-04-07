@@ -31,10 +31,10 @@ $ npm install
 $ npm start
 ```
 
-On Linux you'll need some more dependencies for the spell-checker. On Debian/Ubuntu:
+On Linux you'll need some more dependencies. On Debian:
 
-```sh
-sudo apt-get install libxext-dev libxtst-dev libxkbfile-dev
+```shell
+sudo apt-get install libxext-dev libxtst-dev libxkbfile-dev g++ m4 automake libtool
 ```
 
 ### Be Invited To A Pub
