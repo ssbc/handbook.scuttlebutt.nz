@@ -2,6 +2,7 @@
 * [Talks](talks.md)
 * [Applications](applications.md)
 * [Principles](principles.md)
+* [Contributing](contributing.md)
 * [Stories](stories/index.md)
   - [Design Challenge: Avoid Centralization and Singletons](stories/design-challenge-avoid-centralization-and-singletons.md)
   - [Design Challenge: Sybil Attacks](stories/design-challenge-sybil-attacks.md)

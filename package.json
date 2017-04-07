@@ -4,7 +4,7 @@
   "description": "A work-in-progress guide to the ssb-verse and key concepts and influences",
   "dependencies": {
     "gitbook-plugin-collapsible-menu": "^1.0.3",
-    "gitbook-plugin-ssb": "^1.0.0"
+    "gitbook-plugin-ssb": "^1.1.0"
   },
   "devDependencies": {
     "npm-run-all": "^3.1.1",
