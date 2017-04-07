@@ -49,9 +49,18 @@ This will cause you to follow the Pub and vise versa. If you haven't synchronize
 
 ## About This Handbook
 
-To view the public gitbook, browse to <http://scuttlebutt.nz>.
+To view the public handbook, browse to <http://scuttlebutt.nz>.
 
-You can also build and serve this with gitbook locally. The following assumes you're running a scuttlebot server and are in the follow neighbourhood of mixmix or his pub.
+You can also build and serve this with gitbook locally.
+
+
+The `SUMMARY.md` is the manifest on which the compiled gitbook is based. Edit that if you want content in/out of the book.
+
+### Contributing With `git-ssb`
+
+To use the public portal for the handbook code, browse to <https://git.scuttlebot.io/%25lJsDWwnF4bDxHWYuSjw%2FbW37xg%2BsaF8WtPZYZsefKj0%3D.sha256>.
+
+To use your local scuttlebot server to clone the handbook code:
 
 ```bash
 npm install git-ssb -g
@@ -62,9 +71,17 @@ npm install
 npm start
 ```
 
-The `SUMMARY.md` is the manifest on which the compiled gitbook is based. Edit that if you want content in/out of the book.
+To contribute to the handbook code, make a pull request with
 
-> If you see a job that needs doing - that is your job.
+```
+git ssb pull-request
+```
+
+### Contributing with GitHub
+
+Our public GitHub repository is at [ssbc/ssb-handbook](https://github.com/ssbc/ssb-handbook)
+
+Feel free to make an issue or pull request here if you see something that needs doing.
 
 ## Other Projects
 
