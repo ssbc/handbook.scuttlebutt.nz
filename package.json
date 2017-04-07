@@ -2,7 +2,10 @@
   "name": "ssb-handbook",
   "version": "0.0.0",
   "description": "A work-in-progress guide to the ssb-verse and key concepts and influences",
-  "dependencies": {},
+  "dependencies": {
+    "gitbook-plugin-collapsible-menu": "^1.0.3",
+    "gitbook-plugin-ssb": "^1.1.0"
+  },
   "devDependencies": {
     "npm-run-all": "^3.1.1",
     "gh-pages": "^0.11.0",

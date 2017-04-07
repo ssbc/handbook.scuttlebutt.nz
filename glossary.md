@@ -1,8 +1,22 @@
 # Scuttlebutt glossary
 
+## decent
+
+short for "decentralized"
+
+> let's get more friends on decent(tralised) communications
+
+- %tQ/GQ/AynIWvPSeRe8a81ET0d45b1mep1F4BHw8aCkQ=.sha256
+
+> be decent
+
+- [evbogue/decent](https://github.com/evbogue/decent)
+
 ## dex
 
-short for "decentralized" see also: [uxer](#uxer)
+short for "decentralized"
+
+see also: [uxer](#uxer)
 
 ## runcible
 
