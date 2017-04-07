@@ -85,7 +85,7 @@ Feel free to make an issue or pull request here if you see something that needs 
 
 ## Other Projects
 
-Scuttlebutt is not the only project working on [decent](glossary.md#decent) systems:
+Scuttlebutt is not the only dex project:
 
 - [Matrix](http://matrix.org/)
 - [Bitcoin](https://bitcoin.org/)
