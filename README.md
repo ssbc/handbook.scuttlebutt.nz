@@ -18,11 +18,15 @@ The easiest way to get started is using [patchwork](https://github.com/ssbc/patc
 
 ![screenshot of patchwork](./assets/patchwork.jpg)
 
-## Download and Install Patchwork
+## Install Patchwork
 
-Download installers for Windows, macOS and Linux from [patchwork/releases](https://github.com/ssbc/patchwork/releases)
+### Download Installers for Windows, macOS and Linux
 
-Or you can build from source with [node and npm installed](https://github.com/creationix/nvm):
+See [patchwork/releases](https://github.com/ssbc/patchwork/releases)
+
+### Or Build from Source
+
+With [node (>= 4) and npm (>= 2) installed](https://github.com/creationix/nvm):
 
 ```shell
 $ git clone https://github.com/ssbc/patchwork
@@ -56,18 +60,27 @@ This will cause you to follow the Pub and vise versa. If you haven't synchronize
 
 ## About This Handbook
 
-To view the public handbook, browse to <http://scuttlebutt.nz>.
+To view the public handbook, browse to [scuttlebutt.nz](https://www.scuttlebutt.nz)
 
 The handbook is organized by topics:
 
+* [Contributing](contributing.md)
 * [Talks](talks.md)
 * [Applications](applications.md)
 * [Principles](principles.md)
-* [Contributing](contributing.md)
 * [Stories](stories/index.md)
 * [Modules](modules.md)
 * [Concepts](concepts/index.md)
 * [Glossary](glossary.md)
+
+## Other documentation
+
+Over time we have scattered documentation around in a few places:
+
+- [scuttlebot.io](https://scuttlebot.io)
+- [ssbc.github.io](https://ssbc.github.io)
+
+[Please help us consolidate this here](contributing.md#contributing-documentation)!
 
 ## Other Projects
 
