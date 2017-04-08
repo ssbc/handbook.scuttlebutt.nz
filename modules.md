@@ -49,8 +49,9 @@
 ## Client
 
 - [`patchcore`](https://github.com/ssbc/patchcore): a shared library to build ssb apps
-- [`ssb-notifier`](https://github.com/ssbc/ssb-notifier): desktop notifications for secure-scuttlebutt activity
 - [`ssb-client`](https://github.com/ssbc/ssb-client): client library to scuttlebot
+- [`ssb-party`](https://git.scuttlebot.io/%25bS%2FWGqQrhQfH8eoyWieK%2B9M56DjJ8Q4ulkvb6sXZwPo%3D.sha256): get a scuttlebot client instance. if scuttlebot isn't running, start it in the background, and keep it running until all the clients have disconnected.
+- [`ssb-notifier`](https://github.com/ssbc/ssb-notifier): desktop notifications for secure-scuttlebutt activity
 - [`ssb-avatar`](https://github.com/dominictarr/ssb-avatar): query for the avatar that an ssb feed has been assigned
 - [`ssb-mentions`](https://github.com/dominictarr/ssb-mentions): extract the mentions in a ssb message
 - [`ssb-markdown`](https://github.com/ssbc/ssb-markdown): render ssb messages to markdown.
