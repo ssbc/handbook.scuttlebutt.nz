@@ -23,4 +23,6 @@
   - [Pub](concepts/pub.md)
   - [Blob](concepts/blob.md)
   - [Cap](concepts/cap.md)
+* [Guides](guides/index.md)
+  - [First steps with sbot, a command line tool for Scuttlebutt](guides/cli-first-steps.md)
 * [Glossary](glossary.md)
