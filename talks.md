@@ -53,3 +53,23 @@ https://www.youtube.com/watch?v=8sXTEi8U2bw
 [![Dominic on database games](./assets/dominic-db-games.png)](https://www.youtube.com/watch?v=Z8tfpRr1Hu8)
 
 https://www.youtube.com/watch?v=Z8tfpRr1Hu8
+
+## Mad Science Architectures
+
+### Dominic Tarr @ Realtime Conference 2013
+
+The puzzle pieces of secure-scuttlebutt are being assembled.
+
+[![Dominic on Mad Science](./assets/dominic-mad-science.png)](https://vimeo.com/77352417)
+
+https://vimeo.com/77352417
+
+## Colouring with crayons and playing with Duplo blocks
+
+### Dominic Tarr @ node Dublin 2012
+
+On replication, eventual consistency, scuttlebutt and crayons.
+
+[![Dominic on crayons and duplo](./assets/dominic-crayons-duplo.png)](https://www.youtube.com/watch?v=giS-aIq0Kaw)
+
+https://www.youtube.com/watch?v=giS-aIq0Kaw
