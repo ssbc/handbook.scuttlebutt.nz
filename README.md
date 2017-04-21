@@ -12,18 +12,6 @@ Scuttlebutt is a decent(ralised) secure gossip platform.
 >
 > Or, if you're lazy: http://en.wikipedia.org/wiki/Scuttlebutt (laziness will get you nowhere, btw)
 
-## Secure-scuttlebutt vs scuttlebutt vs scuttlebot vs sbot?
-
-* scuttlebutt: a gossip protocol that synchronises messages via a vector clock of per-node timestamp or sequences. I got this name from an amazon paper "Efficient Reconciliation and Flow Control for Anti-Entropy Protocols". Also my original scuttlebutt module, which should now be called "insecure scuttlebutt"
-
-* secure-scuttlebutt: this is the database part of ssb, but also used to refer to the protocol/database as a whole.
-
-* scuttlebot: the repo that adds the networking behaviour to the database.
-
-* sbot: short for scuttlebot, also the cli command name.
-
-There have been suggestions to rename the secure-scuttlebutt repo to ssb-db which will probably happen on the next rewrite.
-
 ## How To Get Started
 
 The easiest way to get started is using [patchwork](https://github.com/ssbc/patchwork), a classic social networking [application](./applications.md).
