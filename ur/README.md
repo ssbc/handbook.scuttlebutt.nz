@@ -43,9 +43,9 @@ $ npm start
 sudo apt-get install libxext-dev libxtst-dev libxkbfile-dev g++ m4 automake libtool
 ```
 
-ایک پب میں مدعو کرنا ###
+###ایک پب میں مدعو کرنا
 
-آپ کے مقامی نیٹ ورک کے باہر گپ شپ کرنے کے لئے، آپ کو ایک [شراب خانہ] سے رابطہ قائم کرنے کی ضرورت ہو گی (./ تصورات / pub.md).
+آپ کے مقامی نیٹ ورک کے باہر گپ شپ کرنے کے لئے، آپ کو ایک [شراب خانہ] سے رابطہ قائم کرنے کی ضرورت ہو گی (./ تصورات [Pub](./concepts/pub.md).
 
 آپ کو تلاش میں ایک [شراب خانہ سرورز رجسٹری] پر ایک دستیاب پب کے لئے مدعو کر سکتے ہیں (https://github.com/ssbc/scuttlebot/wiki/Pub-Servers).
 
@@ -61,7 +61,7 @@ sudo apt-get install libxext-dev libxtst-dev libxkbfile-dev g++ m4 automake libt
 - **#scuttlebutt**: پروٹوکول متعلق بحث
 - **#कॉशुर**: کشمیر وادی
 
-یہ ہینڈ بک کے بارے میں ##
+## یہ ہینڈ بک کے بارے میں
 
 پبلک گٹکا دیکھنے کے لئے، کو براؤز کریں [scuttlebutt.nz/ur](https://www.scuttlebutt.nz/ur)
 
@@ -77,18 +77,20 @@ sudo apt-get install libxext-dev libxtst-dev libxkbfile-dev g++ m4 automake libt
 * [فرھنگ] (glossary.md)
 
 
-## Other documentation
+## دیگر دستاویزات
 
-Over time we have scattered documentation around in a few places:
+وقت گزرنے کے ساتھ ہم چند مقامات کے ارد گرد دستاویزات بکھرے ہوئے ہیں:
 
-- [scuttlebot.io](https://scuttlebot.io)
-- [ssbc.github.io](https://ssbc.github.io)
+- [scuttlebot.io] (https://scuttlebot.io)
+- [ssbc.github.io] (https://ssbc.github.io)
 
-[Please help us consolidate this here](contributing.md#contributing-documentation)!
+[ہمیں یہاں اس کو مضبوط کرنے میں مدد کریں] (contributing.md#contributing-documentation)!
 
-## Other Projects
 
-Scuttlebutt is not the only dex project:
+
+## دیگر منصوبوں
+
+Scuttlebutt صرف اس Dex منصوبہ نہیں ہے:
 
 - [Matrix](http://matrix.org/)
 - [Bitcoin](https://bitcoin.org/)
