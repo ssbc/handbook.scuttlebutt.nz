@@ -1,2 +1,4 @@
 node_modules
 _book
+npm-debug.log
+.DS_store
