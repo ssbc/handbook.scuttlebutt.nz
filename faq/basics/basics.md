@@ -1,8 +1,8 @@
 # Basics
 
-Questions about scuttlebutt in general, and confusions that come up when folks first get started.
+*Questions about scuttlebutt in general, and confusions that come up when folks first get started.*
 
-# Questions
+----
 
 - [What is the difference between Patchwork and Scuttlebutt?](patchwork-vs-scuttlebutt.md)
 - [What is a pub?](pub.md)
