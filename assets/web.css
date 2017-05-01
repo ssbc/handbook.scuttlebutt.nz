@@ -18,4 +18,6 @@ img[src='assets/hermes.png'] {
 .summary .custom-link {
   display: none;
 }
-
+nav .summary .articles .chapter a {
+  white-space: normal;
+}
