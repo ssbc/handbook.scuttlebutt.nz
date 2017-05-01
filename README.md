@@ -68,9 +68,11 @@ The handbook is organized by topics:
 * [Talks](talks.md)
 * [Applications](applications.md)
 * [Principles](principles.md)
+* [FAQ](faq/index.md)
 * [Stories](stories/index.md)
 * [Modules](modules.md)
 * [Concepts](concepts/index.md)
+* [Guides](guides/index.md)
 * [Glossary](glossary.md)
 
 ## Other documentation
