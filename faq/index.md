@@ -1,3 +1,9 @@
+#FAQ
+
+*Common questions about scuttlebutt, ssb, all the patches, and the scuttleverse in general.  If you don't know what any of that previous sentence meant, this is the place to learn!*
+
+----
+
 * [ Basics](basics/basics.md)
   - [What is Patchwork and Scuttlebutt?](basics/patchwork-vs-scuttlebutt.md)
   - [What is a pub?](basics/pub.md)
@@ -15,7 +21,6 @@
   - [How do channel descriptions work?](channels/channel-messages.md)
   - [How do I find a channel?](channels/channel-find.md)
 * [Misc](misc/concepts.md)
-  - [What are some good resources?](misc/resources.md)
   - [This seems really cool?](misc/cool.md)
   - [Who wrote this FAQ?](misc/faq-credits.md)
   - [How can I help?](misc/help.md)
