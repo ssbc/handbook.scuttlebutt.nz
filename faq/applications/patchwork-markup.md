@@ -88,4 +88,5 @@ Some text to show that the reference links can follow later.
 
 ---
 *Sources*
+
 This answer was taken almost verbatim from @nanomonkey's fantastic answer on Patchwork.
