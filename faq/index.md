@@ -1,4 +1,4 @@
-#FAQ
+# FAQ
 
 *Common questions about scuttlebutt, ssb, all the patches, and the scuttleverse in general.  If you don't know what any of that previous sentence meant, this is the place to learn!*
 
@@ -15,7 +15,7 @@
   - [How do posts work across apps?](applications/patchwork-and-patchbay.md)
   - [Can I switch apps easily?](applications/moving-ssb-apps.md)
   - [Can I post  from different devices?](applications/multiple-devices.md)
-  - [Is there a markdown guide for patchwork?](patchwork-markup.md)
+  - [Is there a markdown guide for patchwork?](applications/patchwork-markup.md)
 * [Channels](channels/channels-index.md)
   - [What are channels?](channels/channels.md)
   - [Are Channels sorted in any order?](channels/channel-sort.md) 
