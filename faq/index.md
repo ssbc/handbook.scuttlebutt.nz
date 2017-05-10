@@ -15,6 +15,7 @@
   - [How do posts work across apps?](applications/patchwork-and-patchbay.md)
   - [Can I switch apps easily?](applications/moving-ssb-apps.md)
   - [Can I post  from different devices?](applications/multiple-devices.md)
+  - [Is there a markdown guide for patchwork?](patchwork-markup.md)
 * [Channels](channels/channels-index.md)
   - [What are channels?](channels/channels.md)
   - [Are Channels sorted in any order?](channels/channel-sort.md) 
