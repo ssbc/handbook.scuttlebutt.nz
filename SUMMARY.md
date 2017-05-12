@@ -7,6 +7,7 @@
   - [Basics](faq/basics/basics.md)
     - [What is the difference between Patchwork and Scuttlebutt?](faq/basics/patchwork-vs-scuttlebutt.md)
     - [What is a pub?](faq/basics/pub.md)
+    - [Should I follow multiple pubs?](faq/basics/multiple-pubs.md)
     - [What do you mean SSB works through gossip?](faq/basics/gossip.md)
     - [Where does all my data live?](faq/basics/data-live.md)
     - [How much space will scuttlebutt take up?](faq/basics/size.md)
