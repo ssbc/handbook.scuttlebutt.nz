@@ -1,4 +1,4 @@
-Should I follow multiple pubs?
+# Should I follow multiple pubs?
 *Is it worth it to follow(befriend/subscribe to)  more than one Pub server? Are all the pub servers synced to each other?*
 
 ---
