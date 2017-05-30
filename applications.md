@@ -17,6 +17,19 @@ Links : [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhjG0ycU
 
 SSB : ssb://%bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU=.sha256
 
+---
+
+## Patchbay
+
+Also built on [patchcore](https://github.com/ssbc/patchcore), but uses a tabbed interface instead and has some more bleeding edge features.
+
+The goal is to make a client developers love - it comes with social views, as well as git interface into the scuttleverse.
+
+![patchbay](https://github.com/ssbc/patchbay/raw/master/screenshot.png)
+Links : [git-ssb](https://git-ssb.celehner.com/%25s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc%3D.sha256) | [github](https://github.com/ssbc/patchbay)
+
+SSB : ssb://%s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc=.sha256 
+
 --- 
 
 ## Ferment

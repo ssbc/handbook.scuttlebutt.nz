@@ -18,13 +18,26 @@ The easiest way to get started is using [patchwork](https://github.com/ssbc/patc
 
 ![screenshot of patchwork](./assets/patchwork.jpg)
 
-## Install Patchwork
+### Easy path
 
-### Download Installers for Windows, macOS and Linux
+1. [Download an Installer](https://github.com/ssbc/patchwork/releases) for Windows, macOS and Linux
+2. Connect to the network
+  - get a [pub invite code](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers)  
+  - in `patchwork`: click "+ Join Pub" and paste the invite code
 
-See [patchwork/releases](https://github.com/ssbc/patchwork/releases)
+Step 2 is important if you want to be able to find people further than your local network - it sets you up with a robot friend on the internet which helps you find and communicate with people.
+Read more about Pubs and their role [here](./concepts/pub.md).
 
-### Or Build from Source
+
+### Build from Source
+
+This is more technical than the easy path, mainly useful if you're interested in developing Patchwork.
+
+On Linux you'll need some more dependencies. On Debian:
+
+```shell
+sudo apt-get install libxext-dev libxtst-dev libxkbfile-dev g++ m4 automake libtool
+```
 
 With [node (>= 4) and npm (>= 2) installed](https://github.com/creationix/nvm):
 
@@ -35,28 +48,23 @@ $ npm install
 $ npm start
 ```
 
-On Linux you'll need some more dependencies. On Debian:
 
-```shell
-sudo apt-get install libxext-dev libxtst-dev libxkbfile-dev g++ m4 automake libtool
-```
-
-### Be Invited To A Pub
-
-In order to gossip outside your local network, you'll need to connect to a [Pub](./concepts/pub.md).
-
-You can find an invite to an available pub at the [Pub servers registry](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers).
-
-Get an invite, then in `patchwork`: click "+ Join Pub" and paste the invite code.
-
-This will cause you to follow the Pub and vise versa. If you haven't synchronized to this social network yet, prepare to wait a few minutes while your local server synchronizes.
+Follow step (2) above to connect to the network.
 
 ## Join The Community
 
+Check out the following channels by typing their name (with #) in the search bar:
 - **#new-people**: introduce yourself
 - **#faq**: first impressions, what is confusing as a new user?
 - **#patchwork**: report bugs, suggestions, etc
 - **#scuttlebutt**: protocol related discussion
+
+Here are some other favourites:
+- **#boats**: people living on, hacking, and bulding boats
+- **#cooking-channel**: nerds sharing recipes 
+- **#solarpunk**: step into the future
+- **#gardening**: get some gardening on with your off-grid 
+- **#anarchitecture**: decentralise all the things
 
 ## About This Handbook
 
