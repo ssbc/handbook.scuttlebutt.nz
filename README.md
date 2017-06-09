@@ -1,6 +1,17 @@
-# ssb handbook ![Hermes the hermit crab](assets/hermes.png)
+<h1 align="center">
+  <img
+    alt="Hermies the hermit crab"
+    src="assets/hermies.png"
+    width="256"
+    height="256"
+  />
+  <br />
+  SSB Handbook
+</h1>
 
-A work-in-progress guide to the ssb-verse and key concepts and influences
+<h4 align="center">
+  A work-in-progress guide to the ssb-verse, key concepts and influences
+</h4>
 
 ## What Is Scuttlebutt?
 
@@ -60,9 +71,9 @@ Check out the following channels by typing their name (with #) in the search bar
 
 Here are some other favourites:
 - **#boats**: people living on, hacking, and bulding boats
-- **#cooking-channel**: nerds sharing recipes 
+- **#cooking-channel**: nerds sharing recipes
 - **#solarpunk**: step into the future
-- **#gardening**: get some gardening on with your off-grid 
+- **#gardening**: get some gardening on with your off-grid
 - **#anarchitecture**: decentralise all the things
 
 ## About This Handbook
@@ -111,4 +122,3 @@ Scuttlebutt is not the only dex project:
 - [StrongLink](https://github.com/btrask/stronglink)
 - [RetroShare](http://retroshare.sourceforge.net)
 - [ZeroNet](http://zeronet.io)
-
