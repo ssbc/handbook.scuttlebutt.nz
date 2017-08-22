@@ -76,6 +76,10 @@ Here are some other favourites:
 - **#gardening**: get some gardening on with your off-grid
 - **#anarchitecture**: decentralise all the things
 
+## Code of conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
+
 ## About This Handbook
 
 To view the public handbook, browse to [scuttlebutt.nz](https://www.scuttlebutt.nz)
