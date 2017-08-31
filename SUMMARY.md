@@ -35,6 +35,7 @@
     - [Should I follow multiple pubs?](faq/basics/multiple-pubs.md)
     - [What do you mean SSB works through gossip?](faq/basics/gossip.md)
     - [Where does all my data live?](faq/basics/data-live.md)
+    - [What ports does Scuttlebutt use?](faq/basics/port.md)
     - [How much space will scuttlebutt take up?](faq/basics/size.md)
     - [What happens if I delete everything?](faq/basics/delete.md) 
   - [Applications](faq/applications/applications.md)
