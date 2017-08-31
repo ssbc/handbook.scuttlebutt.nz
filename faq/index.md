@@ -10,6 +10,7 @@
   - [Should I follow multiple pubs?](basics/multiple-pubs.md)
   - [Scuttlebutt  works through gossip?](basics/gossip.md)
   - [Where does all my data live?](basics/data-live.md)
+  - [What ports does Scuttlebutt use?](basics/port.md)
   - [How much space will Scuttlebutt use?](basics/size.md)
   - [What happens if I delete everything?](basics/delete.md) 
 * [Applications](applications/applications.md)
