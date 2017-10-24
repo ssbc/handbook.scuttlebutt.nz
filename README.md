@@ -1,31 +1,27 @@
 <h1 align="center">
   <img
-    alt="Hermies the hermit crab"
+    alt="Hermies the hermit crab, Scuttlebutt mascot"
     src="assets/hermies.png"
     width="256"
     height="256"
   />
   <br />
-  SSB Handbook
+  Scuttlebutt
 </h1>
 
 <h4 align="center">
-  A work-in-progress guide to the ssb-verse, key concepts and influences
+  A decentralized protocol for social networks
 </h4>
 
 ## What Is Scuttlebutt?
 
-Historically, sea-slang for gossip - a scuttlebutt is basically a watercooler on a ship.
+Secure Scuttlebutt (SSB) is a protocol for peer-to-peer social networks. It helps describe peer identity, order messages as feeds, and allow secure gossip of updates on those feeds.
 
-Scuttlebutt is a decent(ralised) secure gossip platform.
-
-> This seems like a silly name, but I assure you, this is real science. Read this: http://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf
->
-> Or, if you're lazy: http://en.wikipedia.org/wiki/Scuttlebutt (laziness will get you nowhere, btw)
+The name *Scuttlebutt* is historically [sea-slang for gossip](http://en.wikipedia.org/wiki/Scuttlebutt) – a scuttlebutt is basically a watercooler on a ship. Gossip protocols are [real science](http://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf).
 
 ## How To Get Started
 
-The easiest way to get started is using [patchwork](https://github.com/ssbc/patchwork), a classic social networking [application](./applications.md).
+SSB itself is just a protocol, while applications can make use of this protocol. The easiest way to get started is using [Patchwork](https://github.com/ssbc/patchwork), a social networking [application](./applications.md) based on SSB.
 
 ![screenshot of patchwork](./assets/patchwork.jpg)
 
@@ -33,11 +29,11 @@ The easiest way to get started is using [patchwork](https://github.com/ssbc/patc
 
 1. [Download an Installer](https://github.com/ssbc/patchwork/releases) for Windows, macOS and Linux
 2. Get a [pub invite code](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers)  
-3. Use the pub invite : in Patchwork click `+ Join Pub` and paste the invite code
+3. Use the pub invite: in Patchwork click `+ Join Pub` and paste the invite code
 
 Step 2 is important if you want to be able to find people further than your local network - it sets you up with a robot friend on the internet which helps you find and communicate with people.
-Read more about Pubs and their role [here](./concepts/pub.md).
 
+Read more about Pubs and their role [here](./concepts/pub.md).
 
 ### Build from Source
 
