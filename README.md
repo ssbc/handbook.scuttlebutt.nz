@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center" style="font-size: 4em;">
   <img
     alt="Hermies the hermit crab"
     src="assets/hermies.png"
@@ -6,14 +6,16 @@
     height="256"
   />
   <br />
-  SSB Handbook
+  Scuttlebutt
 </h1>
 
-<h4 align="center">
-  A work-in-progress guide to the ssb-verse, key concepts and influences
-</h4>
+<h2 align="center">
+  a decent(ralised) secure gossip platform
+</h2>
 
-## What Is Scuttlebutt?
+<h4 align="center">
+  sea-slang for gossip - a scuttlebutt is basically a watercooler on a ship
+</h4>
 
 {% vimeo %}236358264{% endvimeo %}
 
