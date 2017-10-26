@@ -15,13 +15,7 @@
 
 ## What Is Scuttlebutt?
 
-Historically, sea-slang for gossip - a scuttlebutt is basically a watercooler on a ship.
-
-Scuttlebutt is a decent(ralised) secure gossip platform.
-
-> This seems like a silly name, but I assure you, this is real science. Read this: http://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf
->
-> Or, if you're lazy: http://en.wikipedia.org/wiki/Scuttlebutt (laziness will get you nowhere, btw)
+{% vimeo %}236358264{% endvimeo %}
 
 ## How To Get Started
 
