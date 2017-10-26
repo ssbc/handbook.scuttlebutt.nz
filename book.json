@@ -2,7 +2,8 @@
   "gitbook": "3.x.x",
   "plugins": [
     "collapsible-menu",
-    "ssb"
+    "ssb",
+    "videoclips"
   ],
   "pluginsConfig": {
     "fontSettings": {
