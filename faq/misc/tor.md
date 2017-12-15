@@ -44,7 +44,8 @@ directly. No need to open ports in your firewall!
 
 This means that its possible to do p2p connections without pubs and
 talk direcly to your friends. If you create an invite from your
-machine, replace the hostname with your onion adress and send that to
-a friend. They will be able to connect directly to you and start
+machine (you probably need "allowPrivate": true in ~/.ssb/config),
+replace the ip or hostname with your onion adress and send that to a
+friend. They will be able to connect directly to you and start
 receiving messages straight away, assuming your machine is running of
 course.
