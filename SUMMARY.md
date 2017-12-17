@@ -50,6 +50,7 @@
     - [How do I find a channel?](faq/channels/channel-find.md)
   - [Misc.](faq/misc/concepts.md)
     - [This seems really cool?](faq/misc/cool.md)
+    - [What other dex projects exist?](faq/misc/related.md)
     - [Who wrote this FAQ?](faq/misc/faq-credits.md)
     - [How can I help?](faq/misc/help.md)
 * [Glossary](glossary.md)

@@ -25,5 +25,6 @@
   - [How do I find a channel?](channels/channel-find.md)
 * [Misc](misc/concepts.md)
   - [This seems really cool?](misc/cool.md)
+  - [What other dex projects exist?](misc/related.md)
   - [Who wrote this FAQ?](misc/faq-credits.md)
   - [How can I help?](misc/help.md)
