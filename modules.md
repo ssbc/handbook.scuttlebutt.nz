@@ -32,6 +32,7 @@ scuttlebot --> [`ssb-server`](https://github.com/ssbc/scuttlebot/issues/378)
 ## Modules
 
 - [`depject`](https://github.com/depject/depject): a module system that allows for overlapping opinions
+- [`depnest`](https://www.npmjs.com/package/depnest): commonly used depject helper
 
 ## Database
 
@@ -72,6 +73,14 @@ scuttlebot --> [`ssb-server`](https://github.com/ssbc/scuttlebot/issues/378)
 - [`ssb-mentions`](https://github.com/dominictarr/ssb-mentions): extract the mentions in a ssb message
 - [`ssb-markdown`](https://github.com/ssbc/ssb-markdown): render ssb messages to markdown.
 - [`ssb-sort`](https://github.com/ssbc/ssb-sort): sort a collection of messages by their causal order
+
+## Mobile
+
+- [`react-native-node`](https://github.com/staltz/react-native-node): Node.js background process for React Native apps, fundamental for running sbot on mobile devices
+- [`react-native-ssb-shims`](https://github.com/ssbc/react-native-ssb-shims): basic shims required to insert modules from the SSB ecosystem into React Native apps
+- [`react-native-scuttlebot`](https://github.com/ssbc/react-native-scuttlebot): scuttlebot but for React Native applications
+- [`react-native-ssb-client`](https://github.com/ssbc/react-native-ssb-client): like ssb-client, but runs in React Native apps
+- [`react-native-ssb-client-keys`](https://github.com/ssbc/react-native-ssb-client-keys): keyfile operations for SSB, to be used from the client-side of React Native apps
 
 ## Git
 
