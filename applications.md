@@ -27,11 +27,11 @@ Please feel free to extend and modify this registry.
 
 A decentralized messaging and sharing app built using [patchcore](https://github.com/ssbc/patchcore).
 
-The goal is to make a standalone, [easy to install](./#easy-path), "social" view into the SSB world.
+The goal is to make a standalone, [easy to install](./#how-to-get-started), "social" view into the SSB world.
 
 [![patchwork](./assets/patchwork.jpg)](https://github.com/ssbc/patchwork)
 
-[How to get started](./#easy-path)
+[How to get started](./#how-to-get-started)
 
 [Releases](https://github.com/ssbc/patchwork/releases)
 
