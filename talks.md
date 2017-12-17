@@ -1,5 +1,15 @@
 # Scuttlebutt Talks
 
+## The Decentralized Web
+
+### Andre Staltz @ Hack\Talks in Helsinki, 2017
+
+> André will cover of topics such as peer-to-peer browser, off-grid social network, and local development, and their underlying technologies Dat and SSB, both implemented in JavaScript / Node.js.
+
+[![Andre decentralizing the web](./assets/andre-decentralizing-web.jpg)](https://youtu.be/qZDJ1z0apVk?t=7787)
+
+https://youtu.be/qZDJ1z0apVk?t=7787
+
 ## Embracing Subjectivity
 
 ### Mix Irving @ nz.js(con); New Zealand JS Conference 2017
