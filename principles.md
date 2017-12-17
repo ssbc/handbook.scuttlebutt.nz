@@ -17,6 +17,26 @@
 
 - %P1see8CMH8StoXs9CMzwIahrjE+Ht8FeCNjsV3eRgZw=.sha256
 
+## Against consensus
+
+> SSB's ethical goal as a technology is to support pluralism and heterogeneity; these are moral rights, and they affirm our agency. (...)
+>
+> On consensus, I enjoy Locke's philosophy of social contract. We have to reach just enough consensus to interoperate, and no more. In Locke's world, the main "feature" of the social contract was property rights. For us, it'll be matters like message schemas. Remember, the goal is to secede from monarchies, not from society.
+
+- %OwO/TUOpkpq5/1W1F4V8yt+/Q1w4drt8x6sOKEOsZMw=.sha256
+
+> **consensus and deliberative democracy are centralised social systems**
+>
+> the tired western (masculine?) notion that all we need is "enough public debate" to hash it all out (lol cryptopuns), that there is some single best opinion that will constitute an eventual consensus, is just so fundamentally broke it's crazy. everyone debating and grandstanding and smarming until they're completely exhausted and can just barely stand each other is the social equivalent of the heat-death of the universe--all ineffectual twitching. no motion. no actual communication.
+>
+> the energy spent arguing with people to define a unified direction, the emotional labour obligate under a "silence implies consent" culture, is better spent advancing intersectionally, i.e., along possibly orthogonal lines that help people in important ways not necessarily visible to even a plurality (because the populations aren't aggregated into one group!), ways and directions that shouldn't be made to wait for establishment through an arduous process of consensus global to some domain.
+>
+> ...
+>
+> it's not just technology that has to be decentralised. the culture has to be decentralised too.
+
+- %hiYiIWluwlGJWvyEh9Ia3LHX/TQagtUvKaaXCTs/u6Q=.sha256
+
 ## Usability
 
 > I think the concept of "usability" applies at every layer in the stack, for example, nacl is a lot more usable than openssl. That means, it broadens development of crypto, and then those projects have the opportunity to be more usable in turn to their users.
