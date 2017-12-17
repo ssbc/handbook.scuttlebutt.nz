@@ -41,7 +41,7 @@ Check out the following channels by typing their name (with #) in the search bar
 - **#scuttlebutt**: protocol related discussion
 
 Here are some other favourites:
-- **#boats**: people living on, hacking, and bulding boats
+- **#boats**: people living on, hacking, and building boats
 - **#cooking-channel**: nerds sharing recipes
 - **#solarpunk**: step into the future
 - **#gardening**: get some gardening on with your off-grid
