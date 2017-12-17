@@ -24,6 +24,7 @@ Name | Author | Date
 
 Name | Author | Date
 --- | --- | --- | ---
+[The Future Will Be Technical](https://coolguy.website/writing/the-future-will-be-technical/) (SSB Non-dev Resources Grant) | Zach Mandeville | 13 December 2017
 [An Off-Grid Social Network](https://staltz.com/an-off-grid-social-network.html) | Andre Staltz | 6 April 2017
 [Gossiping Securely is the new Email](./gossiping-securely-is-the-new-email.md) \([Medium](https://medium.com/enspiral-tales/gossiping-securely-is-the-new-email-6d706d4cd435)\) | Mix Irving | 13 Feb 2016
 [Uncapturable Distribution](http://hyper.mixmix.io/mixmix/blogposts/blob/master/uncapturable_distribution.md) \(Hypermarkdown\) | Mix Irving | 23 October 2015
