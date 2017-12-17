@@ -26,13 +26,13 @@ The easiest way to get started is using [Patchwork](https://github.com/ssbc/patc
 ![screenshot of Patchwork](./assets/patchwork.jpg)
 
 1. [Download an Installer](https://github.com/ssbc/patchwork/releases) for Windows, macOS and Linux
-2. Get a [pub invite code](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers)  
+2. Get an [invite code from Pub servers](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers) belonging to the Hermies community
 3. Use the pub invite : in Patchwork click `+ Join Pub` and paste the invite code
 
-Step 2 is important if you want to be able to find people further than your local network - it sets you up with a robot friend on the internet which helps you find and communicate with people.
+Step 2 is important if you want to be able to find people further than your local network - it sets you up with a robot friend on the internet which helps you find and communicate with people in the Hermies community (a name for the pioneering SSB community). The internet may have other Pub Servers than the ones we listed.
 Read more about Pubs and their role [here](./concepts/pub.md).
 
-## Join The Community
+## Join The Hermies Community
 
 Check out the following channels by typing their name (with #) in the search bar:
 - **#new-people**: introduce yourself

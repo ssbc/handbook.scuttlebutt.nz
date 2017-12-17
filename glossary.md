@@ -38,3 +38,8 @@ so, a spork is a runcible spoon, but a large ladle suitable (?) for catching fro
 > IMHO the ultimate goal is for people to not only "own" their "experience", but design their own applications;  for the perfect world, the latter predicates the former;  to which ends, anarchitecture.
 
 - %RODaSpl6Hu+D7OFtISF8TDlYVOKWOUWOz1Al3rwcVtw=.sha256
+
+## hermies
+
+A name for the community of pioneers building this website and core software for secure scuttlebutt. While scuttlebutt is the technology, hermies is the community.
+
