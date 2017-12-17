@@ -5,7 +5,7 @@
 > 1. avoid hard data replication problems (single author append only log, easy to express replication state & no conflicts)
 > 1. need to build engaging apps with viral growth (can apply web 2.0 playbook)
 >
-> It's a synergy between computer and human abilities. Computers move the data, but we levearge human filtering to solve the capital-H Hard Problem of decentralized systems: avoiding Sybil Attacks - humans are much better at detecting spam/etc than computers, and social apps have this "follow" or not decision naturally built into them.
+> It's a synergy between computer and human abilities. Computers move the data, but we leverage human filtering to solve the capital-H Hard Problem of decentralized systems: avoiding Sybil Attacks - humans are much better at detecting spam/etc than computers, and social apps have this "follow" or not decision naturally built into them.
 >
 > Not that I think social apps are the most worthy, but rather that its an easy design and can be applied to a wide variety of application needs, and then hopefully this will lead to another generation of protocol development.
 
@@ -13,7 +13,7 @@
 
 ## Subjectivity
 
-> "the meaning of an action is not the label on the button, it's how the humans use it, and how other humans react to the behavior that computers execute. buttons labeled 'like' or 'trust' do not necessarily mean that. We have to think about it like anthropologists"
+> ... the meaning of an action is not the label on the button, it's how the humans use it, and how other humans react to the behavior that computers execute. buttons labeled 'like' or 'trust' do not necessarily mean that. We have to think about it like anthropologists
 
 - %P1see8CMH8StoXs9CMzwIahrjE+Ht8FeCNjsV3eRgZw=.sha256
 
@@ -49,7 +49,7 @@
 
 - %P3/ysGuvI9m4qCacXK+svHzoyMI4uJcymYOKAszJbiM=.sha256
 
-> @yorkshire-moose we also use it to figure out what it means to have decentralized communication medium.
+> ... what it means to have decentralized communication medium.
 >
 > Many of the concepts we have for thinking about this stuff are inadequate,
 > for example, you asked about your "account". On a normal website, your account is just a record in a database which says if you know a password, you can post as that account. Before computers, you might have joined a club and "signed up" in the club's membership registry (a book). Because computers where first sold to military, then large corporations. Of course computers are about accounting.
@@ -86,7 +86,7 @@ If you make it easier for users to choose their interpretation of reality, and h
 
 - %P1see8CMH8StoXs9CMzwIahrjE+Ht8FeCNjsV3eRgZw=.sha256
 
-## Dogfood
+## Dogfooding
 
 > When it comes to emergency survival situations, it helps a lot if your survival equipment is also the equipment that you use every day. Then you know it works, is maintained, and you know how to use it!
 
