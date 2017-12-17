@@ -21,11 +21,11 @@
 
 ## How To Get Started
 
-The easiest way to get started is using [Patchwork](https://github.com/ssbc/patchwork), a classic social networking [application](./applications.md).
+The easiest way to get started is using [Patchwork](http://dinosaur.is/patchwork-downloader/), an application for navigating and talking on scuttlebutt.
 
 ![screenshot of Patchwork](./assets/patchwork.jpg)
 
-1. [Download an Installer](https://github.com/ssbc/patchwork/releases) for Windows, macOS and Linux
+1. [Download Patchwork](http://dinosaur.is/patchwork-downloader/) for Windows, macOS and Linux
 2. Get a [pub invite code](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers)  
 3. Use the pub invite : in Patchwork click `+ Join Pub` and paste the invite code
 
@@ -34,7 +34,7 @@ Read more about Pubs and their role [here](./concepts/pub.md).
 
 ## Join The Community
 
-Check out the following channels by typing their name (with #) in the search bar:
+Once onboard patchwork, check out the following channels by typing their name (with #) in the search bar:
 - **#new-people**: introduce yourself
 - **#faq**: first impressions, what is confusing as a new user?
 - **#patchwork**: report bugs, suggestions, etc
@@ -51,11 +51,13 @@ Here are some other favourites:
 
 Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
 
-## About This Handbook
+## Have Other Questions?
 
-To view the public handbook, browse to [scuttlebutt.nz](https://www.scuttlebutt.nz)
+A great place to learn more is our [FAQ page](faq/index.md)
 
-The handbook is organized by topics:
+In addition, you'll find a wealth of resources within this handbook, accessible through the sidebar.  
+
+The resources are organized by these topics:
 
 * [Contributing](contributing.md)
 * [Talks](talks.md)
@@ -67,13 +69,3 @@ The handbook is organized by topics:
 * [Concepts](concepts/index.md)
 * [Guides](guides/index.md)
 * [Glossary](glossary.md)
-
-## Other documentation
-
-Over time we have scattered documentation around in a few places:
-
-- [scuttlebot.io](https://scuttlebot.io)
-- [ssbc.github.io](https://ssbc.github.io)
-
-[Please help us consolidate this here](contributing.md#contributing-documentation)!
-
