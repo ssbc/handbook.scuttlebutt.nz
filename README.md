@@ -21,11 +21,9 @@
 
 ## How To Get Started
 
-The easiest way to get started is using [patchwork](https://github.com/ssbc/patchwork), a classic social networking [application](./applications.md).
+The easiest way to get started is using [Patchwork](https://github.com/ssbc/patchwork), a classic social networking [application](./applications.md).
 
-![screenshot of patchwork](./assets/patchwork.jpg)
-
-### Easy path
+![screenshot of Patchwork](./assets/patchwork.jpg)
 
 1. [Download an Installer](https://github.com/ssbc/patchwork/releases) for Windows, macOS and Linux
 2. Get a [pub invite code](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers)  
@@ -33,29 +31,6 @@ The easiest way to get started is using [patchwork](https://github.com/ssbc/patc
 
 Step 2 is important if you want to be able to find people further than your local network - it sets you up with a robot friend on the internet which helps you find and communicate with people.
 Read more about Pubs and their role [here](./concepts/pub.md).
-
-
-### Build from Source
-
-This is more technical than the easy path, mainly useful if you're interested in developing Patchwork.
-
-On Linux you'll need some more dependencies. On Debian:
-
-```shell
-sudo apt-get install libxext-dev libxtst-dev libxkbfile-dev g++ m4 automake libtool
-```
-
-With [node (>= 4) and npm (>= 2) installed](https://github.com/creationix/nvm):
-
-```shell
-$ git clone https://github.com/ssbc/patchwork
-$ cd patchwork
-$ npm install
-$ npm start
-```
-
-Follow steps `2.` and `3.` above to connect to the network.
-
 
 ## Join The Community
 
