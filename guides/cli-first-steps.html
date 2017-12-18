@@ -1,0 +1,1024 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>First steps with sbot, a command line tool for Scuttlebutt · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../assets/web.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../modules.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../applications.html">
+            
+                <a href="../applications.html">
+            
+                    
+                    Applications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../stories/">
+            
+                <a href="../stories/">
+            
+                    
+                    Stories
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../stories/design-challenge-avoid-centralization-and-singletons.html">
+            
+                <a href="../stories/design-challenge-avoid-centralization-and-singletons.html">
+            
+                    
+                    Design Challenge: Avoid Centralization and Singletons
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../stories/design-challenge-sybil-attacks.html">
+            
+                <a href="../stories/design-challenge-sybil-attacks.html">
+            
+                    
+                    Design Challenge: Sybil Attacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../stories/gossiping-securely-is-the-new-email.html">
+            
+                <a href="../stories/gossiping-securely-is-the-new-email.html">
+            
+                    
+                    Gossiping Securely is the new Email
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../stories/scuttlebutt-genesis.html">
+            
+                <a href="../stories/scuttlebutt-genesis.html">
+            
+                    
+                    Scuttlebutt Genesis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../stories/using-trust-in-open-networks.html">
+            
+                <a href="../stories/using-trust-in-open-networks.html">
+            
+                    
+                    Using Trust in Open Networks
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../talks.html">
+            
+                <a href="../talks.html">
+            
+                    
+                    Talks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../contributing.html">
+            
+                <a href="../contributing.html">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../principles.html">
+            
+                <a href="../principles.html">
+            
+                    
+                    Principles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../concepts/">
+            
+                <a href="../concepts/">
+            
+                    
+                    Concepts
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../concepts/identity.html">
+            
+                <a href="../concepts/identity.html">
+            
+                    
+                    Identity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../concepts/stream.html">
+            
+                <a href="../concepts/stream.html">
+            
+                    
+                    Stream
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../concepts/feed.html">
+            
+                <a href="../concepts/feed.html">
+            
+                    
+                    Feed
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../concepts/message.html">
+            
+                <a href="../concepts/message.html">
+            
+                    
+                    Message
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../concepts/private-message.html">
+            
+                <a href="../concepts/private-message.html">
+            
+                    
+                    Private Message
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../concepts/link.html">
+            
+                <a href="../concepts/link.html">
+            
+                    
+                    Link
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../concepts/gossip.html">
+            
+                <a href="../concepts/gossip.html">
+            
+                    
+                    Gossip
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../concepts/local.html">
+            
+                <a href="../concepts/local.html">
+            
+                    
+                    Local
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../concepts/consensus.html">
+            
+                <a href="../concepts/consensus.html">
+            
+                    
+                    Consensus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="../concepts/pub.html">
+            
+                <a href="../concepts/pub.html">
+            
+                    
+                    Pub
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="../concepts/blob.html">
+            
+                <a href="../concepts/blob.html">
+            
+                    
+                    Blob
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="../concepts/cap.html">
+            
+                <a href="../concepts/cap.html">
+            
+                    
+                    Cap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Guides
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.3.1" data-path="cli-first-steps.html">
+            
+                <a href="cli-first-steps.html">
+            
+                    
+                    First steps with sbot, a command line tool for Scuttlebutt
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../modules.html">
+            
+                <a href="../modules.html">
+            
+                    
+                    Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../faq/">
+            
+                <a href="../faq/">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../faq/basics/basics.html">
+            
+                <a href="../faq/basics/basics.html">
+            
+                    
+                    Basics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1.1" data-path="../faq/basics/patchwork-vs-scuttlebutt.html">
+            
+                <a href="../faq/basics/patchwork-vs-scuttlebutt.html">
+            
+                    
+                    What is the difference between Patchwork and Scuttlebutt?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.2" data-path="../faq/basics/pub.html">
+            
+                <a href="../faq/basics/pub.html">
+            
+                    
+                    What is a pub?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.3" data-path="../faq/basics/multiple-pubs.html">
+            
+                <a href="../faq/basics/multiple-pubs.html">
+            
+                    
+                    Should I follow multiple pubs?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.4" data-path="../faq/basics/gossip.html">
+            
+                <a href="../faq/basics/gossip.html">
+            
+                    
+                    What do you mean SSB works through gossip?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.5" data-path="../faq/basics/data-live.html">
+            
+                <a href="../faq/basics/data-live.html">
+            
+                    
+                    Where does all my data live?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.6" data-path="../faq/basics/port.html">
+            
+                <a href="../faq/basics/port.html">
+            
+                    
+                    What ports does Scuttlebutt use?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.7" data-path="../faq/basics/size.html">
+            
+                <a href="../faq/basics/size.html">
+            
+                    
+                    How much space will scuttlebutt take up?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.8" data-path="../faq/basics/delete.html">
+            
+                <a href="../faq/basics/delete.html">
+            
+                    
+                    What happens if I delete everything?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="../faq/applications/applications.html">
+            
+                <a href="../faq/applications/applications.html">
+            
+                    
+                    Applications
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.2.1" data-path="../faq/applications/patchwork-and-patchbay.html">
+            
+                <a href="../faq/applications/patchwork-and-patchbay.html">
+            
+                    
+                    How do posts work across apps?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.2" data-path="../faq/applications/moving-ssb-apps.html">
+            
+                <a href="../faq/applications/moving-ssb-apps.html">
+            
+                    
+                    Can I switch apps easily?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.3" data-path="../faq/applications/multiple-devices.html">
+            
+                <a href="../faq/applications/multiple-devices.html">
+            
+                    
+                    Can I post  from different devices?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.4" data-path="../faq/applications/patchwork-markup.html">
+            
+                <a href="../faq/applications/patchwork-markup.html">
+            
+                    
+                    Is there a markdown guide for Patchwork?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="../faq/channels/channels-index.html">
+            
+                <a href="../faq/channels/channels-index.html">
+            
+                    
+                    Channels
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.3.1" data-path="../faq/channels/channels.html">
+            
+                <a href="../faq/channels/channels.html">
+            
+                    
+                    What are channels?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.2" data-path="../faq/channels/channel-sort.html">
+            
+                <a href="../faq/channels/channel-sort.html">
+            
+                    
+                    Are Channels sorted in any order?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.3" data-path="../faq/channels/channel-messages.html">
+            
+                <a href="../faq/channels/channel-messages.html">
+            
+                    
+                    How do channel descriptions work?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.4" data-path="../faq/channels/channel-find.html">
+            
+                <a href="../faq/channels/channel-find.html">
+            
+                    
+                    How do I find a channel?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="../faq/misc/concepts.html">
+            
+                <a href="../faq/misc/concepts.html">
+            
+                    
+                    Misc.
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.4.1" data-path="../faq/misc/cool.html">
+            
+                <a href="../faq/misc/cool.html">
+            
+                    
+                    This seems really cool?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.2" data-path="../faq/misc/related.html">
+            
+                <a href="../faq/misc/related.html">
+            
+                    
+                    What other dex projects exist?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.3" data-path="../faq/misc/faq-credits.html">
+            
+                <a href="../faq/misc/faq-credits.html">
+            
+                    
+                    Who wrote this FAQ?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.4" data-path="../faq/misc/help.html">
+            
+                <a href="../faq/misc/help.html">
+            
+                    
+                    How can I help?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../glossary.html">
+            
+                <a href="../glossary.html">
+            
+                    
+                    Glossary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >First steps with sbot, a command line tool for Scuttlebutt</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="first-steps-with-sbot-a-command-line-tool-for-scuttlebutt">First steps with sbot, a command line tool for Scuttlebutt</h1><p>I&apos;m new to Scuttlebutt and Patchwork, and writing this as I start to explore its possibilities with the sbot command line tool. Feel free to respond with any suggestions or questions. My interest in Scuttlebutt was piqued by <a href="@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519">@andrestaltz</a>&apos;s post, <a href="https://staltz.com/an-off-grid-social-network.html" target="_blank">An Off-Grid Social Network</a>, especially how the decentralized, peer-to-peer architecture works to support offline use and avoids reliance on any servers with special authority.</p><p>Scuttlebutt applications depend on a <em>server</em> component that maintains the connection with the Scuttlebutt network. Many Scuttlebutt applications, including Patchwork, use <a href="https://github.com/ssbc/scuttlebot" target="_blank">Scuttlebot</a> in this role as a server, and interact with the Scuttlebutt network via Scuttlebot. The first time you run Scuttlebot (or an application using it), an identity is created (in the form of a public and private key pair) and this identity is used by all applications that communicate via Scuttlebot.</p><p><strong>sbot</strong> is a command line tool included with Scuttlebot. To install it, install the <em>scuttlebot</em> Node.js package globally by running:</p><pre><code>npm install --global scuttlebot</code></pre>
+<p>This should let you run <em>sbot</em> on the command line. Let&apos;s start by using <strong>whoami</strong> to verify that sbot can connect to a Scuttlebot server and has the right identity.</p><p>If you are connected to the Scuttlebutt network, this command should return a user ID. For example, this shows running <em>sbot whoami</em> and it returning my user ID:</p><pre><code>$ sbot whoami
+{
+  &quot;id&quot;: &quot;@btxEYD1gibOZZKbtxJFTQ2m560U3zIgbZ2vII93WCIk=.ed25519&quot;
+}</code></pre>
+<p>If you are not connected to the network, you will see an error message like this:</p><pre><code>$ sbot whoami
+Error: Could not connect to the scuttlebot server.
+Use the &quot;server&quot; command to start it.</code></pre>
+<p>To connect to the network, you can either start Patchwork or another application that uses Scuttlebot, or run <em>sbot server</em>, which starts the server component.</p><p>On the Scuttlebutt network, each user has a <em>feed</em> or <em>log</em> made up of messages signed by the user. Only the user can write to their feed, since only the user should possess the identity&apos;s private key and be able to sign messages with it. Users interact with each other by publishing messages on their own feed that mention users, establish a <em>follow</em> link with another user, or link to the message of another user.</p><p>Let&apos;s use the <strong>latestSequence</strong> command to find how many items are in my feed. For example, this shows running <em>sbot latestSequence</em> with one argument (my user ID) and it returning the last sequence number in my feed and the timestamp of this item:</p><pre><code>$ sbot latestSequence &quot;@btxEYD1gibOZZKbtxJFTQ2m560U3zIgbZ2vII93WCIk=.ed25519&quot;
+{
+  &quot;sequence&quot;: 24,
+  &quot;ts&quot;: 1491624622201
+}</code></pre>
+<p>Using JavaScript, I can convert this timestamp into a localized date to verify that this was the date and time of my last message:</p><pre><code>$ echo &quot;console.log(new Date(1491624622201).toLocaleString());&quot; | node
+4/7/2017, 11:10:22 PM</code></pre>
+<p>Next, let&apos;s use the <strong>createUserStream</strong> command to retrieve items from my feed. This command has many options, including a mode to perform a full retrieval of the feed and a <em>live</em> mode where messages appear in real-time as they arrive.</p><p>With the <em>limit</em> argument, we can retrieve the first item from my feed. For example:</p><pre><code>$ sbot createUserStream --id &quot;@btxEYD1gibOZZKbtxJFTQ2m560U3zIgbZ2vII93WCIk=.ed25519&quot; --limit 1
+{
+  &quot;key&quot;: &quot;%S/nfXzDK3waYEaEDwwGA7FsIqFzpIiU3200Lf0aG/Ps=.sha256&quot;,
+  &quot;value&quot;: {
+    &quot;previous&quot;: null,
+    &quot;author&quot;: &quot;@btxEYD1gibOZZKbtxJFTQ2m560U3zIgbZ2vII93WCIk=.ed25519&quot;,
+    &quot;sequence&quot;: 1,
+    &quot;timestamp&quot;: 1491533348827,
+    &quot;hash&quot;: &quot;sha256&quot;,
+    &quot;content&quot;: {
+      &quot;type&quot;: &quot;about&quot;,
+      &quot;about&quot;: &quot;@btxEYD1gibOZZKbtxJFTQ2m560U3zIgbZ2vII93WCIk=.ed25519&quot;,
+      &quot;name&quot;: &quot;arithmetric&quot;
+    },
+    &quot;signature&quot;: &quot;B/I1k24ihHsivqzo+G01M/rqQWCIC8YYlt7+EiKoovdd1C36b8/RU+DgFO80lzNNPWWakgh9K+vY2hdslelMAQ==.sig.ed25519&quot;
+  }
+}</code></pre>
+<p>Notice that the <em>sequence</em> value is 1 and the <em>previous</em> value is null. Also, this is an <em>about</em> type message made with Patchwork that identifies my user ID with the name <em>arithmetric</em>.</p><p>By adding the <em>reverse</em> argument to the <em>sbot createUserStream</em> command, we can retrieve the last item from my feed. For example:</p><pre><code>$ sbot createUserStream --id &quot;@btxEYD1gibOZZKbtxJFTQ2m560U3zIgbZ2vII93WCIk=.ed25519&quot; --limit 1 --reverse
+{
+  &quot;key&quot;: &quot;%hl3+i0yaWRo2DG11VdpQhXx/ol2lbf73W9rdHbiaV5c=.sha256&quot;,
+  &quot;value&quot;: {
+    &quot;previous&quot;: &quot;%rQ6UTukySj3b3igS0M4FTBB/H/VmM3U8Z6gwtp3v4iY=.sha256&quot;,
+    &quot;author&quot;: &quot;@btxEYD1gibOZZKbtxJFTQ2m560U3zIgbZ2vII93WCIk=.ed25519&quot;,
+    &quot;sequence&quot;: 24,
+    &quot;timestamp&quot;: 1491624622198,
+    &quot;hash&quot;: &quot;sha256&quot;,
+    &quot;content&quot;: {
+      &quot;type&quot;: &quot;contact&quot;,
+      &quot;contact&quot;: &quot;@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519&quot;,
+      &quot;following&quot;: true
+    },
+    &quot;signature&quot;: &quot;p8ekEHID8uqomyXyPUssHtjrGGKxJleU4waqHm9mPwA6WHLu4jAIG0+uoLPsJ/LkXUAMK1Jub9qC33ib6btpCQ==.sig.ed25519&quot;
+  }
+}</code></pre>
+<p>This message has a <em>sequence</em> value of 24, which matches the last sequence number from the <em>latestSequence</em> command above. This message is the <em>contact</em> type with <em>following</em> set to true, so it is the message recording my action to follow the user in the <em>contact</em> field.</p><p>Now, let&apos;s use the <strong>get</strong> command to get the message previous to the last one. The <em>sbot get</em> command accepts one argument, the message ID. For example, this shows running get with the message ID in the previous field above and the message response:</p><pre><code>$ sbot get &quot;%rQ6UTukySj3b3igS0M4FTBB/H/VmM3U8Z6gwtp3v4iY=.sha256&quot;
+{
+  &quot;previous&quot;: &quot;%jhaGHJiDINuSp1gr6nHbxhB9BCW9HIPtGR3ntdN3EWM=.sha256&quot;,
+  &quot;author&quot;: &quot;@btxEYD1gibOZZKbtxJFTQ2m560U3zIgbZ2vII93WCIk=.ed25519&quot;,
+  &quot;sequence&quot;: 23,
+  &quot;timestamp&quot;: 1491611316858,
+  &quot;hash&quot;: &quot;sha256&quot;,
+  &quot;content&quot;: &quot;cZOlfY2YQBMqIKkX7zKwnlZ8eC2gElbmk2HOoXGW/tkYberzSW3k3rw1XJxuJKavmSHNCF9e4hWVCueIFa2ibFOxxkuEy13rYk1YGmWj4xgxx1Vv4hUuLIsdeRM50XH+7OTkAejkc2pu+4NYXZDbmuINX8djUrddjwq3VDUbk...&quot;,
+  &quot;signature&quot;: &quot;gYceZ6gv7Kd2L78uCYsEwro/q8Y+BNSyeNoSshtIbfN4T6ZZ3bz5JyU8qt/q4ecNSaSjj1pxaGM+UQ9NOsdQDQ==.sig.ed25519&quot;
+}</code></pre>
+<p>Notice that the content value is not a JSON object. This is an example of an encrypted private message. Since this private message is in my feed, I can decrypt it with the <strong>private.unbox</strong> command. For example, this shows running this command with the encrypted value and receiving the decrypted JSON message content:</p><pre><code>$ sbot private.unbox &quot;cZOlfY2YQBM...&quot;
+{
+  &quot;type&quot;: &quot;post&quot;,
+  &quot;text&quot;: &quot;hello world! this is a test encrypted message&quot;,
+  &quot;mentions&quot;: [],
+  &quot;recps&quot;: [
+    &quot;@btxEYD1gibOZZKbtxJFTQ2m560U3zIgbZ2vII93WCIk=.ed25519&quot;
+  ]
+}</code></pre>
+<p>That&apos;s just a brief introduction to the Scuttlebutt network using the sbot command line tool. For more information, check out the <a href="https://ssbc.github.io/scuttlebot/api.html" target="_blank">API/CLI reference</a> and the <a href="https://ssbc.github.io/secure-scuttlebutt/" target="_blank">Secure Scuttlebutt</a> protocol overview.</p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Guides">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../modules.html" class="navigation navigation-next " aria-label="Next page: Modules">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"First steps with sbot, a command line tool for Scuttlebutt","level":"2.3.1","depth":2,"next":{"title":"Modules","level":"2.4","depth":1,"path":"modules.md","ref":"modules.md","articles":[]},"previous":{"title":"Guides","level":"2.3","depth":1,"path":"guides/index.md","ref":"guides/index.md","articles":[{"title":"First steps with sbot, a command line tool for Scuttlebutt","level":"2.3.1","depth":2,"path":"guides/cli-first-steps.md","ref":"guides/cli-first-steps.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"3.x.x","theme":"default","variables":{},"plugins":["collapsible-menu","ssb","videoclips"],"pluginsConfig":{"collapsible-menu":{},"ssb":{"viewer":"https://viewer.scuttlebot.io"},"search":{},"videoclips":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"light"},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"assets/web.css"}},"file":{"path":"guides/cli-first-steps.md","mtime":"2017-05-30T23:12:59.856Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-12-18T12:53:42.444Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

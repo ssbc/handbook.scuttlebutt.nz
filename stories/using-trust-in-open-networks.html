@@ -1,0 +1,1039 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Using Trust in Open Networks · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../assets/web.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../talks.html" />
+    
+    
+    <link rel="prev" href="scuttlebutt-genesis.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../applications.html">
+            
+                <a href="../applications.html">
+            
+                    
+                    Applications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Stories
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="design-challenge-avoid-centralization-and-singletons.html">
+            
+                <a href="design-challenge-avoid-centralization-and-singletons.html">
+            
+                    
+                    Design Challenge: Avoid Centralization and Singletons
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="design-challenge-sybil-attacks.html">
+            
+                <a href="design-challenge-sybil-attacks.html">
+            
+                    
+                    Design Challenge: Sybil Attacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="gossiping-securely-is-the-new-email.html">
+            
+                <a href="gossiping-securely-is-the-new-email.html">
+            
+                    
+                    Gossiping Securely is the new Email
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="scuttlebutt-genesis.html">
+            
+                <a href="scuttlebutt-genesis.html">
+            
+                    
+                    Scuttlebutt Genesis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.5" data-path="using-trust-in-open-networks.html">
+            
+                <a href="using-trust-in-open-networks.html">
+            
+                    
+                    Using Trust in Open Networks
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../talks.html">
+            
+                <a href="../talks.html">
+            
+                    
+                    Talks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../contributing.html">
+            
+                <a href="../contributing.html">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../principles.html">
+            
+                <a href="../principles.html">
+            
+                    
+                    Principles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../concepts/">
+            
+                <a href="../concepts/">
+            
+                    
+                    Concepts
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../concepts/identity.html">
+            
+                <a href="../concepts/identity.html">
+            
+                    
+                    Identity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../concepts/stream.html">
+            
+                <a href="../concepts/stream.html">
+            
+                    
+                    Stream
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../concepts/feed.html">
+            
+                <a href="../concepts/feed.html">
+            
+                    
+                    Feed
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../concepts/message.html">
+            
+                <a href="../concepts/message.html">
+            
+                    
+                    Message
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../concepts/private-message.html">
+            
+                <a href="../concepts/private-message.html">
+            
+                    
+                    Private Message
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../concepts/link.html">
+            
+                <a href="../concepts/link.html">
+            
+                    
+                    Link
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../concepts/gossip.html">
+            
+                <a href="../concepts/gossip.html">
+            
+                    
+                    Gossip
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../concepts/local.html">
+            
+                <a href="../concepts/local.html">
+            
+                    
+                    Local
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../concepts/consensus.html">
+            
+                <a href="../concepts/consensus.html">
+            
+                    
+                    Consensus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="../concepts/pub.html">
+            
+                <a href="../concepts/pub.html">
+            
+                    
+                    Pub
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="../concepts/blob.html">
+            
+                <a href="../concepts/blob.html">
+            
+                    
+                    Blob
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="../concepts/cap.html">
+            
+                <a href="../concepts/cap.html">
+            
+                    
+                    Cap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../guides/">
+            
+                <a href="../guides/">
+            
+                    
+                    Guides
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../guides/cli-first-steps.html">
+            
+                <a href="../guides/cli-first-steps.html">
+            
+                    
+                    First steps with sbot, a command line tool for Scuttlebutt
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../modules.html">
+            
+                <a href="../modules.html">
+            
+                    
+                    Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../faq/">
+            
+                <a href="../faq/">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../faq/basics/basics.html">
+            
+                <a href="../faq/basics/basics.html">
+            
+                    
+                    Basics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1.1" data-path="../faq/basics/patchwork-vs-scuttlebutt.html">
+            
+                <a href="../faq/basics/patchwork-vs-scuttlebutt.html">
+            
+                    
+                    What is the difference between Patchwork and Scuttlebutt?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.2" data-path="../faq/basics/pub.html">
+            
+                <a href="../faq/basics/pub.html">
+            
+                    
+                    What is a pub?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.3" data-path="../faq/basics/multiple-pubs.html">
+            
+                <a href="../faq/basics/multiple-pubs.html">
+            
+                    
+                    Should I follow multiple pubs?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.4" data-path="../faq/basics/gossip.html">
+            
+                <a href="../faq/basics/gossip.html">
+            
+                    
+                    What do you mean SSB works through gossip?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.5" data-path="../faq/basics/data-live.html">
+            
+                <a href="../faq/basics/data-live.html">
+            
+                    
+                    Where does all my data live?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.6" data-path="../faq/basics/port.html">
+            
+                <a href="../faq/basics/port.html">
+            
+                    
+                    What ports does Scuttlebutt use?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.7" data-path="../faq/basics/size.html">
+            
+                <a href="../faq/basics/size.html">
+            
+                    
+                    How much space will scuttlebutt take up?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.8" data-path="../faq/basics/delete.html">
+            
+                <a href="../faq/basics/delete.html">
+            
+                    
+                    What happens if I delete everything?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="../faq/applications/applications.html">
+            
+                <a href="../faq/applications/applications.html">
+            
+                    
+                    Applications
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.2.1" data-path="../faq/applications/patchwork-and-patchbay.html">
+            
+                <a href="../faq/applications/patchwork-and-patchbay.html">
+            
+                    
+                    How do posts work across apps?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.2" data-path="../faq/applications/moving-ssb-apps.html">
+            
+                <a href="../faq/applications/moving-ssb-apps.html">
+            
+                    
+                    Can I switch apps easily?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.3" data-path="../faq/applications/multiple-devices.html">
+            
+                <a href="../faq/applications/multiple-devices.html">
+            
+                    
+                    Can I post  from different devices?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.4" data-path="../faq/applications/patchwork-markup.html">
+            
+                <a href="../faq/applications/patchwork-markup.html">
+            
+                    
+                    Is there a markdown guide for Patchwork?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="../faq/channels/channels-index.html">
+            
+                <a href="../faq/channels/channels-index.html">
+            
+                    
+                    Channels
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.3.1" data-path="../faq/channels/channels.html">
+            
+                <a href="../faq/channels/channels.html">
+            
+                    
+                    What are channels?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.2" data-path="../faq/channels/channel-sort.html">
+            
+                <a href="../faq/channels/channel-sort.html">
+            
+                    
+                    Are Channels sorted in any order?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.3" data-path="../faq/channels/channel-messages.html">
+            
+                <a href="../faq/channels/channel-messages.html">
+            
+                    
+                    How do channel descriptions work?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.4" data-path="../faq/channels/channel-find.html">
+            
+                <a href="../faq/channels/channel-find.html">
+            
+                    
+                    How do I find a channel?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="../faq/misc/concepts.html">
+            
+                <a href="../faq/misc/concepts.html">
+            
+                    
+                    Misc.
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.4.1" data-path="../faq/misc/cool.html">
+            
+                <a href="../faq/misc/cool.html">
+            
+                    
+                    This seems really cool?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.2" data-path="../faq/misc/related.html">
+            
+                <a href="../faq/misc/related.html">
+            
+                    
+                    What other dex projects exist?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.3" data-path="../faq/misc/faq-credits.html">
+            
+                <a href="../faq/misc/faq-credits.html">
+            
+                    
+                    Who wrote this FAQ?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.4" data-path="../faq/misc/help.html">
+            
+                <a href="../faq/misc/help.html">
+            
+                    
+                    How can I help?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../glossary.html">
+            
+                <a href="../glossary.html">
+            
+                    
+                    Glossary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Using Trust in Open Networks</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="using-trust-in-open-networks">Using Trust in Open Networks</h1><p>Open networks are systems that allow participation without deferring to central authority.
+The Web, Email, BitTorrent, IPFS, and SecureScuttlebutt are all open networks.</p><p>Open networks try to maximise their potential value by letting agents contribute and extract data independently, and without intermediation.
+This is the Laissez-faire approach to architecture, and it frequently benefits from the efficiency of <a href="https://en.wikipedia.org/wiki/Scalability#HORIZONTAL-SCALING" target="_blank">horizontal scaling</a>.</p><p>In SecureScuttlebutt, we have decided <a href="design-challenge-avoid-centralization-and-singletons.html">never to adopt centralized authorities in the protocol</a>.
+This decision was motivated by
+ 1. distrust of information monocultures
+ 2. desire to maximize autonomy of individual users
+ 3. general curiosity</p><p>This constraint pushes us to find novel solutions for shared datastructures.
+This article will summarize literature on trust-based mechanisms, and offer some perspective to how they can be applied to SecureScuttlebutt.</p><hr><p><strong>Trust-ranking is a key feature of open networks with shared data-structures.</strong>
+As each agent receives new information, it must decide how to act on it, and decide whether to discard the input.
+Spam, resource-leaching, and DoS attacks would otherwise overwhelm the agents.</p><p>Email is an open network: anybody can create a server and account.
+And, the inbox a shared structure: users share append-rights over each others&apos; inboxes.
+But, without proper spam-filtering, email is nearly useless.
+Filtering must be both effective (very little spam) and accurate (<em>very</em> few false positives) or email loses its utility.</p><p><a href="http://www.inf.ufsc.br/~gauthier/EGC6006/material/Aula%206/A%20survey%20of%20trust%20in%20computer%20science%20and%20the%20Semantic%20Web.pdf" target="_blank">A survey of trust in computer science and the Semantic Web</a> names two primary means of managing trust.</p><blockquote><p><strong>Policy-based trust</strong>. Using policies to establish trust, focused on managing and exchanging credentials and enforcing access policies. Work in policy-based trust generally assumes that trust is established simply by obtaining a sufficient amount of credentials.</p><p><strong>Reputation-based trust.</strong> Using reputation to establish trust, where past interactions or performance for an entity are combined to assess its future behavior. Research in reputation-based trust uses the history of an entity&apos;s actions/behavior to compute trust, and may use referral-based trust (information from others) in the absence of (or in addition to) first-hand knowledge.</p></blockquote><p>SecureScuttlebutt uses social &quot;following&quot; relations as a base trust-policy.
+Users choose which feeds to follow, and therefore opt into every messaging partner.
+This is how SSB controls spam.</p><p>Other trust-policies could be leveraged by SSB applications, to give users authority over other shared data-structures.
+For instance, users could assign friends the right to follow more users on their behalf, or give moderator powers to enable post-hiding.</p><p><strong>However, policies scale poorly, as they require the user to make a decision about every other agent in the network.</strong>
+This makes it hard for a user to evaluate information produced by &quot;strangers&quot;, even if the stranger is only one or two social hops away.
+<strong>To solve this, reputation-based trust can be introduced to build upon the user&apos;s decisions, by analyzing the decisions of other agents, and assigning authority <em>automatically</em>.</strong></p><hr><p>To understand reputation-based trust, let&apos;s look at a common application of them, search engines.
+PageRank is still one of the top search algorithms in use, so it&apos;s important to understand where it fits in the current landscape of research.</p><p><a href="http://www2.informatik.uni-freiburg.de/~cziegler/papers/ISF-05-CR.pdf" target="_blank">Propagation Models for Trust and Distrust in Social Networks</a> does a good job explaining PageRank&apos;s qualities, in section 2.
+From there, and from other papers:</p><ul><li>PageRank is a probabilistic analysis, of a random surfer clicking links through the Web. The common alternative is path-analysis, which is the sort of thing that PGP does in its WoT.
+</li>
+<li><a href="https://homes.cs.washington.edu/~pedrod/papers/iswc03.pdf" target="_blank">Trust Management for the Semantic Web</a> and <a href="http://ilpubs.stanford.edu:8090/562/1/2002-56.pdf" target="_blank">The EigenTrust Algorithm for Reputation Management in P2P Networks</a> are two good papers on probabilistic analysis. Both of these try to generalize PageRank. Eigentrust is cited a lot by other papers.
+</li>
+<li><a href="http://www2.informatik.uni-freiburg.de/~cziegler/papers/ISF-05-CR.pdf" target="_blank">Propagation Models for Trust and Distrust in Social Networks</a> is a good resource for path-analysis, as it explains Advogadro and a novel algorithm called Appleseed.
+</li>
+<li>PageRank operates with global information, and seeks to be objective (everyone&apos;s opinion) instead of subjective (google&apos;s opinion). Google crawls the Web to get global knowledge of the graph.
+</li>
+<li>PageRank infers that links are recommendations from one page to another. That&apos;s usually a correct assumption, but not always. Semantic Web research tries to use richer signals (explicit recommendations of pages, ratings of trust between agents, ratings of belief in facts, etc) and then construct better analysis. 
+</li>
+<li>PageRank relies on weblinks being transitive recommendations. The algorithm does <em>not</em> apply for recommendations that aren&apos;t transitive. For instance, inter-agent trust signals are not always transitive, and distrust signals are <em>never</em> transitive.
+</li>
+<li>Because PageRank creates global ratings for pages, it&apos;s actually estimating the global <em>reputation</em> of a page. Reputation is different from trust, because trust is subjective (from a particular node&apos;s perspective) and reputation is objective (from the whole network&apos;s perspective).
+</li>
+<li>Many algorithms, including Eigentrust and Advogato, rely on a seed set of trusted peers. The seed-set makes it possible to detect malicious rings that work together to elevate their rating. The original PageRank paper doesn&apos;t have any such seed-set, but in practice I imagine Google has an equivalent. (I question whether the analysis can be called &quot;objective&quot; if there is such a seed-set.)
+</li></ul>
+<p>These lessons can easily apply when writing graph-analysis algorithms for SecureScuttlebutt.
+Inferring the wrong properties about the input data, such as edge-transitivity, can lead the algorithm to draw wrong conclusions.
+As the purpose of reputation is to <em>automate trust decisions</em>, it&apos;s important not to make those mistakes.</p><p>The data model is also very important to reputation-based trust, and is frequently explored in the literature I found.
+There is no consensus on which model is best; they vary by application and intent.</p><p><a href="http://ilpubs.stanford.edu:8090/562/1/2002-56.pdf" target="_blank">The EigenTrust Algorithm for Reputation Management in P2P Networks</a> applies probabilistic analysis on a dataset of rated transactions.
+After every file-download, users publish whether the downloaded file was as-advertised.
+The ratings are accumulated and normalized to quantify the trustworthiness of peers.
+The authors assume that trusted peers are likely to make good trust decisions as well, and so they use the trust-values transitively to fill holes in the dataset.
+At a glance, <a href="http://eris.prakinf.tu-ilmenau.de/res/papers/security/damiani02reputationbased.pdf" target="_blank">the XRep algorithm</a> seems to work in roughly the same way.</p><p>Eigentrust is not a social system; it&apos;s a p2p mesh of file-hosts, which abstracts the hosts away from the user&apos;s awareness.
+Their data model, therefore, doesn&apos;t use direct trust-ratings between agents, whereas SSB can.
+In contrast, <a href="https://www.cs.umd.edu/~golbeck/pubs/Golbeck,%20Hendler%20-%202004%20-%20Accuracy%20of%20Metrics%20for%20Inferring%20Trust%20and%20Reputation.pdf" target="_blank">the TrustMail algorithm</a> sets ratings directly on agents.</p><p><a href="https://homes.cs.washington.edu/~pedrod/papers/iswc03.pdf" target="_blank">Trust Management for the Semantic Web</a> splits the model into &quot;belief ratings for statements&quot; and &quot;trust ratings for agents&quot;</p><blockquote><p>[We] propose a solution to the problem of establishing the degree of belief in a statement that is explicitly asserted by one or more sources on the Semantic Web. ... Our basic model is that a user&apos;s belief in a statement should be a function of her trust in the sources providing it.</p></blockquote><p>They offer both path-algebra and probabilistic interpretations for the graph, and a number of options for the formulas.</p><p><a href="http://ebiquity.umbc.edu/_file_directory_/papers/93.pdf" target="_blank">Modeling and Evaluating Trust Network Inference</a> describes an even more sophisticated model.
+First, they isolate trust into domains, following the intuition that an agent may be an expert in one field, but not in another.
+Then, in section 2.4.2, they define 2 categories of trust, and subdivide them into 5 types.
+The categories are <em>referral trust</em> (&quot;reflects an agent&apos;s estimation about the quality of the other agents&apos; knowledge&quot;) and <em>associative trust</em> (&quot;reflects the similarity between two agents&quot;).
+The subdivisions are as follows:</p><ul><li>Domain Expert Trust (DET) is referral trust that evaluates the quality of an agent&apos;s domain knowledge. Intuitively, DET is not transitive, but DET may imply RET (see next item) on the same domain.
+</li>
+<li>Recommendation Expert Trust (RET) is referral trust that evaluates an agent&apos;s trust knowledge. In real world, the domain used in RET is often much wider than DET, e.g. CNN is a domain expert only in news area, while Google.com is a recommendation expert in almost any area. Moreover, RET in transitive according to its definition, so it can be used to propagate both DET and RET.
+</li>
+<li>Similar belief trust (SBT) is an associative trust that evaluates the similarity of two agents&apos; domain knowledge. Intuitively, SBT clusters information providers, and it can be used to propagate DET.
+</li>
+<li>Similar trusting trust (STT) is an associative trust that evaluates the similarity of two agents&apos; trust knowledge. Intuitively, STT clusters trustors (agents who maintain trust knowledge), and it can be used to propagate both DET and RET. Computing STT needs trust knowledge from only two agents.
+</li>
+<li>Similar cited trust (SCT) is an associative trust that evaluates the similarity of how two agents are trusted.  Intuitively, STT clusters trustees (agents who are trusted) by their reputation, and it can be used to propagate both DET and RET. Reliable SCT requires trust knowledge from a large population of agents.
+</li></ul>
+<p>This is not the first group to separate DET and RET.
+The <a href="https://en.wikipedia.org/wiki/Hilltop_algorithm" target="_blank">Hilltop</a> and <a href="https://en.wikipedia.org/wiki/HITS_algorithm" target="_blank">HITS</a> algorithms make that distinction as well.</p><p>The values used to rate agents or data varies between the algorithms.
+Roughly, they tend to be trinary (trusted/distrusted/no-opinion) or real (0..1, or 0..10, etc).
+I&apos;ve found nothing definitive about which is best.</p><p>When choosing the model, we should remember that reputation systems exist to rank information in the absense of local input.
+If the user were able to rate all inputs a-priori, a policy system would suffice.
+Since the user can not, a reputation system merges the inputs of many users to fill holes in the data structure.</p><p>If we want to entrust function-critical decisions to shared data, we need to be robust to malicious behaviors.
+The <a href="http://www2.informatik.uni-freiburg.de/~cziegler/papers/ISF-05-CR.pdf" target="_blank">Appleseed Paper</a> provides useful analysis of this:</p><blockquote><p>The &quot;bottleneck property&quot; [is] common feature of attack-resistant trust metrics. Informally, this property states that the &quot;trust quantity accorded to an edge <code>s -&gt; t</code> is not significantly affected by changes to the successors of t.&quot;</p></blockquote><p>Put another way, the bottleneck property holds if a voting ring is not able to elevate its reputation the network by recommending each other.
+This property requires subjectivity: trust must flow outward from a seed set.
+Fortunately, SecureScuttlebutt is subjective by nature.</p><p>The other concern we must address is compromise-risk: we should minimize the danger of a trusted node acting maliciously.
+Two techniques for handling this:</p><ul><li>Always distribute authority. A security-critical change should be backed by multiple trusted agents.
+</li>
+<li>Watch for anomolous events and alert the user. If a kind of change is rare, confirm it before accepting it.
+</li></ul>
+<hr><p>A few notes on how computation occurs.
+In addition to the path-algebra vs probabilistic analysis, there&apos;s a split among the papers between making distributed vs centralized/localized computations.</p><p>Distributed computation uses realtime queries to peers for trust information.
+Centralized/localized computation aggregates information at a node, and then computes across that aggregated information.</p><p>Both Google and SecureScuttlebutt qualify as centralized/localized.
+The difference is that Google tries to obtain global knowledge of the network, via crawling, while SSB obtains a localized neighborhood of the network.</p><p>The community is encouraged to supplement SecureScuttlebutt&apos;s localized computation with distributed protocols, but it&apos;s not currently expected that SSB core will include any distributed computation systems itsemf, due to the scope creep that would create.</p><hr><p>It may be possible to generalize a universal system for ranking the trust and quality of data in SecureScuttlebutt.
+If so, then a single &quot;ranking&quot; application would be able to publish and review data structures.
+However, I&apos;m unsure that&apos;s possible.
+In the near-term, I suggest we study applications and data-structures separately, and watch for unifying principles.</p><p>There are a few applications which I think we should focus our attention on, because they&apos;ll yield the most insight, and value, to the network.</p><ul><li>An intelligent crawler which expands on the user&apos;s follow relationships. This application would start with the user&apos;s explicit follows, and then analyze the network to find feeds, messages, and blobs that are worth downloading. This might be viewed as attempting to automate virality. The algorithm will need to balance its options against available disk space.
+</li>
+<li>A search engine for messages, feeds, and blobs. This is a very broad application, and so may be hard to address early, but it will have a lot of relevance, insight, and value for the network. It also makes a strong companion to the intelligent crawler, as it lets you discover what the crawler has fetched for you. And, the queries may act as inputs to the crawler, since queries signal your interests.
+</li>
+<li>A whois application. Without name authorities, naming becomes a kind of search that must produce only one result. Challenging, but possibly rewarding.
+</li></ul>
+<p>-Paul F</p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="scuttlebutt-genesis.html" class="navigation navigation-prev " aria-label="Previous page: Scuttlebutt Genesis">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../talks.html" class="navigation navigation-next " aria-label="Next page: Talks">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Using Trust in Open Networks","level":"1.3.5","depth":2,"next":{"title":"Talks","level":"1.4","depth":1,"path":"talks.md","ref":"talks.md","articles":[]},"previous":{"title":"Scuttlebutt Genesis","level":"1.3.4","depth":2,"path":"stories/scuttlebutt-genesis.md","ref":"stories/scuttlebutt-genesis.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"3.x.x","theme":"default","variables":{},"plugins":["collapsible-menu","ssb","videoclips"],"pluginsConfig":{"collapsible-menu":{},"ssb":{"viewer":"https://viewer.scuttlebot.io"},"search":{},"videoclips":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"light"},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"assets/web.css"}},"file":{"path":"stories/using-trust-in-open-networks.md","mtime":"2017-05-30T23:12:59.856Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-12-18T12:53:42.444Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

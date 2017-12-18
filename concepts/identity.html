@@ -1,0 +1,986 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Identity · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../assets/web.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="stream.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../applications.html">
+            
+                <a href="../applications.html">
+            
+                    
+                    Applications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../stories/">
+            
+                <a href="../stories/">
+            
+                    
+                    Stories
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../stories/design-challenge-avoid-centralization-and-singletons.html">
+            
+                <a href="../stories/design-challenge-avoid-centralization-and-singletons.html">
+            
+                    
+                    Design Challenge: Avoid Centralization and Singletons
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../stories/design-challenge-sybil-attacks.html">
+            
+                <a href="../stories/design-challenge-sybil-attacks.html">
+            
+                    
+                    Design Challenge: Sybil Attacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../stories/gossiping-securely-is-the-new-email.html">
+            
+                <a href="../stories/gossiping-securely-is-the-new-email.html">
+            
+                    
+                    Gossiping Securely is the new Email
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../stories/scuttlebutt-genesis.html">
+            
+                <a href="../stories/scuttlebutt-genesis.html">
+            
+                    
+                    Scuttlebutt Genesis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../stories/using-trust-in-open-networks.html">
+            
+                <a href="../stories/using-trust-in-open-networks.html">
+            
+                    
+                    Using Trust in Open Networks
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../talks.html">
+            
+                <a href="../talks.html">
+            
+                    
+                    Talks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../contributing.html">
+            
+                <a href="../contributing.html">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../principles.html">
+            
+                <a href="../principles.html">
+            
+                    
+                    Principles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Concepts
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.2.1" data-path="identity.html">
+            
+                <a href="identity.html">
+            
+                    
+                    Identity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="stream.html">
+            
+                <a href="stream.html">
+            
+                    
+                    Stream
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="feed.html">
+            
+                <a href="feed.html">
+            
+                    
+                    Feed
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="message.html">
+            
+                <a href="message.html">
+            
+                    
+                    Message
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="private-message.html">
+            
+                <a href="private-message.html">
+            
+                    
+                    Private Message
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="link.html">
+            
+                <a href="link.html">
+            
+                    
+                    Link
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="gossip.html">
+            
+                <a href="gossip.html">
+            
+                    
+                    Gossip
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="local.html">
+            
+                <a href="local.html">
+            
+                    
+                    Local
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="consensus.html">
+            
+                <a href="consensus.html">
+            
+                    
+                    Consensus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="pub.html">
+            
+                <a href="pub.html">
+            
+                    
+                    Pub
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="blob.html">
+            
+                <a href="blob.html">
+            
+                    
+                    Blob
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="cap.html">
+            
+                <a href="cap.html">
+            
+                    
+                    Cap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../guides/">
+            
+                <a href="../guides/">
+            
+                    
+                    Guides
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../guides/cli-first-steps.html">
+            
+                <a href="../guides/cli-first-steps.html">
+            
+                    
+                    First steps with sbot, a command line tool for Scuttlebutt
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../modules.html">
+            
+                <a href="../modules.html">
+            
+                    
+                    Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../faq/">
+            
+                <a href="../faq/">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../faq/basics/basics.html">
+            
+                <a href="../faq/basics/basics.html">
+            
+                    
+                    Basics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1.1" data-path="../faq/basics/patchwork-vs-scuttlebutt.html">
+            
+                <a href="../faq/basics/patchwork-vs-scuttlebutt.html">
+            
+                    
+                    What is the difference between Patchwork and Scuttlebutt?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.2" data-path="../faq/basics/pub.html">
+            
+                <a href="../faq/basics/pub.html">
+            
+                    
+                    What is a pub?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.3" data-path="../faq/basics/multiple-pubs.html">
+            
+                <a href="../faq/basics/multiple-pubs.html">
+            
+                    
+                    Should I follow multiple pubs?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.4" data-path="../faq/basics/gossip.html">
+            
+                <a href="../faq/basics/gossip.html">
+            
+                    
+                    What do you mean SSB works through gossip?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.5" data-path="../faq/basics/data-live.html">
+            
+                <a href="../faq/basics/data-live.html">
+            
+                    
+                    Where does all my data live?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.6" data-path="../faq/basics/port.html">
+            
+                <a href="../faq/basics/port.html">
+            
+                    
+                    What ports does Scuttlebutt use?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.7" data-path="../faq/basics/size.html">
+            
+                <a href="../faq/basics/size.html">
+            
+                    
+                    How much space will scuttlebutt take up?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.8" data-path="../faq/basics/delete.html">
+            
+                <a href="../faq/basics/delete.html">
+            
+                    
+                    What happens if I delete everything?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="../faq/applications/applications.html">
+            
+                <a href="../faq/applications/applications.html">
+            
+                    
+                    Applications
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.2.1" data-path="../faq/applications/patchwork-and-patchbay.html">
+            
+                <a href="../faq/applications/patchwork-and-patchbay.html">
+            
+                    
+                    How do posts work across apps?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.2" data-path="../faq/applications/moving-ssb-apps.html">
+            
+                <a href="../faq/applications/moving-ssb-apps.html">
+            
+                    
+                    Can I switch apps easily?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.3" data-path="../faq/applications/multiple-devices.html">
+            
+                <a href="../faq/applications/multiple-devices.html">
+            
+                    
+                    Can I post  from different devices?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.4" data-path="../faq/applications/patchwork-markup.html">
+            
+                <a href="../faq/applications/patchwork-markup.html">
+            
+                    
+                    Is there a markdown guide for Patchwork?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="../faq/channels/channels-index.html">
+            
+                <a href="../faq/channels/channels-index.html">
+            
+                    
+                    Channels
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.3.1" data-path="../faq/channels/channels.html">
+            
+                <a href="../faq/channels/channels.html">
+            
+                    
+                    What are channels?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.2" data-path="../faq/channels/channel-sort.html">
+            
+                <a href="../faq/channels/channel-sort.html">
+            
+                    
+                    Are Channels sorted in any order?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.3" data-path="../faq/channels/channel-messages.html">
+            
+                <a href="../faq/channels/channel-messages.html">
+            
+                    
+                    How do channel descriptions work?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.4" data-path="../faq/channels/channel-find.html">
+            
+                <a href="../faq/channels/channel-find.html">
+            
+                    
+                    How do I find a channel?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="../faq/misc/concepts.html">
+            
+                <a href="../faq/misc/concepts.html">
+            
+                    
+                    Misc.
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.4.1" data-path="../faq/misc/cool.html">
+            
+                <a href="../faq/misc/cool.html">
+            
+                    
+                    This seems really cool?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.2" data-path="../faq/misc/related.html">
+            
+                <a href="../faq/misc/related.html">
+            
+                    
+                    What other dex projects exist?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.3" data-path="../faq/misc/faq-credits.html">
+            
+                <a href="../faq/misc/faq-credits.html">
+            
+                    
+                    Who wrote this FAQ?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.4" data-path="../faq/misc/help.html">
+            
+                <a href="../faq/misc/help.html">
+            
+                    
+                    How can I help?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../glossary.html">
+            
+                <a href="../glossary.html">
+            
+                    
+                    Glossary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Identity</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="identity">Identity</h1><p>Your identity is &quot;who you are&quot;.</p><h2 id="true-name">True Name</h2><p>In Scuttlebutt, your <a href="http://dominictarr.com/post/106497926352/asymmetric-cryptography-works-like-magic" target="_blank">True Name</a> is represented as an <a href="http://ed25519.cr.yp.to/" target="_blank">ed25519 key pair</a> using <a href="https://github.com/jedisct1/libsodium" target="_blank">libsodium</a> (<a href="http://dominictarr.com/post/133109715357/which-js-crypto-library-should-i-use" target="_blank">why?</a>).</p><p>The private key is your secret not to be shared with anyone. The public key is used as your identifier.</p><p>There is no worldwide store of identities. Users must exchange pubkeys, either by publishing them on their feeds, or out-of-band.</p><blockquote><p>There is no session, and no logon. your identity is represented by a private key that is stored in on your computer.</p><p>In ordinary websites, the server is the guardian of your identity,
+and grants it to you. This is the reverse, you are your own guardian.</p><p>When you make a post, it creates a signed record, that appends to a history of things you have done. When my computer sees your messages,</p><p>it knows it&apos;s, well, actually it doesn&apos;t know who you are, but it knows you are the same identity as before.</p></blockquote><ul><li><a title="%ox29TwlaATzXebEwpmzenTQKD2XN2cBrihCsHNm6qKE=.sha256" href="https://viewer.scuttlebot.io/%25ox29TwlaATzXebEwpmzenTQKD2XN2cBrihCsHNm6qKE%3D.sha256" target="_blank">%ox29TwlaATzXebEwpmzenTQKD2XN2cBrihCsHNm6qKE=.sha256</a>
+</li></ul>
+<blockquote><p>So in the future, how i figure it will work, is when a child is born, the parents generate a private key for it. The parents could easily know the private key... and maybe that is for the best. But later, when the child is mature enough to understand the consequences, they would generate their own private key. Now they are cryptographically an adult.</p></blockquote><ul><li><a title="%9M3KSMrxigeIxJDIdVgm9HmBL7dg71eHMVnGYwDbByI=.sha256" href="https://viewer.scuttlebot.io/%259M3KSMrxigeIxJDIdVgm9HmBL7dg71eHMVnGYwDbByI%3D.sha256" target="_blank">%9M3KSMrxigeIxJDIdVgm9HmBL7dg71eHMVnGYwDbByI=.sha256</a>
+</li></ul>
+<blockquote><p>oh, sorry, let me clarify one thing I said wrong.</p><p>There are two types of asymmetric cryptography (not actually the whole story but will do for now) signing, and exchange.</p><p>you create a signature with a signing (private) key, and it&apos;s verified with a corresponding public key.</p><p>Then there are also exchange keys, or called diffie-helman keys. There isn&apos;t really a widely used name for this type of key, mainly i think because it doesn&apos;t have a simple real-world metaphor like &quot;signing&quot; does. Anyway, exchange keys take <em>your</em> public key, and <em>my</em> secret key then combines the together to produces a shared exchange key.</p><p>In <code>nacl</code> this operation is called <code>scalarmult</code>. That is an implementation detail really, in classic DiffieHelman a different mathematical operation is used, but it has the same behavior. That is, we can each take the other&apos;s public key, and our own secret key, and produce a key that essentially represents a relationship between us.</p><p>In nacl both types of keys are used, signing keys are ed25519 keys, and exchange keys are curve25519 keys. <code>sign</code> uses <code>ed25519</code> keys, and <code>scalarmult</code> takes <code>curve25519</code>.
+<code>box</code> takes two exchange keys, and then uses <code>scalarmult</code> internally. There is also another function <code>secretbox</code> that just takes a symmetric key, say the output of <code>scalarmult</code>.</p><p>To encrypt a private key, you probably don&apos;t encrypt it <em>to</em> anyone, so <code>secretbox</code> is the one to use. Also, you&apos;ll need to generate the key the first time, and then later, you&apos;ll need to restore it. To do that, you need a <em>seed</em>. That is just a random number, but make sure it&apos;s <em>really</em> random. instead of encrypting the private key, encrypt the seed, then regenerate the keypair from that seed.</p></blockquote><ul><li><a title="%lBglUeQhHbKRGigcXXZmeQOTXisoSAI9J3X6vnxsDhA=.sha256" href="https://viewer.scuttlebot.io/%25lBglUeQhHbKRGigcXXZmeQOTXisoSAI9J3X6vnxsDhA%3D.sha256" target="_blank">%lBglUeQhHbKRGigcXXZmeQOTXisoSAI9J3X6vnxsDhA=.sha256</a>
+</li></ul>
+<h2 id="nick-names">Nick Names</h2><p>In Scuttlebutt, anyone can set a nickname (petname) for another peer. It&apos;s akin to a human-memorable symlink to a cryptographic identifier.</p><blockquote><p>The web you are familiar with is organized like a property system. If you can claim a username, you &quot;own&quot; it. not here. here, you name is whatever people call you.
+You can suggest a name, and an avatar, and we can use it. and you can rename us. This may seem unfamiliar at this point in history, but it is the natural way of the world.</p></blockquote><ul><li><a title="%1H99noUzO+kUrj8zwX0stfuUvX29X8HgXjHErfnwkOY=.sha256" href="https://viewer.scuttlebot.io/%251H99noUzO%2BkUrj8zwX0stfuUvX29X8HgXjHErfnwkOY%3D.sha256" target="_blank">%1H99noUzO+kUrj8zwX0stfuUvX29X8HgXjHErfnwkOY=.sha256</a>
+</li></ul>
+<blockquote><p>In a centralized system, the database is the source of all truth and enforcer of rules. Enforcing a rule like &quot;all names must be unique!&quot; is easy.</p><p>In a decentralized system, like ssb, there is no single source of truth. peers must enforce a rule with collective action. This makes for a <em>lot</em> more wiggle room. To put it in database terms, it means anyone can write anything, but other clients will ignore what they think is invalid.</p><p>So, names is patchwork are somewhat like IRC, except that when I mention you @akkartik it records both your human name and your public key, then I sign this message, so there is a cryptographic record that I call <code>@1DfC2qFuXuli/HOg3kJbKwxiOpc3jXLdJD3TnhtzWNs=.ed25519</code> &quot;akkartik&quot;</p><p>I can call you anything. Unlike IRC, but like &quot;real life&quot;, other people choose your name. So, in ssb, a <em>name</em> is just a mapping from a string to a cryptographic token (i.e. public key, and git-ssb repos also have names)</p><p>If I start using a new name for you, my old messages will still bear the name I used then, but it would still link to your public key.</p></blockquote><ul><li><a title="%7hcvpITRduLDNKpLqN6Xm+8d/t7aQu2YqZhBO3CtSC0=.sha256" href="https://viewer.scuttlebot.io/%257hcvpITRduLDNKpLqN6Xm%2B8d%2Ft7aQu2YqZhBO3CtSC0%3D.sha256" target="_blank">%7hcvpITRduLDNKpLqN6Xm+8d/t7aQu2YqZhBO3CtSC0=.sha256</a>
+</li></ul>
+<blockquote><p>Don&apos;t ask anyone&apos;s <em>opinion</em> on a name, that is just a bikeshed, get people to use it and see what they <em>call</em> it. Let names emerge, like winning at charades.</p></blockquote><ul><li><a title="%am/DGQpKliHYgsYgUUXk4UHwz9rgn+0WN4oc4yq97Mw=.sha256" href="https://viewer.scuttlebot.io/%25am%2FDGQpKliHYgsYgUUXk4UHwz9rgn%2B0WN4oc4yq97Mw%3D.sha256" target="_blank">%am/DGQpKliHYgsYgUUXk4UHwz9rgn+0WN4oc4yq97Mw=.sha256</a>
+</li></ul>
+<blockquote><p>@amnovak just because you can name it anything doesn&apos;t mean that it will be total chaos.
+No one enforces natural language, we can invent new words that &quot;arn&apos;t in the dictionary&quot;, but since people want to be understood, that is enough consistency.</p></blockquote><ul><li><a title="%nrZecbFGe/Vx7tSUAfZMWM2/wZKnC7CdyTyvo6R7mxI=.sha256" href="https://viewer.scuttlebot.io/%25nrZecbFGe%2FVx7tSUAfZMWM2%2FwZKnC7CdyTyvo6R7mxI%3D.sha256" target="_blank">%nrZecbFGe/Vx7tSUAfZMWM2/wZKnC7CdyTyvo6R7mxI=.sha256</a>
+</li></ul>
+<blockquote><p>petnames should be a user aid: you can enter the url as a petname, and then the computer gives you back the exact name, which you can share securely. we loose a lot more than we gain with a naming registry. like, the recent npm thing. names become &quot;property&quot; instead of granted by the community.</p></blockquote><ul><li><a title="%oJtA0Lmj7PBo9KmkC99/cVHhNzi9+ulXAwvJvMIJY60=.sha256" href="https://viewer.scuttlebot.io/%25oJtA0Lmj7PBo9KmkC99%2FcVHhNzi9%2BulXAwvJvMIJY60%3D.sha256" target="_blank">%oJtA0Lmj7PBo9KmkC99/cVHhNzi9+ulXAwvJvMIJY60=.sha256</a>
+</li></ul>
+<blockquote><p>Yes! Anyway, all naming is subjective!
+It&apos;s just that sometimes one opinion is privledged above others.</p></blockquote><ul><li><a title="%9s3P86A9UoiMpsGg/ffiIs0zl6YpDXvAl3MW7vP39t0=.sha256" href="https://viewer.scuttlebot.io/%259s3P86A9UoiMpsGg%2FffiIs0zl6YpDXvAl3MW7vP39t0%3D.sha256" target="_blank">%9s3P86A9UoiMpsGg/ffiIs0zl6YpDXvAl3MW7vP39t0=.sha256</a>
+</li></ul>
+<h2 id="trust">Trust</h2><blockquote><p>Implicit vs. Explicit: we can interpret something like twitter or fb or the web as a &quot;reputation network&quot;, but most people don&apos;t actually think about that while they use it. So, just create an <em>implicit</em> reputation network, people just use it because it works for them, you don&apos;t need to pitch them on &quot;reputation network&quot;.</p><p>For example, google traverses the links on all the websites they find, analyzes that graph and uses them to determine a <em>ranking</em> for all websites. That ranking score can be interpreted as &quot;reputation&quot;. The authors of those web links may not be thinking &quot;here is a reputable site&quot; or &quot;I want to increase this website&apos;s score&quot; but you can interpret this as an expression of trust, not because of the link but more because of the sites <em>they choose not to link to</em>. Linking is an <em>action</em> that expresses trust (involves a risk), not just a statement &quot;I trust X&quot;, which is pretty cheap.</p><p>Another really interesting thing about page rank, is the graph represents a mathematical model of how humans &quot;surf&quot; the internet. refresher: before search engines where any good, you&apos;d just click around from links to links, go to some site, follow it&apos;s links, etc. pagerank simulated this, calculating the probability that if you&apos;d land on a given page if you spent your life just randomly clicking on links. I think the key here is that pagerank is based on a model of what <em>humans already do</em>, it just makes it faster.</p><p>Gameability - how easy is it to create the appearance of trust/value?
+systems like ebay have &quot;feedback&quot; which seems easy, and works in the case of ebay because ebay charges a transaction fee which would make it expensive to create a fake reputation. For example: I could create a bunch of ebay accounts and make my sock puppet accounts &quot;buy&quot; from me, then give me good feedback, so it would appear I made many transactions. However, even though I don&apos;t post the goods (to myself) I&apos;d still have to pay the ebay transaction fee! So if you see someone on ebay who has made thousands of transactions, the transaction fees for those may add up to more than they could make if they ripped me off one one transaction, so I can be pretty confidant in making that purchase.</p><p>In a decentralized system like ssb, an identity is just a key pair, and I could generate thousands of those a second, it would be really easy to create sock puppets that appeared to &quot;trust&quot; me. Any realistic reputation system would need to have a way to rule this out - a straight sum of all the feedback probably wouldn&apos;t work, but something that traced a social graph might.</p></blockquote><ul><li><a title="%1S7PrZmAAC3foX/aAIO0wRoaFnVG9xL3YMvnKwba4xQ=.sha256" href="https://viewer.scuttlebot.io/%251S7PrZmAAC3foX%2FaAIO0wRoaFnVG9xL3YMvnKwba4xQ%3D.sha256" target="_blank">%1S7PrZmAAC3foX/aAIO0wRoaFnVG9xL3YMvnKwba4xQ=.sha256</a>
+</li></ul>
+<blockquote><p>&quot;trust&quot; and &quot;reputation&quot; have no formal definition, and everyone &quot;already knows&quot; what they mean. sillicon valley has coopted the term &quot;reputation&quot; where it&apos;s something they calculate from their mass of data. in a human context, &quot;reputation&quot; is obviously subjective, although, to some degree an estimation of a collective sense of trust. In an honour-amoungst-theves sense, one community can esteeme someone highly, doesn&apos;t mean another community sees it like that. I have been meaning to try and write a glossary of ways people use the term &quot;trust&quot; and &quot;reputation&quot; because there are too many senses to agree on a definition. That WoT thing was just frustrating, for me, because everyone had a valid view, that was completely different.</p></blockquote><ul><li><a title="%Dwd9MKS1uD+yM1MeiiYLgYrTujtkrWoKHhV9bZzeQn0=.sha256" href="https://viewer.scuttlebot.io/%25Dwd9MKS1uD%2ByM1MeiiYLgYrTujtkrWoKHhV9bZzeQn0%3D.sha256" target="_blank">%Dwd9MKS1uD+yM1MeiiYLgYrTujtkrWoKHhV9bZzeQn0=.sha256</a>
+</li></ul>
+<h2 id="groups">Groups</h2><blockquote><p>To summarize, our ideas are that a group, by definition has an inside and an outside, and they also may have internal behaviour and external behaviour. Internal behaviour means it&apos;s possible to communicate privately with other members, external behaviour means it&apos;s possible for the group to speak/act as one. I want it to be possible to follow a group like you would follow an individual, ideally without needing the ssb to treat it differently (that depends on the right crypto though)</p><p>this thread has a <a href="%HRmMuXxv+4SzJkXVs+oy5K3PnEEi1kP8NOkID7auywc=.sha256">good summary of our group ideas</a></p></blockquote><ul><li><a title="%b8/CYP0xj+fXgB2u5eDOQUbBCqyJ+sXv/CvuZNDOVVA=.sha256" href="https://viewer.scuttlebot.io/%25b8%2FCYP0xj%2BfXgB2u5eDOQUbBCqyJ%2BsXv%2FCvuZNDOVVA%3D.sha256" target="_blank">%b8/CYP0xj+fXgB2u5eDOQUbBCqyJ+sXv/CvuZNDOVVA=.sha256</a>
+</li></ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Concepts">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="stream.html" class="navigation navigation-next " aria-label="Next page: Stream">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Identity","level":"2.2.1","depth":2,"next":{"title":"Stream","level":"2.2.2","depth":2,"path":"concepts/stream.md","ref":"concepts/stream.md","articles":[]},"previous":{"title":"Concepts","level":"2.2","depth":1,"path":"concepts/index.md","ref":"concepts/index.md","articles":[{"title":"Identity","level":"2.2.1","depth":2,"path":"concepts/identity.md","ref":"concepts/identity.md","articles":[]},{"title":"Stream","level":"2.2.2","depth":2,"path":"concepts/stream.md","ref":"concepts/stream.md","articles":[]},{"title":"Feed","level":"2.2.3","depth":2,"path":"concepts/feed.md","ref":"concepts/feed.md","articles":[]},{"title":"Message","level":"2.2.4","depth":2,"path":"concepts/message.md","ref":"concepts/message.md","articles":[]},{"title":"Private Message","level":"2.2.5","depth":2,"path":"concepts/private-message.md","ref":"concepts/private-message.md","articles":[]},{"title":"Link","level":"2.2.6","depth":2,"path":"concepts/link.md","ref":"concepts/link.md","articles":[]},{"title":"Gossip","level":"2.2.7","depth":2,"path":"concepts/gossip.md","ref":"concepts/gossip.md","articles":[]},{"title":"Local","level":"2.2.8","depth":2,"path":"concepts/local.md","ref":"concepts/local.md","articles":[]},{"title":"Consensus","level":"2.2.9","depth":2,"path":"concepts/consensus.md","ref":"concepts/consensus.md","articles":[]},{"title":"Pub","level":"2.2.10","depth":2,"path":"concepts/pub.md","ref":"concepts/pub.md","articles":[]},{"title":"Blob","level":"2.2.11","depth":2,"path":"concepts/blob.md","ref":"concepts/blob.md","articles":[]},{"title":"Cap","level":"2.2.12","depth":2,"path":"concepts/cap.md","ref":"concepts/cap.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"3.x.x","theme":"default","variables":{},"plugins":["collapsible-menu","ssb","videoclips"],"pluginsConfig":{"collapsible-menu":{},"ssb":{"viewer":"https://viewer.scuttlebot.io"},"search":{},"videoclips":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"light"},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"assets/web.css"}},"file":{"path":"concepts/identity.md","mtime":"2017-01-18T05:38:13.651Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-12-18T12:53:42.444Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

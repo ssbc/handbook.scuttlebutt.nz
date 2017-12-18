@@ -1,0 +1,43 @@
+img[src='assets/hermes.png'] {
+  width: 50px;
+  height: 50px;
+  margin-bottom: -13px;
+}
+
+.book .summary li b {
+  display: none;
+}
+
+.book .book-summary ul.summary li a.gitbook-link {
+  display: none;
+}
+
+.book .book-summary .summary .chapter .chapter .chapter a {
+  font-weight: 300;
+}
+.summary .custom-link {
+  display: none;
+}
+nav .summary .articles .chapter a {
+  white-space: normal;
+}
+
+.page-inner {
+  max-width: 1000px;
+}
+
+.page-inner p img {
+  max-height: 700px;
+  max-width: 800px;
+
+  display: block;
+  margin: 0 auto;
+}
+
+table tr td {
+  background-color: #fff;
+}
+
+.shadow {
+  filter: drop-shadow(0px 8px 10px #999);
+}

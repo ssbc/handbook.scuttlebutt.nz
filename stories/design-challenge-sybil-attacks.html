@@ -1,0 +1,970 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Design Challenge: Sybil Attacks · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../assets/web.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="gossiping-securely-is-the-new-email.html" />
+    
+    
+    <link rel="prev" href="design-challenge-avoid-centralization-and-singletons.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../applications.html">
+            
+                <a href="../applications.html">
+            
+                    
+                    Applications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Stories
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="design-challenge-avoid-centralization-and-singletons.html">
+            
+                <a href="design-challenge-avoid-centralization-and-singletons.html">
+            
+                    
+                    Design Challenge: Avoid Centralization and Singletons
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="design-challenge-sybil-attacks.html">
+            
+                <a href="design-challenge-sybil-attacks.html">
+            
+                    
+                    Design Challenge: Sybil Attacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="gossiping-securely-is-the-new-email.html">
+            
+                <a href="gossiping-securely-is-the-new-email.html">
+            
+                    
+                    Gossiping Securely is the new Email
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="scuttlebutt-genesis.html">
+            
+                <a href="scuttlebutt-genesis.html">
+            
+                    
+                    Scuttlebutt Genesis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="using-trust-in-open-networks.html">
+            
+                <a href="using-trust-in-open-networks.html">
+            
+                    
+                    Using Trust in Open Networks
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../talks.html">
+            
+                <a href="../talks.html">
+            
+                    
+                    Talks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../contributing.html">
+            
+                <a href="../contributing.html">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../principles.html">
+            
+                <a href="../principles.html">
+            
+                    
+                    Principles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../concepts/">
+            
+                <a href="../concepts/">
+            
+                    
+                    Concepts
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../concepts/identity.html">
+            
+                <a href="../concepts/identity.html">
+            
+                    
+                    Identity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../concepts/stream.html">
+            
+                <a href="../concepts/stream.html">
+            
+                    
+                    Stream
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../concepts/feed.html">
+            
+                <a href="../concepts/feed.html">
+            
+                    
+                    Feed
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../concepts/message.html">
+            
+                <a href="../concepts/message.html">
+            
+                    
+                    Message
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../concepts/private-message.html">
+            
+                <a href="../concepts/private-message.html">
+            
+                    
+                    Private Message
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../concepts/link.html">
+            
+                <a href="../concepts/link.html">
+            
+                    
+                    Link
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../concepts/gossip.html">
+            
+                <a href="../concepts/gossip.html">
+            
+                    
+                    Gossip
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../concepts/local.html">
+            
+                <a href="../concepts/local.html">
+            
+                    
+                    Local
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../concepts/consensus.html">
+            
+                <a href="../concepts/consensus.html">
+            
+                    
+                    Consensus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="../concepts/pub.html">
+            
+                <a href="../concepts/pub.html">
+            
+                    
+                    Pub
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="../concepts/blob.html">
+            
+                <a href="../concepts/blob.html">
+            
+                    
+                    Blob
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="../concepts/cap.html">
+            
+                <a href="../concepts/cap.html">
+            
+                    
+                    Cap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../guides/">
+            
+                <a href="../guides/">
+            
+                    
+                    Guides
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../guides/cli-first-steps.html">
+            
+                <a href="../guides/cli-first-steps.html">
+            
+                    
+                    First steps with sbot, a command line tool for Scuttlebutt
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../modules.html">
+            
+                <a href="../modules.html">
+            
+                    
+                    Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../faq/">
+            
+                <a href="../faq/">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../faq/basics/basics.html">
+            
+                <a href="../faq/basics/basics.html">
+            
+                    
+                    Basics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1.1" data-path="../faq/basics/patchwork-vs-scuttlebutt.html">
+            
+                <a href="../faq/basics/patchwork-vs-scuttlebutt.html">
+            
+                    
+                    What is the difference between Patchwork and Scuttlebutt?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.2" data-path="../faq/basics/pub.html">
+            
+                <a href="../faq/basics/pub.html">
+            
+                    
+                    What is a pub?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.3" data-path="../faq/basics/multiple-pubs.html">
+            
+                <a href="../faq/basics/multiple-pubs.html">
+            
+                    
+                    Should I follow multiple pubs?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.4" data-path="../faq/basics/gossip.html">
+            
+                <a href="../faq/basics/gossip.html">
+            
+                    
+                    What do you mean SSB works through gossip?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.5" data-path="../faq/basics/data-live.html">
+            
+                <a href="../faq/basics/data-live.html">
+            
+                    
+                    Where does all my data live?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.6" data-path="../faq/basics/port.html">
+            
+                <a href="../faq/basics/port.html">
+            
+                    
+                    What ports does Scuttlebutt use?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.7" data-path="../faq/basics/size.html">
+            
+                <a href="../faq/basics/size.html">
+            
+                    
+                    How much space will scuttlebutt take up?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.1.8" data-path="../faq/basics/delete.html">
+            
+                <a href="../faq/basics/delete.html">
+            
+                    
+                    What happens if I delete everything?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="../faq/applications/applications.html">
+            
+                <a href="../faq/applications/applications.html">
+            
+                    
+                    Applications
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.2.1" data-path="../faq/applications/patchwork-and-patchbay.html">
+            
+                <a href="../faq/applications/patchwork-and-patchbay.html">
+            
+                    
+                    How do posts work across apps?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.2" data-path="../faq/applications/moving-ssb-apps.html">
+            
+                <a href="../faq/applications/moving-ssb-apps.html">
+            
+                    
+                    Can I switch apps easily?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.3" data-path="../faq/applications/multiple-devices.html">
+            
+                <a href="../faq/applications/multiple-devices.html">
+            
+                    
+                    Can I post  from different devices?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.4" data-path="../faq/applications/patchwork-markup.html">
+            
+                <a href="../faq/applications/patchwork-markup.html">
+            
+                    
+                    Is there a markdown guide for Patchwork?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="../faq/channels/channels-index.html">
+            
+                <a href="../faq/channels/channels-index.html">
+            
+                    
+                    Channels
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.3.1" data-path="../faq/channels/channels.html">
+            
+                <a href="../faq/channels/channels.html">
+            
+                    
+                    What are channels?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.2" data-path="../faq/channels/channel-sort.html">
+            
+                <a href="../faq/channels/channel-sort.html">
+            
+                    
+                    Are Channels sorted in any order?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.3" data-path="../faq/channels/channel-messages.html">
+            
+                <a href="../faq/channels/channel-messages.html">
+            
+                    
+                    How do channel descriptions work?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3.4" data-path="../faq/channels/channel-find.html">
+            
+                <a href="../faq/channels/channel-find.html">
+            
+                    
+                    How do I find a channel?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="../faq/misc/concepts.html">
+            
+                <a href="../faq/misc/concepts.html">
+            
+                    
+                    Misc.
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.4.1" data-path="../faq/misc/cool.html">
+            
+                <a href="../faq/misc/cool.html">
+            
+                    
+                    This seems really cool?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.2" data-path="../faq/misc/related.html">
+            
+                <a href="../faq/misc/related.html">
+            
+                    
+                    What other dex projects exist?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.3" data-path="../faq/misc/faq-credits.html">
+            
+                <a href="../faq/misc/faq-credits.html">
+            
+                    
+                    Who wrote this FAQ?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4.4" data-path="../faq/misc/help.html">
+            
+                <a href="../faq/misc/help.html">
+            
+                    
+                    How can I help?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../glossary.html">
+            
+                <a href="../glossary.html">
+            
+                    
+                    Glossary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Design Challenge: Sybil Attacks</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="design-challenge-sybil-attacks">Design Challenge: Sybil Attacks</h1><p>If it is possible for an anyone to connect to a computer system then it may be possible to interfere with the operation of that system, and defenses against interference must be designed in.</p><p>For example, email&apos;s design is vulnerable to spam.
+To send someone an email, all that is required is to have their email address; email is unsolicited messaging, so it&apos;s easy to send nuisance or fraud emails.</p><h3 id="spam-filters">Spam Filters</h3><p>Email systems deal with spam by filtering it out.
+There are two basic approaches:
+The simplest is <em>pattern matching</em> - messages are compared to models of the sort of messages that spammers send.
+This produces an arms race between spammers and spam filterers.
+Spammers must strive to create messages which beat the filter, while filterers have to improve their model.</p><p>One particularly interesting example of this is (snail) mail advertisers that employ <a href="http://www.writeonresults.com/" target="_blank">handwriting services</a> to write the addresses on their envelopes.
+This fools the receiver into believing that an actual human sent them the letter making them much more likely to open it. 
+(This is even being <a href="https://hellobond.com/" target="_blank">automated</a>.)</p><h3 id="social-networks">Social Networks</h3><p>The other approach is to use social/trust networks.
+Services like Facebook or Twitter are significantly less vulnerable to spam (if you dont consider the ads spam).
+Instead of receiving personal messages from anyone one who knows your id/address on a social network, you only receive messages from other users you have &quot;followed&quot; or &quot;friended&quot;.</p><p>We like to call this a &quot;Solicited Spam&quot; system.
+Following someone on Twitter means you think they are human, or at least, an amusing bot.
+This is actually a pretty strong signal.
+Email doesn&apos;t have an explicit social network, but the best spam filtered email systems (like gmail) can use the implicit social network in email: if I send you and email and you reply then we are &quot;friends&quot;.</p><p>Then graph analysis can be applied to the friend network - spammers may be isolated, or clustered together and can be filtered out.</p><p>By building SecureScuttlebutt around a social network, preventing spam becomes easy.
+Since, in a social network application, you only communicate with trusted peers (friends) anyway, and there is usually an explicit &quot;follow&quot; mechanism which expresses who you trust, and humans are pretty good at detecting frauds.
+This is why SSB was made as an inherently social system.</p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="design-challenge-avoid-centralization-and-singletons.html" class="navigation navigation-prev " aria-label="Previous page: Design Challenge: Avoid Centralization and Singletons">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="gossiping-securely-is-the-new-email.html" class="navigation navigation-next " aria-label="Next page: Gossiping Securely is the new Email">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Design Challenge: Sybil Attacks","level":"1.3.2","depth":2,"next":{"title":"Gossiping Securely is the new Email","level":"1.3.3","depth":2,"path":"stories/gossiping-securely-is-the-new-email.md","ref":"stories/gossiping-securely-is-the-new-email.md","articles":[]},"previous":{"title":"Design Challenge: Avoid Centralization and Singletons","level":"1.3.1","depth":2,"path":"stories/design-challenge-avoid-centralization-and-singletons.md","ref":"stories/design-challenge-avoid-centralization-and-singletons.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"3.x.x","theme":"default","variables":{},"plugins":["collapsible-menu","ssb","videoclips"],"pluginsConfig":{"collapsible-menu":{},"ssb":{"viewer":"https://viewer.scuttlebot.io"},"search":{},"videoclips":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"light"},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"assets/web.css"}},"file":{"path":"stories/design-challenge-sybil-attacks.md","mtime":"2017-05-30T23:12:59.856Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-12-18T12:53:42.444Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

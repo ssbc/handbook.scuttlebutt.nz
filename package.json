@@ -1,0 +1,28 @@
+{
+  "name": "ssb-handbook",
+  "version": "0.0.0",
+  "description": "A work-in-progress guide to the ssb-verse and key concepts and influences",
+  "dependencies": {
+    "gitbook-plugin-collapsible-menu": "^1.0.3",
+    "gitbook-plugin-ssb": "^1.1.0",
+    "gitbook-plugin-videoclips": "^0.1.9"
+  },
+  "devDependencies": {
+    "npm-run-all": "^3.1.1",
+    "gh-pages": "^0.11.0",
+    "gitbook-cli": "^2.3.0"
+  },
+  "scripts": {
+    "install": "gitbook install",
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "push": "gh-pages -d _book",
+    "deploy": "npm-run-all -s build push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssb://%lJsDWwnF4bDxHWYuSjw/bW37xg+saF8WtPZYZsefKj0=.sha256"
+  },
+  "author": "Secure Scuttlebutt Consortium",
+  "license": "CC-BY-4.0"
+}
