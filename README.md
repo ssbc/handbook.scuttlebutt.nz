@@ -24,6 +24,7 @@
 ![screenshot of Patchwork](./assets/patchwork.jpg)
 
 The easiest way to get started is using **Patchwork**, an application for navigating and talking on scuttlebutt.
+
 1. [Download Patchwork](http://dinosaur.is/patchwork-downloader/) for Windows, macOS and Linux
 2. Get a [pub invite code](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers)  
 3. Use the pub invite : in Patchwork click `+ Join Pub` and paste the invite code
