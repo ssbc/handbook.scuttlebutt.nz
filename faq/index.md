@@ -26,5 +26,6 @@
 * [Misc](misc/concepts.md)
   - [This seems really cool?](misc/cool.md)
   - [What other dex projects exist?](misc/related.md)
+  - [How can I preserve my privacy](misc/tor.md)
   - [Who wrote this FAQ?](misc/faq-credits.md)
   - [How can I help?](misc/help.md)
