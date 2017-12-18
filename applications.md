@@ -1,43 +1,66 @@
 # Scuttlebutt Apps
 
-The following is an overview of some known Scuttlebutt-based apps.
+Your scuttlebutt is the data you carry with you - imagine a little slice of a parallel universe in your pocket.
+This data is yours and you can interact with it however you like. 
 
-_if you are new, [start with Patchwork](./#how-to-get-started)!_
+These apps are different kinds of **magic glasses** to help you interact with this reality.
+Try different glasses on, change them when you're bored, make some new ones that fit you better ... your scuttleverse doesn't mind - it's just data.
 
-Please feel free to extend and modify this registry.
+Come explore with us!
+_If you are new, you might like to [start with Patchwork](./#how-to-get-started)!_
 
-- [Patchwork](#patchwork)
-- [Patchbay](#patchbay)
-- [Patchfoo](#patchfoo)
-- [git-ssb](#git-ssb)
-- [MMMMM](#mmmmm)
-- [TickTack](#ticktack)
-- [patch-gatherings](#patch-gatherings)
-- [ssb-chess](#ssb-chess)
-- [minbase](#minbase)
-- [Ferment](#ferment)
-- [ssb-graphviz](#ssb-graphviz)
-- [ssb-usage-stats](#ssb-usage-stats)
-- [Patchwork "Classic"](#patchwork-classic)
-- [easy-ssb-pub](#easy-ssb-pub)
 
----
+<table> 
+  <tr>
+    <th>Social views</td>
+    <th>Coordination views</td>
+    <th>Data viz / tools</td>
+  </tr>
+  <tr>
+    <td> 
+      Direct posting / conversation:
+      <ul>
+        <li><a href='#patchwork'>Patchwork</a></li>
+        <li><a href='#patchbay'>Patchbay</a></li>
+        <li><a href='#patchfoo'>Patchfoo</a></li>
+        <li><a href='#minbase'>Minbase</a></li>
+        <li><a href='#mmmmm'>MMMMM</a></li>
+        <li><a href='#patchwork-classic'>Patchwork Classic</a></li>
+      </ul>
+
+      Other:
+      <ul>
+        <li><a href='#ssb-chess'>ssb-chess</a></li>
+        <li><a href='#ssb-books'>ssb-books</a></li>
+        <li><a href='#ticktack'>Ticktack</a> (blogging)</li>
+      </ul>
+    </td>
+    <td> 
+      <ul>
+        <li><a href='#patch-gatherings'>patch-gatherings</a></li>
+        <li><a href='#git-ssb'>gitssb</a></li>
+      </ul>
+    </td>
+    <td> 
+      <ul>
+        <li><a href='#ssb-usage-stats'>ssb-usage-stats</a></li>
+        <li><a href='#ssb-graphviz'>ssb-graphviz</a></li>
+        <li><a href='#easy-ssb-pub'>easy-ssb-pub</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 
 ## [Patchwork](https://github.com/ssbc/patchwork)
 
-A decentralized messaging and sharing app built using [patchcore](https://github.com/ssbc/patchcore).
+![patchwork](./assets/patchwork.jpg)
 
-The goal is to make a standalone, [easy to install](./#how-to-get-started), "social" view into the SSB world.
+A decentralized messaging and sharing app built using [patchcore](https://github.com/ssbc/patchcore). The goal is to make a standalone, [easy to install](./#how-to-get-started), "social" view into the SSB world.
 
-[![patchwork](./assets/patchwork.jpg)](https://github.com/ssbc/patchwork)
+[**How to get started**](./#how-to-get-started) (must read) | [Installers](https://github.com/ssbc/patchwork/releases)
 
-[How to get started](./#how-to-get-started)
-
-[Releases](https://github.com/ssbc/patchwork/releases)
-
-Links : [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU%3D.sha256) | [github](https://github.com/ssbc/patchwork)
-
-SSB : ssb://%bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU=.sha256
+Source code: [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU%3D.sha256) | [github](https://github.com/ssbc/patchwork) | ssb://%bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU=.sha256
 
 ---
 
@@ -47,11 +70,9 @@ Also built on [patchcore](https://github.com/ssbc/patchcore), but uses a tabbed 
 
 The goal is to make a client developers love - it comes with social views, as well as git interface into the scuttleverse.
 
-[![patchbay](https://github.com/ssbc/patchbay/raw/master/screenshot.png)](https://github.com/ssbc/patchbay)
+![patchbay](https://github.com/ssbc/patchbay/raw/master/screenshot.png)
 
-Links : [git-ssb](https://git-ssb.celehner.com/%25s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc%3D.sha256) | [github](https://github.com/ssbc/patchbay)
-
-SSB : ssb://%s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc=.sha256 
+Source code : [git-ssb](https://git-ssb.celehner.com/%25s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc%3D.sha256) | [github](https://github.com/ssbc/patchbay) | ssb://%s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc=.sha256 
 
 ---
 
@@ -59,13 +80,11 @@ SSB : ssb://%s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc=.sha256
 
 Plain SSB web UI. Uses HTML forms instead of client-side JS. Designed for use on low-power and low-resource computers.
 
-[![patchfoo](https://github.com/noffle/sailing-patchfoo/raw/master/screenshot.jpg)](https://git.scuttlebot.io/%25YAg1hicat%2B2GELjE2QJzDwlAWcx0ML%2B1sXEdsWwvdt8%3D.sha256)
+![patchfoo](https://github.com/noffle/sailing-patchfoo/raw/master/screenshot.jpg)
 
 [How to get started](https://github.com/noffle/sailing-patchfoo)
 
-Links : [git-ssb](http://git.scuttlebot.io/%25YAg1hicat%2B2GELjE2QJzDwlAWcx0ML%2B1sXEdsWwvdt8%3D.sha256) | [github](https://github.com/ssbc/patchfoo)
-
-SSB : ssb://%YAg1hicat+2GELjE2QJzDwlAWcx0ML+1sXEdsWwvdt8=.sha256
+Source code : [git-ssb](http://git.scuttlebot.io/%25YAg1hicat%2B2GELjE2QJzDwlAWcx0ML%2B1sXEdsWwvdt8%3D.sha256) | [github](https://github.com/ssbc/patchfoo) | ssb://%YAg1hicat+2GELjE2QJzDwlAWcx0ML+1sXEdsWwvdt8=.sha256
 
 ---
 
@@ -89,31 +108,29 @@ Known online portals serving git-ssb over http:
 
 [How to get started](https://github.com/noffle/git-ssb-intro)
 
-Links : [git-ssb](https://git-ssb.celehner.com/%25n92DiQh7ietE%2BR%2BX%2FI403LQoyf2DtR3WQfCkDKlheQU%3D.sha256) | [github](https://github.com/clehner/git-ssb)
-
-SSB : ssb://%n92DiQh7ietE+R+X/I403LQoyf2DtR3WQfCkDKlheQU=.sha256 
+Source code : [git-ssb](https://git-ssb.celehner.com/%25n92DiQh7ietE%2BR%2BX%2FI403LQoyf2DtR3WQfCkDKlheQU%3D.sha256) | [github](https://github.com/clehner/git-ssb) | ssb://%n92DiQh7ietE+R+X/I403LQoyf2DtR3WQfCkDKlheQU=.sha256 
 
 ---
 
 ## [MMMMM](https://github.com/staltz/mmmmm-mobile)
 
-[![mmmmm](./assets/mmmmm.jpg)](https://github.com/staltz/mmmmm-mobile/releases)
+![mmmmm](./assets/mmmmm.jpg)
 
 [Releases](https://github.com/staltz/mmmmm-mobile/releases)
 
-Links : [github](https://github.com/staltz/mmmmm-mobile)
+Source code : [github](https://github.com/staltz/mmmmm-mobile)
 
 ---
 
 ## Ticktack
 
-[![ticktack](./assets/ticktack.png)](https://github.com/ticktackim/ticktack-network/releases)
+A blog publishing app for long-form articles. Also has private messaging integrated.
+
+![ticktack](./assets/ticktack.png)
 
 [Releases](https://github.com/ticktackim/ticktack-network/releases)
 
-Links : [git-ssb](https://git.scuttlebot.io/%25wnNDjViKYZH%2BRWpbNzDXR2oxLWmTagvvFBjy97Zko4I%3D.sha256)
-
-SSB : ssb://%wnNDjViKYZH+RWpbNzDXR2oxLWmTagvvFBjy97Zko4I=.sha256
+Source code : [git-ssb](https://git.scuttlebot.io/%25wnNDjViKYZH%2BRWpbNzDXR2oxLWmTagvvFBjy97Zko4I%3D.sha256) | ssb://%wnNDjViKYZH+RWpbNzDXR2oxLWmTagvvFBjy97Zko4I=.sha256
 
 ---
 
@@ -121,9 +138,9 @@ SSB : ssb://%wnNDjViKYZH+RWpbNzDXR2oxLWmTagvvFBjy97Zko4I=.sha256
 
 A [patchcore](https://github.com/ssbc/patchcore) plugin for arranging gatherings on secure scuttlebutt
 
-[![patch-gatherings](./assets/patch-gatherings.png)](https://github.com/pietgeursen/patch-gatherings)
+![patch-gatherings](./assets/patch-gatherings.png)
 
-Links : [github](https://github.com/pietgeursen/patch-gatherings)
+Source code : [github](https://github.com/pietgeursen/patch-gatherings)
 
 ---
 
@@ -131,9 +148,9 @@ Links : [github](https://github.com/pietgeursen/patch-gatherings)
 
 Correspondence chess built on top of the scuttlebutt platform.
 
-[![ssb-chess](http://i.imgur.com/Xz9ovwX.png)](https://github.com/Happy0/ssb-chess)
+![ssb-chess](http://i.imgur.com/Xz9ovwX.png)
 
-Links : [github](https://github.com/Happy0/ssb-chess)
+Source code : [github](https://github.com/Happy0/ssb-chess)
 
 ---
 
@@ -141,11 +158,9 @@ Links : [github](https://github.com/Happy0/ssb-chess)
 
 Minbase is an unopinionated minimal base on which to build opinionated Secure Scuttlebutt clients.
 
-[![minbase](https://github.com/evbogue/minbase/raw/master/minbase.png)](https://github.com/evbogue/minbase)
+![minbase](https://github.com/evbogue/minbase/raw/master/minbase.png)
 
-Links : [git-ssb](https://git.scuttlebot.io/%25%2BtyUthD1L689osLUj8LNLV4smRKpO7Wu07DB%2BLMd7TQ%3D.sha256) | [github](https://github.com/evbogue/minbase)
-
-SSB : ssb://%+tyUthD1L689osLUj8LNLV4smRKpO7Wu07DB+LMd7TQ=.sha256
+Source code : [git-ssb](https://git.scuttlebot.io/%25%2BtyUthD1L689osLUj8LNLV4smRKpO7Wu07DB%2BLMd7TQ%3D.sha256) | [github](https://github.com/evbogue/minbase) | ssb://%+tyUthD1L689osLUj8LNLV4smRKpO7Wu07DB+LMd7TQ=.sha256
 
 ---
 
@@ -153,13 +168,11 @@ SSB : ssb://%+tyUthD1L689osLUj8LNLV4smRKpO7Wu07DB+LMd7TQ=.sha256
 
 A music sharing app for musicians, remixers, creatores, Built using ssb + webtorrent
 
-[![ferment](./assets/ferment.png)](https://github.com/fermentation/ferment)
+![ferment](./assets/ferment.png)
 
 Tour : [youtube](https://www.youtube.com/watch?v=xgvxXbWYmrI)
 
-Links : [git-ssb](https://git-ssb.celehner.com/%25t3XQv5Gk%2FdzJQM1fWFnMlaTlTvmtd3BHYCTIzhT%2F7G8%3D.sha256) | [github](https://github.com/fermentation/ferment)
-
-SSB : ssb://%t3XQv5Gk/dzJQM1fWFnMlaTlTvmtd3BHYCTIzhT/7G8=.sha256
+Source code : [git-ssb](https://git-ssb.celehner.com/%25t3XQv5Gk%2FdzJQM1fWFnMlaTlTvmtd3BHYCTIzhT%2F7G8%3D.sha256) | [github](https://github.com/fermentation/ferment) | ssb://%t3XQv5Gk/dzJQM1fWFnMlaTlTvmtd3BHYCTIzhT/7G8=.sha256
 
 ---
 
@@ -173,7 +186,7 @@ Hover over nodes to see who they are and light up their 1st and (dimmer) 2nd deg
 
 ![ssb-graphviz](./assets/graph-viz.png)
 
-SSB : ssb://%hNm67sfnZFtWkD/+1qxH3UfzhXykfpKtOL1C/XbLANA=.sha256
+Source code : ssb://%hNm67sfnZFtWkD/+1qxH3UfzhXykfpKtOL1C/XbLANA=.sha256
 
 ---
 
@@ -183,7 +196,8 @@ Posts published over time (from the perspective of Cel's pub server). Colors rep
 
 [![ssb-stats](./assets/ssb-stats.png)](https://celehner.com/ssbc/stats/daily.html)
 
-Links : [github](https://github.com/ssbc/ssb-usage-stats)
+See it live : https://celehner.com/ssbc/stats/daily.html
+Source code : [github](https://github.com/ssbc/ssb-usage-stats)
 
 ---
 
@@ -191,11 +205,11 @@ Links : [github](https://github.com/ssbc/ssb-usage-stats)
 
 The first major messaging interface built on SSB, using React. Currently has installers for Mac and Linux, and translations.
 
-[![patchwork-classic](./assets/patchwork-classic.png)](https://github.com/ssbc/patchwork-classic)
+![patchwork-classic](./assets/patchwork-classic.png)
 
 Tour (old version) : [youtube](https://www.youtube.com/watch?v=vmQUfZMCVJ0)
 
-Links : [github](https://github.com/ssbc/patchwork-classic-electron)
+Source code : [github](https://github.com/ssbc/patchwork-classic-electron)
 
 ---
 
@@ -205,6 +219,5 @@ Links : [github](https://github.com/ssbc/patchwork-classic-electron)
 
 https://github.com/staltz/easy-ssb-pub
 
----
 
 
