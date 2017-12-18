@@ -38,6 +38,7 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
     </td>
     <td> 
       <ul>
+        <li>ssb-loomio (coming soon)</li>
         <li><a href='#patch-gatherings'>patch-gatherings</a></li>
         <li><a href='#git-ssb'>git-ssb</a></li>
       </ul>
