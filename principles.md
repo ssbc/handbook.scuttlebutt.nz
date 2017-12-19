@@ -86,6 +86,20 @@ If you make it easier for users to choose their interpretation of reality, and h
 
 - %P1see8CMH8StoXs9CMzwIahrjE+Ht8FeCNjsV3eRgZw=.sha256
 
+## Free Listening
+
+> What is free speech? Looking at the history of this term, I think free speech is really about printing presses. It means that the government is not allowed to throw you in jail (or burn you at the stake) because they do not like what you are saying.
+>
+> But free speech does not mean that anyone is obliged to read your pamphlets! You still have to publish things that other people want to read, if you want people to read it. If people get upset about what you have to say, and express that loudly, that is not censorship - that is actually more free speech.
+>
+> (...)
+>
+> Free Listening is the missing right of the internet age. There is so much information that choosing what not to read becomes a major challenge. Getting access to the material you want to read is already achived, but we lack power to filter what we don't want. This right is based on individual freedom and thus does not conflict with free speech. I think this freedom will be empowered by sharing information for the filter - things the the ability to subscribe to other's moderations.
+>
+> This is power given not power taken, free listening via free speech.
+
+- %V2rZOt+nuTrS/89OquyPSgBBRjkJAf81Stq/sg2Fmtk=.sha256
+
 ## Dogfooding
 
 > When it comes to emergency survival situations, it helps a lot if your survival equipment is also the equipment that you use every day. Then you know it works, is maintained, and you know how to use it!
