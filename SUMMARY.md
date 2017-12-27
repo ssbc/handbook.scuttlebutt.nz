@@ -1,4 +1,5 @@
 * [Introduction](README.md)
+* [Getting Started](getting_started.md)
 * [Applications](applications.md)
 * [Stories](stories/index.md)
   - [Design Challenge: Avoid Centralization and Singletons](stories/design-challenge-avoid-centralization-and-singletons.md)
