@@ -1,11 +1,6 @@
 # How can I preserve my privacy
 
-Scuttlebutt does not require to use your real name. You can use
-whatever you like. Connecting to other peers to exchange gossip
-messages will reveal your IP and might be used to de-anonymize
-you. 
-
-Luckily scuttlebutt has built in support for
+Scuttlebutt has built in support for
 [TOR](https://torproject.org/). You need to be running the TOR daemon
 for scuttlebutt to relay messages through the onion network. If you
 want secure scuttlebutt to ONLY connect to other TOR nodes, you need
