@@ -20,7 +20,8 @@
 {% vimeo %}236358264{% endvimeo %}
 
 ## Ready to get started?
-**We have a detailed [Getting Started Guide](getting_started.md) which is
+
+**We have a detailed [Getting Started Guide](getting-started.md) which is
 recommended if you've got a few minutes.**
 
 If you just need to get up and running ASAP here's what you need to know:
