@@ -1,4 +1,4 @@
-# How can I preserve my privacy
+# Can I use Scuttlebutt with Tor?
 
 Scuttlebutt has built in support for
 [TOR](https://torproject.org/). You need to be running the TOR daemon

@@ -3,6 +3,10 @@
 
 ----
 
-- [All of this seems really cool?](cool.md)
-- [Who is writing this FAQ?](faq-credits.md)
+- [This seems really cool?](cool.md)
+- [What other dex projects exist?](related.md)
+- [How can I preserve my privacy?](privacy.md)
+- [Can I use Scuttlebutt with Tor?](tor.md)
+- [Who wrote this FAQ?](faq-credits.md)
 - [How can I help?](help.md)
+- [What are some good resources?](resources.md)
