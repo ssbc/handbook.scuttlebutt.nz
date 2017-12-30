@@ -27,7 +27,7 @@ If you just need to get up and running ASAP here's what you need to know:
 
 ### Quick Start
 
-1. [Download Patchwork](http://dinosaur.is/patchwork-downloader/).
+1. [Install Patchwork](http://dinosaur.is/patchwork-downloader/).
 2. Boot it up and set up your profile. 
 3. Go to [the list of pub servers](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers) and get an invite code from one.
 4. Click "+ Join Pub" in the top left corner of Patchwork and paste in the invite code.
