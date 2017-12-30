@@ -28,18 +28,12 @@ If you just need to get up and running ASAP here's what you need to know:
 
 ### Quick Start
 
-1. [Download Patchwork](http://dinosaur.is/patchwork-downloader/), and install
-   it like any other app. 
+1. [Install Patchwork](http://dinosaur.is/patchwork-downloader/).
 2. Boot it up and set up your profile. 
-3. Go to [the list of pub servers](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers) and get an
-   invite code from one.
-4. Click "+ Join Pub" in the top left corner of Patchwork and paste in the
-   invite code.  It's best to have multiple pub servers to extend your
-   visibility into the network. 
-5. Start browsing public posts and channels. Note that there's a "More Channels"
-   button under the list of active channels. 
-6. Subscribe to people and channels you find interesting. The more people you
-   follow the more channels gossip will have to flow through to you.
+3. Go to [the list of pub servers](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers) and get an invite code from one.
+4. Click "+ Join Pub" in the top left corner of Patchwork and paste in the invite code.
+5. Explore by browsing public posts and channels, expand into your extended network (Click on More > Extended Network).
+6. Follow people you find interesting. You will download content authored by everyone you follow, and everyone who they follow.
 7. Have fun, and be respectful of others. The scuttleverse is a nice place.
 
 ## Contributor Code of conduct
