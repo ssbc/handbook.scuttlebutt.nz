@@ -33,8 +33,9 @@ If you just need to get up and running ASAP here's what you need to know:
 3. Go to [the list of pub servers](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers) and get an invite code from one.
 4. Click "+ Join Pub" in the top left corner of Patchwork and paste in the invite code.
 5. Explore by browsing public posts and channels, expand into your extended network (Click on More > Extended Network).
-6. Follow people you find interesting. You will download content authored by everyone you follow, and everyone who they follow.
-7. Have fun, and be respectful of others. The scuttleverse is a nice place.
+6. Introduce yourself on the #new-people channel.
+7. Follow people you find interesting. You will download content authored by everyone you follow, and everyone who they follow.
+8. Have fun, and be respectful of others. The scuttleverse is a nice place.
 
 ## Contributor Code of conduct
 
