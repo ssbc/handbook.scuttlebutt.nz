@@ -6,6 +6,14 @@
 Here you go!
 
 	***
+	Headers 
+	# H1
+	## H2
+	### H3
+	#### H4
+	##### H5
+	###### H6
+	
 	Emphasis, aka italics, with *asterisks* or _underscores_.
 
 	Strong emphasis, aka bold, with **asterisks** or __underscores__.
@@ -44,8 +52,24 @@ Here you go!
 	arbitrary case-insensitive reference text]: https://www.mozilla.org
 	[1]: http://slashdot.org
 	[link text itself]: http://www.reddit.com
+	
+	Quotes
+	> Quotes are done as blockquotes.
+	This line is part of the same quote because there is nothing to break them up
 
+	This line has an empty line above it so will appear as unquoted
+
+	> And then this one will be a new block quote
+	
 The above yields:
+
+Headers 
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
@@ -85,6 +109,15 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
+
+Quotes
+> Quotes are done as blockquotes.
+This line is part of the same quote because there is nothing to break them up
+
+This line has an empty line above it so will appear as unquoted
+
+> And then this one will be a new block quote
+
 
 ---
 *Sources*
