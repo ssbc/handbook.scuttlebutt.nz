@@ -14,8 +14,8 @@ invite.
 Please note this is not an easy way to game the system or spam
 it. Scuttlebutt already has a great system for blocking users.
 
-Please note that even when using TOR the (normal
-rules)[https://www.whonix.org/wiki/DoNot] for staying anonymous still
+Please note that even when using TOR the [normal
+rules](https://www.whonix.org/wiki/DoNot) for staying anonymous still
 applies though.
 
 # What other cool things can I do with TOR?
