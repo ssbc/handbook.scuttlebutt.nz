@@ -149,7 +149,7 @@ Source code: `ssb://%zoL1riX2mELF0j3dydWtQ+go4nI4jaByvm5Z02cRyaQ=.sha256`
 
 A blog publishing app for long-form articles. Also has private messaging integrated.
 
-[**Installers**](https://github.com/ticktackim/ticktack-network/releases) (auto connects you to some blogging parts of the archipelago)
+[**Installers**](https://github.com/ticktackim/ticktack-workplan/releases) (auto connects you to some blogging parts of the archipelago)
 
 <img src='./assets/ticktack.png' class='shadow'/>
 
