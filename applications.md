@@ -153,7 +153,7 @@ A blog publishing app for long-form articles. Also has private messaging integra
 
 <img src='./assets/ticktack.png' class='shadow'/>
 
-Source code : [git-ssb](https://git.scuttlebot.io/%25wnNDjViKYZH%2BRWpbNzDXR2oxLWmTagvvFBjy97Zko4I%3D.sha256) | `ssb://%wnNDjViKYZH+RWpbNzDXR2oxLWmTagvvFBjy97Zko4I=.sha256`
+Source code : [git-ssb](https://git.scuttlebot.io/%25wnNDjViKYZH%2BRWpbNzDXR2oxLWmTagvvFBjy97Zko4I%3D.sha256) | [github](https://github.com/ticktackim/ticktack-workplan/releases) | `ssb://%wnNDjViKYZH+RWpbNzDXR2oxLWmTagvvFBjy97Zko4I=.sha256`
 
 ---
 
