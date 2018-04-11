@@ -13,7 +13,7 @@ I’ve helped build an app called Patchwork which sidesteps these problems. Patc
 
 > That sounds a bit complicated!
 
-It does, but the good news is you don’t need to know any crypotogrpahy, you can just install Patchwork, and it works like email.
+It does, but the good news is you don’t need to know any cryptography, you can just install Patchwork, and it works like email.
 It looks like this at the moment:
 
 ![secure_message_example](../assets/secure_message_example.png)
