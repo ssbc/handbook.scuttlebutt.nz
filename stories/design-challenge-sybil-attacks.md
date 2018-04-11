@@ -1,6 +1,6 @@
 # Design Challenge: Sybil Attacks
 
-If it is possible for an anyone to connect to a computer system then it may be possible to interfere with the operation of that system, and defenses against interference must be designed in.
+If it is possible for anyone to connect to a computer system then it may be possible to interfere with the operation of that system, and defenses against interference must be designed in.
 
 For example, email's design is vulnerable to spam.
 To send someone an email, all that is required is to have their email address; email is unsolicited messaging, so it's easy to send nuisance or fraud emails.
