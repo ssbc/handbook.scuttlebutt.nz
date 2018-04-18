@@ -24,6 +24,7 @@ Name | Author | Date
 
 Name | Author | Date
 --- | --- | --- | ---
+[Online socializing - let's try something else](http://l0010o0001l.logdown.com/posts/2018/04/16/scuttlebutt) | Tara Planas | 16 April 2018
 [The Future Will Be Technical](https://coolguy.website/writing/the-future-will-be-technical/) (SSB Non-dev Resources Grant) | Zach Mandeville | 13 December 2017
 [An Off-Grid Social Network](https://staltz.com/an-off-grid-social-network.html) | Andre Staltz | 6 April 2017
 [Gossiping Securely is the new Email](./gossiping-securely-is-the-new-email.md) \([Medium](https://medium.com/enspiral-tales/gossiping-securely-is-the-new-email-6d706d4cd435)\) | Mix Irving | 13 Feb 2016
