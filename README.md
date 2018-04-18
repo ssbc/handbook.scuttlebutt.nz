@@ -17,7 +17,7 @@
   sea-slang for gossip - a scuttlebutt is basically a watercooler on a ship
 </h4>
 
-{% vimeo %}236358264{% endvimeo %}
+Introductory video: <a href=https://vimeo.com/236358264>A Scuttlebutt Love Story</a>.
 
 ## Ready to get started?
 
