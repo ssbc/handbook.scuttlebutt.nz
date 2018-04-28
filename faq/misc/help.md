@@ -6,7 +6,7 @@
 
 You can help with the FAQ by asking a question, refining one of my answers, or submitting an entire question and answer.
 
-I am using gitbook to assemble this all, and so to help with any of the above simply submit a change request on the gitbook page, found [here](https://www.gitbook.com/book/nelsonian/ssb-faq/edit#/edit/master/README.md?_k=4k2qxt)
+This is all assembled by Gitbook, hosted  [here](https://github.com/ssbc/ssb-handbook/tree/master/faq).
 
 If that does not work, you can reach me through scuttlebutt.  My scuttlename is @ZqH7Mctu/7DNInxuwl12ECjfrAKUX2tBLq1rOldNhg0=.ed25519.  (caveat: searching by this will only work if we are in the same friend network.  But we prolly are.  I'm pretty social and this place is still small.)
 
