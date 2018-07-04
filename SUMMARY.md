@@ -12,7 +12,8 @@
 
 ---
 
-* [Principles](principles.md)
+* [Principles](principles/index.md)
+  - [Legacy](principles/legacy.md)
 * [Concepts](concepts/index.md)
   - [Identity](concepts/identity.md)
   - [Stream](concepts/stream.md)
@@ -38,7 +39,7 @@
     - [Where does all my data live?](faq/basics/data-live.md)
     - [What ports does Scuttlebutt use?](faq/basics/port.md)
     - [How much space will scuttlebutt take up?](faq/basics/size.md)
-    - [What happens if I delete everything?](faq/basics/delete.md) 
+    - [What happens if I delete everything?](faq/basics/delete.md)
   - [Applications](faq/applications/applications.md)
     - [How do posts work across apps?](faq/applications/patchwork-and-patchbay.md)
     - [Can I switch apps easily?](faq/applications/moving-ssb-apps.md)
