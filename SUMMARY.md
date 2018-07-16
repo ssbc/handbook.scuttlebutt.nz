@@ -45,6 +45,7 @@
     - [Can I switch apps easily?](faq/applications/moving-ssb-apps.md)
     - [Can I post from different devices?](faq/applications/multiple-devices.md)
     - [Is there a markdown guide for Patchwork?](faq/applications/patchwork-markup.md)
+	- [How do I upgrade Patchwork to the newest version?](faq/applications/upgrading.md)
   - [Channels](faq/channels/channels-index.md)
     - [What are channels?](faq/channels/channels.md)
     - [Are Channels sorted in any order?](faq/channels/channel-sort.md)
