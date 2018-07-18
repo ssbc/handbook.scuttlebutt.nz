@@ -8,9 +8,9 @@
     "gitbook-plugin-videoclips": "^0.1.9"
   },
   "devDependencies": {
-    "npm-run-all": "^3.1.1",
     "gh-pages": "^0.11.0",
-    "gitbook-cli": "^2.3.0"
+    "gitbook-cli": "^2.3.2",
+    "npm-run-all": "^3.1.1"
   },
   "scripts": {
     "install": "gitbook install",
