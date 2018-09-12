@@ -52,7 +52,7 @@ The resources are organized by these topics:
 * [Contributing](contributing.md)
 * [Talks](talks.md)
 * [Applications](applications.md)
-* [Principles](principles.md)
+* [Principles](principles/index.md)
 * [FAQ](faq/index.md)
 * [Stories](stories/index.md)
 * [Modules](modules.md)
