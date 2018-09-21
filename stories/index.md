@@ -10,6 +10,7 @@ Name | Author | Date
 [The Nomad Who’s Exploding the Internet Into Pieces](https://www.theatlantic.com/technology/archive/2017/05/meet-the-counterantidisintermediationists/527553/) | The Atlantic | 22 May 2017
 [Scuttlebutt: an "off-grid" P2P social network that runs without servers and can fall back to sneakernet](http://boingboing.net/2017/04/07/bug-in-tech-for-antipreppers.html) | Boing Boing | 7 April 2017
 
+
 ## Interviews
 
 Name | Author | Date
@@ -24,11 +25,17 @@ Name | Author | Date
 
 Name | Author | Date
 --- | --- | --- | ---
+[Dweb: Social Feeds with Secure Scuttlebutt](https://hacks.mozilla.org/2018/08/dweb-social-feeds-with-secure-scuttlebutt/) | André Staltz | 8 August 2018
 [Online socializing - let's try something else](http://l0010o0001l.logdown.com/posts/2018/04/16/scuttlebutt) | Tara Planas | 16 April 2018
+[Decentralisation and Scuttlebutt](https://lancewicks.com/2018/01/08/decentralisation-and-scuttlebutt/) | Lance Wicks | 8 January 2018
 [The Future Will Be Technical](https://coolguy.website/writing/the-future-will-be-technical/) (SSB Non-dev Resources Grant) | Zach Mandeville | 13 December 2017
 [An Off-Grid Social Network](https://staltz.com/an-off-grid-social-network.html) | Andre Staltz | 6 April 2017
 [Gossiping Securely is the new Email](./gossiping-securely-is-the-new-email.md) \([Medium](https://medium.com/enspiral-tales/gossiping-securely-is-the-new-email-6d706d4cd435)\) | Mix Irving | 13 Feb 2016
 [Uncapturable Distribution](http://hyper.mixmix.io/mixmix/blogposts/blob/master/uncapturable_distribution.md) \(Hypermarkdown\) | Mix Irving | 23 October 2015
+
+## Podcasts
+
+
 
 ## Unpublished
 

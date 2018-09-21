@@ -8,22 +8,6 @@
 
 - %88KMgyXpuyF1O1VtKjkycJ+R5j7sJ/DgFwLVAS19J4U=.sha256
 
-## Secure-scuttlebutt vs scuttlebutt vs scuttlebot vs sbot?
-#### An explanation of terms, repos and project history
-
-- [`scuttlebutt`](https://github.com/dominictarr/scuttlebutt): a [`gossip protocol`](https://en.wikipedia.org/wiki/Gossip_protocol) that synchronises messages via a vector clock of per-node timestamps or sequences. Dominic got this name from an amazon paper ["Efficient Reconciliation and Flow Control for Anti-Entropy Protocols"](https://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf). This is the original scuttlebutt module which should now be known as "insecure scuttlebutt". This repo is generally no longer used by the ssb community.
-
-- [`secure-scuttlebutt`](https://github.com/ssbc/secure-scuttlebutt): this is the **database** part of **ssb**. Previously this term referred to the protocol/database as a whole.
-
-- [`scuttlebot`](https://github.com/ssbc/scuttlebot): this repo adds **networking behaviour** to the database (secure-scuttlebutt).
-
-- [`sbot`](https://github.com/ssbc/scuttlebot): short for **scuttlebot**, also the cli command name.
-
-There have been suggestions to rename some repos to better reflect their use and purpose:
-
-secure-scuttlebutt --> [`ssb-db `](https://github.com/ssbc/secure-scuttlebutt/issues/159)
-scuttlebot --> [`ssb-server`](https://github.com/ssbc/scuttlebot/issues/378)
-
 ## Streams
 
 - [`pull-stream`](https://pull-stream.github.io): minimal composable streams with lazy back pressure and error propagation
@@ -61,8 +45,9 @@ scuttlebot --> [`ssb-server`](https://github.com/ssbc/scuttlebot/issues/378)
 - [`ssb-blobs`](https://github.com/ssbc/ssb-blobs): blob gossiping ssb-subprotocol
 - [`multiblob`](https://github.com/dominictarr/multiblob): a content-addressable-store that supports multiple hashing algorithms
 - [`ssb-ebt`](https://github.com/ssbc/ssb-ebt): replication with epidemic-broadcast-trees
-- [`easy-ssb-pub`](https://github.com/staltz/easy-ssb-pub): an easy-to-host server that runs an SSB "Pub"
-- [`ssb-pub`](https://github.com/ahdinosaur/ssb-pub): easily host your own ssb pub in a docker container
+- pubs
+  - [`easy-ssb-pub`](https://github.com/staltz/easy-ssb-pub): an easy-to-host server that runs an SSB "Pub"
+  - [`ssb-pub`](https://github.com/ahdinosaur/ssb-pub): easily host your own ssb pub in a docker container
 
 ## Client
 
@@ -88,3 +73,9 @@ scuttlebot --> [`ssb-server`](https://github.com/ssbc/scuttlebot/issues/378)
 - [`git-ssb`](https://git.scuttlebot.io/%25n92DiQh7ietE%2BR%2BX%2FI403LQoyf2DtR3WQfCkDKlheQU%3D.sha256): Git repos, issue tracking, and pull requests using SSB
   - [`git-remote-ssb`](https://git.scuttlebot.io/%25ZVTOK3GA2aewEDI2rPxJqKXEIv4OIUN2swMPE2FeJm8%3D.sha256): A git remote helper for using `ssb://` URLs with git
   - [`git-ssb-web`](https://git.scuttlebot.io/%25q5d5Du%2B9WkaSdjc8aJPZm%2BjMrqgo0tmfR%2BRcX5ZZ6H4%3D.sha256): A web server for browsing repos locally
+
+## Re-usable featurers
+
+- [`scuttle-blog`](https://github.com/ssbc/scuttle-blog)
+- [`ssb-chat-core`](https://github.com/stripedpajamas/ssb-chat-core): all the core functionality used by [`scat`](./applications.md#scat)
+

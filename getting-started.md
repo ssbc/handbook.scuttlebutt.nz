@@ -23,7 +23,7 @@ geeky stuff. The only caveat is that it just wants to run on one computer, and
 your identity is tied to the files on the computer you install it on. There are
 ways around this but it's beyond the scope of this document.
 
-![screenshot of Patchwork](assets/patchwork.jpg)
+![screenshot of Patchwork](assets/screenshots/patchwork.jpg)
 
 
 ## Step 0 
@@ -40,7 +40,7 @@ install it like any other app.
 
 Boot it up and set up your profile. 
 
-![patchwork new profile screenshot](assets/patchwork-first-boot.png)
+![patchwork new profile screenshot](assets/screenshots/patchwork-first-boot.png)
 
 It doesn't matter what name you put. It can be your real name. It can be a
 nickname. Like the real world it's entirely possible for multiple people to have
@@ -96,13 +96,13 @@ Go to [the list of pub servers](https://github.com/ssbc/scuttlebot/wiki/Pub-Serv
 
 Open one up in a new tab and you'll see something like this.
 
-![pub server example](assets/pub-server-page-1.png)
+![pub server example](assets/screenshots/pub-server-page-1.png)
 
 Click the button to "Get An Invitation" and it'll generate a custom invitation
 code just for you. Copy the whole thing. Then click the "+ Join Pub" button in
 Patchwork. 
 
-![Join Pub button](assets/patchwork-join-pub-button.png)
+![Join Pub button](assets/screenshots/patchwork-join-pub-button.png)
 
 There's a limit to how far gossip will travel through a network of people, and
 the bartender at a pub is just another "person" in the chain. Because of this
@@ -136,7 +136,7 @@ following people is even nicer.
 You'll see some channels listed in "Active channels" on the left, but the "More"
 menu up at the top has a "Browse All" option under "Channels".
 
-![browse all button](assets/patchwork-browse-all.png)
+![browse all button](assets/screenshots/patchwork-browse-all.png)
 
  
 Find a topic that looks interesting and start reading. Hint: perhaps the most important 

@@ -12,8 +12,8 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
 
 <table> 
   <tr>
-    <th>Social views</td>
-    <th>Coordination views</td>
+    <th>Social apps</td>
+    <th>Re-usable modules</td>
     <th>Data viz / tools</td>
   </tr>
   <tr>
@@ -30,6 +30,7 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
 
       Other:
       <ul>
+        <li><a href='#git-ssb'>git-ssb (code)</a></li>
         <li><a href='#ssb-chess'>ssb-chess</a></li>
         <li><a href='#patch-book'>patch-book</a></li>
         <li><a href='#ticktack'>Ticktack</a> (blogging)</li>
@@ -38,16 +39,20 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
     </td>
     <td> 
       <ul>
-        <li>ssb-loomio (coming soon)</li>
-        <li><a href='#patch-gatherings'>patch-gatherings</a></li>
-        <li><a href='#git-ssb'>git-ssb</a></li>
+        <li><a href='#scuttle-shell'>scuttle-shell</li>
+        <li><a href='#scuttle-poll'>scuttle-poll</li>
+        <li><a href='#scuttle-gathering'>scuttle-gatherings</a></li>
+        <li><a href='#scuttle-tag'>scuttle-tag</a></li>
+        <li><a href='#ssb-chat-core'>ssb-chat-core</a></li>
       </ul>
     </td>
     <td> 
       <ul>
+        <li><a href='#ssb-pub'>ssb-pub</a></li>
+        <li><a href='#easy-ssb-pub'>easy-ssb-pub</a></li>
+        <li><a href='#twitter-ssb-import'>twitter-ssb-import</a></li>
         <li><a href='#ssb-usage-stats'>ssb-usage-stats</a></li>
         <li><a href='#ssb-graphviz'>ssb-graphviz</a></li>
-        <li><a href='#easy-ssb-pub'>easy-ssb-pub</a></li>
       </ul>
     </td>
   </tr>
@@ -62,7 +67,7 @@ A decentralized messaging and sharing app built using [patchcore](https://github
 
 <img src='./assets/patchwork.jpg' class=''/>
 
-Source code: [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU%3D.sha256) | [github](https://github.com/ssbc/patchwork) | `ssb://%bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU=.sha256`
+Source code : [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU%3D.sha256) | [GitHub](https://github.com/ssbc/patchwork) | `ssb://%bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU=.sha256`
 
 ---
 
@@ -70,7 +75,7 @@ Source code: [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhj
 
 Also built on [patchcore](https://github.com/ssbc/patchcore), but uses a tabbed interface instead and has some more bleeding edge features. The goal is to make a client developers love - it comes with social views, as well as chess, book reviews, and some git interface.
 
-Installers _(coming soon)_
+[Installers](https://github.com/ssbc/patchbay/releases)
 
 <img src='https://github.com/ssbc/patchbay/raw/master/screenshot.png' class='shadow'/>
 
@@ -200,6 +205,27 @@ Source code : [github](https://github.com/pietgeursen/patch-gatherings)
 
 ---
 
+## twitter-ssb-import
+
+Script to import tweets from Twitter to ssb, so that they will display in Patchwork.
+
+<img src='./assets/sceenshots/twitter-ssb-import' />
+
+Source code : [github](https://github.com/arcalinea/twitter-ssb-import)
+
+---
+
+## [ssbdrv](https://github.com/cn-uofbasel/ssbdrv/)
+
+This is a proof of concept for a decentralized file system for Secure Scuttlebutt.
+
+With _SSB Drive_ you can create as many file systems ("drives") as you like, share and organize files with your friends without requiring a central repository or server. When you work on your files while offline, the _SSB Drive_ file system will merge automatically with the rest of the world once you rejoin the grid. Name conflicts are handled with "Observed Removed Sets" (OR-Sets) from CRDT.
+
+<img src='https://github.com/cn-uofbasel/ssbdrv/raw/1f7e6b11373ef6f73415f0e9c62f1ade29739251/doc/demo-20180831.gif' />
+
+Source code : [GitHub](https://github.com/cn-uofbasel/ssbdrv/)
+---
+
 ## ssb-graphviz
 
 An interactive visualisation of your local scuttleverse. Fly with [w,a,s,d] and look with [up,left,down,right]. Hover over nodes to see who they are and light up their 1st and (dimmer) 2nd degree friendships.
@@ -219,7 +245,7 @@ Posts published over time (from the perspective of Cel's pub server). Colors rep
 </a>
 
 See it live : https://celehner.com/ssbc/stats/daily.html
-Source code : [github](https://github.com/ssbc/ssb-usage-stats)
+Source code : [GitHub](https://github.com/ssbc/ssb-usage-stats)
 
 ---
 
