@@ -35,6 +35,7 @@
   - [Introduction to SSB: Flume & Plugins](https://josiahwitt.com/2018/07/08/scuttlebutt-intro-flume.html)
   - [Introduction to Patchfoo](https://github.com/noffle/sailing-patchfoo)
   - [Introduction to git-ssb](https://github.com/noffle/git-ssb-intro)
+  - [Introduction to ssb-npm](https://github.com/noffle/ssb-npm-101)
 * [Modules](modules.md)
 * [FAQ](faq/index.md)
   - [Basics](faq/basics/basics.md)

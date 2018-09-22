@@ -2,6 +2,8 @@
 
 *Common questions about scuttlebutt, ssb, all the patches, and the scuttleverse in general.  If you don't know what any of that previous sentence meant, this is the place to learn!*
 
+See also: [P2P FAQ](https://github.com/noffle/p2p-faq)
+
 ----
 
 * [ Basics](basics/basics.md)

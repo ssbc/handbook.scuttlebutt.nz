@@ -12,9 +12,9 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
 
 <table> 
   <tr>
-    <th>Social apps</td>
-    <th>Re-usable modules</td>
-    <th>Data viz / tools</td>
+    <th>Social Apps</td>
+    <th>Infrastructure</td>
+    <th>Data Viz/td>
   </tr>
   <tr>
     <td> 
@@ -23,10 +23,48 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
         <li><a href='#patchwork'>Patchwork</a></li>
         <li><a href='#patchbay'>Patchbay</a></li>
         <li><a href='#patchfoo'>Patchfoo</a></li>
-        <li><a href='#minbase'>Minbase</a></li>
         <li><a href='#mmmmm'>MMMMM</a></li>
+        <li><a href='#patchfox'>Patchfox</a></li>
+        <li><a href='#patchless'>Patchless</a></li>
+        <li><a href='#talenet'>tale:net</a></li>
+        <li><a href='#ngx-ssb-client'>ngx-ssb-client</a></li>
+        <li><a href='#mvd'>mvd</a></li>
         <li><a href='#patchwork-classic'>Patchwork Classic</a></li>
       </ul>
+
+
+## [patchfox](https://github.com/soapdog/patchfox)
+
+![patchfox](assets/screenshots/patchfox.png)
+
+## [patchless](https://github.com/patchless/patchless)
+
+minimal app
+
+![patchless](./screenshots/patchless.png)
+
+---
+class: center, no-margin
+
+## [ngx-ssb-client](https://github.com/datenknoten/ngx-ssb-client)
+
+![ngx-ssb-client](./screenshots/ngx-ssb-client-2.png)
+
+![ngx-ssb-client](./screenshots/ngx-ssb-client-4.png)
+
+---
+
+## [mvd](http://gitmx.com/)
+
+![mvd](./screenshots/mvd.png)
+
+???
+
+GitHub: https://github.com/evbogue/mvd
+
+git-ssb-web: http://git-ssb.celehner.com/%25NPNNvcnTMZUFZSWl%2F2Z4XX%2BYSdqsqOhyPacp%2BlgpQUw%3D.sha256
+
+git-ssb: ssb://%NPNNvcnTMZUFZSWl/2Z4XX+YSdqsqOhyPacp+lgpQUw=.sha256
 
       Other:
       <ul>
@@ -37,20 +75,35 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
         <li><a href='#ferment'>Ferment</a> (music)</li>
       </ul>
     </td>
-    <td> 
-      <ul>
-        <li><a href='#scuttle-shell'>scuttle-shell</li>
-        <li><a href='#scuttle-poll'>scuttle-poll</li>
-        <li><a href='#scuttle-gathering'>scuttle-gatherings</a></li>
-        <li><a href='#scuttle-tag'>scuttle-tag</a></li>
-        <li><a href='#ssb-chat-core'>ssb-chat-core</a></li>
-      </ul>
-    </td>
+
+
+## [tale:net](https://t4l3.net/)
+
+skill sharing and ideation app
+
+![tale:net](./screenshots/talenet-skilliverse.png)
+
+## [scat](https://github.com/stripedpajamas/scat)
+
+chat app
+
+![scat](./screenshots/scat.png)
+
+## app: recipes
+
+![recipes](./screenshots/recipes.gif)
+
+([%6ZmujAEWSxaNo5olG+gPoUq/pLrD5iPBdvoBuy8AHPg=.sha256](https://viewer.scuttlebot.io/%256ZmujAEWSxaNo5olG%2BgPoUq%2FpLrD5iPBdvoBuy8AHPg%3D.sha256))
+
     <td> 
       <ul>
         <li><a href='#ssb-pub'>ssb-pub</a></li>
         <li><a href='#easy-ssb-pub'>easy-ssb-pub</a></li>
         <li><a href='#twitter-ssb-import'>twitter-ssb-import</a></li>
+      </ul>
+    </td>
+    <td> 
+      <ul>
         <li><a href='#ssb-usage-stats'>ssb-usage-stats</a></li>
         <li><a href='#ssb-graphviz'>ssb-graphviz</a></li>
       </ul>
@@ -79,7 +132,7 @@ Also built on [patchcore](https://github.com/ssbc/patchcore), but uses a tabbed 
 
 <img src='https://github.com/ssbc/patchbay/raw/master/screenshot.png' class='shadow'/>
 
-Source code : [git-ssb](https://git-ssb.celehner.com/%25s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc%3D.sha256) | [github](https://github.com/ssbc/patchbay) | `ssb://%s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc=.sha256`
+Source code : [git-ssb](https://git-ssb.celehner.com/%25s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc%3D.sha256) | [GitHub](https://github.com/ssbc/patchbay) | `ssb://%s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc=.sha256`
 
 ---
 
@@ -92,7 +145,7 @@ Plain SSB web UI. Uses HTML forms instead of client-side JS. Designed for use on
 <img src='https://github.com/noffle/sailing-patchfoo/raw/master/screenshot.jpg' class='shadow'/>
 
 
-Source code : [git-ssb](http://git.scuttlebot.io/%25YAg1hicat%2B2GELjE2QJzDwlAWcx0ML%2B1sXEdsWwvdt8%3D.sha256) | [github](https://github.com/ssbc/patchfoo) | `ssb://%YAg1hicat+2GELjE2QJzDwlAWcx0ML+1sXEdsWwvdt8=.sha256`
+Source code : [git-ssb](http://git.scuttlebot.io/%25YAg1hicat%2B2GELjE2QJzDwlAWcx0ML%2B1sXEdsWwvdt8%3D.sha256) | [GitHub](https://github.com/ssbc/patchfoo) | `ssb://%YAg1hicat+2GELjE2QJzDwlAWcx0ML+1sXEdsWwvdt8=.sha256`
 
 ---
 
@@ -102,7 +155,7 @@ Minbase is an unopinionated minimal base on which to build opinionated Secure Sc
 
 <img src='https://github.com/evbogue/minbase/raw/master/minbase.png' class='shadow'/>
 
-Source code : [git-ssb](https://git.scuttlebot.io/%25%2BtyUthD1L689osLUj8LNLV4smRKpO7Wu07DB%2BLMd7TQ%3D.sha256) | [github](https://github.com/evbogue/minbase) | `ssb://%+tyUthD1L689osLUj8LNLV4smRKpO7Wu07DB+LMd7TQ=.sha256`
+Source code : [git-ssb](https://git.scuttlebot.io/%25%2BtyUthD1L689osLUj8LNLV4smRKpO7Wu07DB%2BLMd7TQ%3D.sha256) | [GitHub](https://github.com/evbogue/minbase) | `ssb://%+tyUthD1L689osLUj8LNLV4smRKpO7Wu07DB+LMd7TQ=.sha256`
 
 ---
 
@@ -114,7 +167,7 @@ A _very_ early mobile version of scuttlebutt for android.
 
 ![mmmmm](./assets/mmmmm.jpg)
 
-Source code : [github](https://github.com/staltz/mmmmm-mobile)
+Source code : [GitHub](https://github.com/staltz/mmmmm-mobile)
 
 ---
 
@@ -126,7 +179,7 @@ The first major messaging interface built on SSB, using React. Currently has ins
 
 Tour (old version) : [youtube](https://www.youtube.com/watch?v=vmQUfZMCVJ0)
 
-Source code : [github](https://github.com/ssbc/patchwork-classic-electron)
+Source code : [GitHub](https://github.com/ssbc/patchwork-classic-electron)
 
 ---
 
@@ -136,7 +189,7 @@ Correspondence chess built on top of the scuttlebutt platform.
 
 <img src='http://i.imgur.com/Xz9ovwX.png' class='shadow'/>
 
-Source code : [github](https://github.com/Happy0/ssb-chess)
+Source code : [GitHub](https://github.com/Happy0/ssb-chess)
 
 ---
 
@@ -158,7 +211,7 @@ A blog publishing app for long-form articles. Also has private messaging integra
 
 <img src='./assets/ticktack.png' class='shadow'/>
 
-Source code : [git-ssb](https://git.scuttlebot.io/%25wnNDjViKYZH%2BRWpbNzDXR2oxLWmTagvvFBjy97Zko4I%3D.sha256) | [github](https://github.com/ticktackim/ticktack-workplan/releases) | `ssb://%wnNDjViKYZH+RWpbNzDXR2oxLWmTagvvFBjy97Zko4I=.sha256`
+Source code : [git-ssb](https://git.scuttlebot.io/%25wnNDjViKYZH%2BRWpbNzDXR2oxLWmTagvvFBjy97Zko4I%3D.sha256) | [GitHub](https://github.com/ticktackim/ticktack-workplan/releases) | `ssb://%wnNDjViKYZH+RWpbNzDXR2oxLWmTagvvFBjy97Zko4I=.sha256`
 
 ---
 
@@ -171,7 +224,7 @@ Note: Servers for the webtorrent part of this are currently not being maintained
 
 Tour : [youtube](https://www.youtube.com/watch?v=xgvxXbWYmrI)
 
-Source code : [git-ssb](https://git-ssb.celehner.com/%25t3XQv5Gk%2FdzJQM1fWFnMlaTlTvmtd3BHYCTIzhT%2F7G8%3D.sha256) | [github](https://github.com/fermentation/ferment) | `ssb://%t3XQv5Gk/dzJQM1fWFnMlaTlTvmtd3BHYCTIzhT/7G8=.sha256`
+Source code : [git-ssb](https://git-ssb.celehner.com/%25t3XQv5Gk%2FdzJQM1fWFnMlaTlTvmtd3BHYCTIzhT%2F7G8%3D.sha256) | [GitHub](https://github.com/fermentation/ferment) | `ssb://%t3XQv5Gk/dzJQM1fWFnMlaTlTvmtd3BHYCTIzhT/7G8=.sha256`
 
 ---
 
@@ -191,7 +244,7 @@ Known online portals serving git-ssb over http:
 
 <img src='./assets/git-ssb-index.png' class='shadow'/>
 
-Source code : [git-ssb](https://git-ssb.celehner.com/%25n92DiQh7ietE%2BR%2BX%2FI403LQoyf2DtR3WQfCkDKlheQU%3D.sha256) | [github](https://github.com/clehner/git-ssb) | `ssb://%n92DiQh7ietE+R+X/I403LQoyf2DtR3WQfCkDKlheQU=.sha256`
+Source code : [git-ssb](https://git-ssb.celehner.com/%25n92DiQh7ietE%2BR%2BX%2FI403LQoyf2DtR3WQfCkDKlheQU%3D.sha256) | [GitHub](https://github.com/clehner/git-ssb) | `ssb://%n92DiQh7ietE+R+X/I403LQoyf2DtR3WQfCkDKlheQU=.sha256`
 
 ---
 
@@ -201,29 +254,48 @@ Organise meetups / events over scuttlebutt. Gatherings is a [patchcore](https://
 
 <img src='./assets/patch-gatherings.png' class='shadow'/>
 
-Source code : [github](https://github.com/pietgeursen/patch-gatherings)
+Source code : [GitHub](https://github.com/pietgeursen/patch-gatherings)
 
 ---
 
 ## twitter-ssb-import
 
-Script to import tweets from Twitter to ssb, so that they will display in Patchwork.
+> Script to import tweets from Twitter to ssb, so that they will display in Patchwork.
 
 <img src='./assets/sceenshots/twitter-ssb-import' />
 
-Source code : [github](https://github.com/arcalinea/twitter-ssb-import)
+Source code : [GitHub](https://github.com/arcalinea/twitter-ssb-import)
+
+---
+
+## ssb-web
+
+%dBn9uyqFKuinu4wv4sEYY3Cp49kJswkrTMka7wJJXTM=.sha256
+
+### [ssb-webify](https://github.com/noffle/ssb-webify)
+
+> Convert a local file hierarchy into a scuttlebutt website
+
+Source code : [GitHub](https://github.com/noffle/ssb-webify)
+
+### [ssb-web-resolver](https://github.com/noffle/ssb-web-resolver)
+
+> Resolve an ssb-web url
+
+Source code : [GitHub](https://github.com/noffle/ssb-web-resolver)
 
 ---
 
 ## [ssbdrv](https://github.com/cn-uofbasel/ssbdrv/)
 
-This is a proof of concept for a decentralized file system for Secure Scuttlebutt.
+> This is a proof of concept for a decentralized file system for Secure Scuttlebutt.
 
-With _SSB Drive_ you can create as many file systems ("drives") as you like, share and organize files with your friends without requiring a central repository or server. When you work on your files while offline, the _SSB Drive_ file system will merge automatically with the rest of the world once you rejoin the grid. Name conflicts are handled with "Observed Removed Sets" (OR-Sets) from CRDT.
+> With _SSB Drive_ you can create as many file systems ("drives") as you like, share and organize files with your friends without requiring a central repository or server. When you work on your files while offline, the _SSB Drive_ file system will merge automatically with the rest of the world once you rejoin the grid. Name conflicts are handled with "Observed Removed Sets" (OR-Sets) from CRDT.
 
 <img src='https://github.com/cn-uofbasel/ssbdrv/raw/1f7e6b11373ef6f73415f0e9c62f1ade29739251/doc/demo-20180831.gif' />
 
 Source code : [GitHub](https://github.com/cn-uofbasel/ssbdrv/)
+
 ---
 
 ## ssb-graphviz
@@ -233,6 +305,16 @@ An interactive visualisation of your local scuttleverse. Fly with [w,a,s,d] and 
 <img src='./assets/graph-viz.png' class='shadow'/>
 
 Source code : `ssb://%hNm67sfnZFtWkD/+1qxH3UfzhXykfpKtOL1C/XbLANA=.sha256`
+
+---
+
+## [ssb-to-graphml](https://www.npmjs.com/package/ssb-to-graphml)
+
+Convert your SSB social graph to GraphML format.
+
+[![Andre's original gephi viz](./assets/screenshots/gephi-andre-0.png)](https://twitter.com/andrestaltz/status/1011980406919434240)
+
+[![Mix's gephi viz](./assets/screenshots/gephi-mix-0.png)](https://twitter.com/whimful/status/1012123357389570048)
 
 ---
 
@@ -254,6 +336,3 @@ Source code : [GitHub](https://github.com/ssbc/ssb-usage-stats)
 ![](https://github.com/staltz/easy-ssb-pub/raw/master/screenshot.png) 
 
 https://github.com/staltz/easy-ssb-pub
-
-
-

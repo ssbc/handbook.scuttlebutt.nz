@@ -74,8 +74,11 @@
   - [`git-remote-ssb`](https://git.scuttlebot.io/%25ZVTOK3GA2aewEDI2rPxJqKXEIv4OIUN2swMPE2FeJm8%3D.sha256): A git remote helper for using `ssb://` URLs with git
   - [`git-ssb-web`](https://git.scuttlebot.io/%25q5d5Du%2B9WkaSdjc8aJPZm%2BjMrqgo0tmfR%2BRcX5ZZ6H4%3D.sha256): A web server for browsing repos locally
 
-## Re-usable featurers
+## App helpers
 
-- [`scuttle-blog`](https://github.com/ssbc/scuttle-blog)
-- [`ssb-chat-core`](https://github.com/stripedpajamas/ssb-chat-core): all the core functionality used by [`scat`](./applications.md#scat)
-
+- [`scuttle-shell`]()
+- [`scuttle-poll`]()
+- [`scuttle-gathering`]()
+- [`scuttle-tag`](https://github.com/ssbc/scuttle-tag): Tag reading and manipulation plugin for secure scuttlebutt.
+- [`scuttle-blog`](https://github.com/ssbc/scuttle-blog): A helper module which covers all your ssb blog related needs from `blog` data
+- [`ssb-chat-core`](https://github.com/stripedpajamas/ssb-chat-core): All the core functionality used by [`scat`](./applications.md#scat)
