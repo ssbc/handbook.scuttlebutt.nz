@@ -8,6 +8,14 @@
 
 - %88KMgyXpuyF1O1VtKjkycJ+R5j7sJ/DgFwLVAS19J4U=.sha256
 
+stack concept outline:
+
+![stack concepts](/assets/stack-concepts.jpg)
+
+stack module outline:
+
+![stack modules](/assets/stack-modules.jpg)
+
 ## Streams
 
 - [`pull-stream`](https://pull-stream.github.io): minimal composable streams with lazy back pressure and error propagation
@@ -23,6 +31,13 @@
 [`secure-scuttlebutt`](https://github.com/ssbc/secure-scuttlebutt): database of unforgable append-only feeds, optimized for efficient peer-to-peer replication
 
 - [`flumedb`](https://github.com/flumedb/flumedb): modular database where logs are moved with streams
+  - [`flumelog-offset`](https://github.com/flumedb/flumelog-offset): An flumelog where the offset into the file is the key
+  - [`flumelog-memory`](https://github.com/flumedb/flumelog-memory): A simple in-memory flumelog
+  - [`flumeview-query`](https://github.com/flumedb/flumeview-query): A flumeview with map-filter-reduce queries
+  - [`flumeview-level`](https://github.com/flumedb/flumeview-level): A flumeview implemented on top of level
+  - [`flumeview-reduce`](https://github.com/flumedb/flumeview-reduce): A flumeview into a reduce function
+  - [`flumeview-hashtable`](https://github.com/flumedb/flumeview-hashtable): A in-memory hashtable based flumeview
+  - [`flumeview-search`](https://github.com/flumedb/flumeview-search): fulltext search as a flumeview
 - [`ssb-keys`](https://github.com/ssbc/ssb-keys): keyfile operations for ssb
 - [`ssb-feed`](https://github.com/ssbc/ssb-feed): create a secure-scuttlebutt feed
 - [`ssb-config`](https://github.com/ssbc/ssb-config): standard configuration for ssb
@@ -41,9 +56,12 @@
 - [`mdmanifest`](https://github.com/ssbc/mdmanifest): markdown manifests for mux rpc apis
 - [`muxrpcli`](https://github.com/ssbc/muxrpcli): command-line interface to mux rpc servers
 - [`secret-stack`](https://github.com/ssbc/secret-stack): connect peers to each other using secret-handshakes
+- [`ssb-validate`](https://github.com/ssbc/ssb-validate): validate ssb messages, completely functionally
 - [`ssb-query`](https://github.com/dominictarr/ssb-query): a functional query engine, that operates over streams of js objects, and can be optimized via database indexes.
 - [`ssb-blobs`](https://github.com/ssbc/ssb-blobs): blob gossiping ssb-subprotocol
+- [`ssb-friends`](https://github.com/ssbc/ssb-friends): the logic around who to replicate or not
 - [`multiblob`](https://github.com/dominictarr/multiblob): a content-addressable-store that supports multiple hashing algorithms
+- [`ssb-ooo`](https://github.com/dominictarr/ssb-ooo): out-of-order messages
 - [`ssb-ebt`](https://github.com/ssbc/ssb-ebt): replication with epidemic-broadcast-trees
 - pubs
   - [`easy-ssb-pub`](https://github.com/staltz/easy-ssb-pub): an easy-to-host server that runs an SSB "Pub"
@@ -76,9 +94,18 @@
 
 ## App helpers
 
-- [`scuttle-shell`]()
-- [`scuttle-poll`]()
-- [`scuttle-gathering`]()
+- [`ssb-schema-definitions`](https://github.com/ssbc/ssb-schema-definitions): Standardised schema definitions for ssb message types using is-my-json-valid
+- [`scuttle-shell`](https://github.com/ssbc/scuttle-shell): A system tray app for running Secure Scuttlebutt and providing sbot features to your local system
+- [`scuttle-poll`](https://github.com/ssbc/scuttle-poll): Create and vote on polls on ssb 
+  - [`ssb-poll-schema`](https://github.com/ssbc/ssb-poll-schema): Gives parsers and validators for all known schema versions of ssb-poll messages
+- [`scuttle-gathering`](https://github.com/ssbc/scuttle-gathering): Returns a set of functions as an API for validating, building, publishing and reading records related to gatherings
+  - [`ssb-gathering-schema`](https://github.com/ssbc/ssb-gathering-schema)
 - [`scuttle-tag`](https://github.com/ssbc/scuttle-tag): Tag reading and manipulation plugin for secure scuttlebutt.
 - [`scuttle-blog`](https://github.com/ssbc/scuttle-blog): A helper module which covers all your ssb blog related needs from `blog` data
+- [`ssb-meme`](https://github.com/ssbc/ssb-meme): Uses flumeview-search to build an index of all images names.
 - [`ssb-chat-core`](https://github.com/stripedpajamas/ssb-chat-core): All the core functionality used by [`scat`](./applications.md#scat)
+- [`ssb-bot`](https://github.com/ahdinosaur/ssb-bot): conversational user interfaces for Scuttlebutt :robot:
+
+## Dev helpers
+
+- [`scuttle-playbook`](https://github.com/maackle/scuttle-playbook): A very opinionated but very convenient way to test Secure Scuttlebutt applications

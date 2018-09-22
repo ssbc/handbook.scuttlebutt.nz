@@ -37,7 +37,7 @@ If you just need to get up and running ASAP here's what you need to know:
 7. Follow people you find interesting. You will download content authored by everyone you follow, and everyone who they follow.
 8. Have fun, and be respectful of others. The scuttleverse is a nice place.
 
-## Contributor Code of conduct
+## Contributor Code of Conduct
 
 Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
 
@@ -55,6 +55,7 @@ The resources are organized by these topics:
 * [Principles](principles.md)
 * [FAQ](faq/index.md)
 * [Stories](stories/index.md)
+* [Protocol](protocol.md)
 * [Modules](modules.md)
 * [Concepts](concepts/index.md)
 * [Guides](guides/index.md)

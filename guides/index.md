@@ -2,7 +2,7 @@
 
 This section is a collection of guides that are useful to introductions for Scuttlebutt applications and tools.
 
-- [Scuttlebutt Protocol Guide](https://ssbc.github.io/scuttlebutt-protocol-guide/)
+- [Scuttlebutt Guide](https://github.com/ssbc/scuttlebutt-guide)
 - [First steps with sbot](./cli-first-steps.md)
 - [SSB field guide](https://github.com/nichoth/ssb-field-guide)
 - [Introduction to SSB: Your Test Playground](https://josiahwitt.com/2018/07/08/scuttlebutt-intro-test-playground.html)
