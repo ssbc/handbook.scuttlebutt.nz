@@ -228,7 +228,7 @@ Source code : [GitHub](https://github.com/talenet/talenet)
 
 Correspondence chess built on top of the scuttlebutt platform.
 
-<img src='http://i.imgur.com/Xz9ovwX.png' class='shadow'/>
+<img src='https://i.imgur.com/Xz9ovwX.png' class='shadow'/>
 
 Source code : [GitHub](https://github.com/Happy0/ssb-chess)
 
