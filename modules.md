@@ -1,4 +1,13 @@
-# Modules
+<h1>
+  Modules
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+</h1>
 
 > Isaac Schlueter (creator of npm) puts it very well: agreement is very difficult, so limit the amount of agreement necessary.
 >
@@ -8,21 +17,13 @@
 
 - %88KMgyXpuyF1O1VtKjkycJ+R5j7sJ/DgFwLVAS19J4U=.sha256
 
-## Secure-scuttlebutt vs scuttlebutt vs scuttlebot vs sbot?
-#### An explanation of terms, repos and project history
+stack concept outline:
 
-- [`scuttlebutt`](https://github.com/dominictarr/scuttlebutt): a [`gossip protocol`](https://en.wikipedia.org/wiki/Gossip_protocol) that synchronises messages via a vector clock of per-node timestamps or sequences. Dominic got this name from an amazon paper ["Efficient Reconciliation and Flow Control for Anti-Entropy Protocols"](https://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf). This is the original scuttlebutt module which should now be known as "insecure scuttlebutt". This repo is generally no longer used by the ssb community.
+![stack concepts](/assets/stack-concepts.jpg)
 
-- [`secure-scuttlebutt`](https://github.com/ssbc/secure-scuttlebutt): this is the **database** part of **ssb**. Previously this term referred to the protocol/database as a whole.
+stack module outline:
 
-- [`scuttlebot`](https://github.com/ssbc/scuttlebot): this repo adds **networking behaviour** to the database (secure-scuttlebutt).
-
-- [`sbot`](https://github.com/ssbc/scuttlebot): short for **scuttlebot**, also the cli command name.
-
-There have been suggestions to rename some repos to better reflect their use and purpose:
-
-secure-scuttlebutt --> [`ssb-db `](https://github.com/ssbc/secure-scuttlebutt/issues/159)
-scuttlebot --> [`ssb-server`](https://github.com/ssbc/scuttlebot/issues/378)
+![stack modules](/assets/stack-modules.jpg)
 
 ## Streams
 
@@ -39,6 +40,13 @@ scuttlebot --> [`ssb-server`](https://github.com/ssbc/scuttlebot/issues/378)
 [`secure-scuttlebutt`](https://github.com/ssbc/secure-scuttlebutt): database of unforgable append-only feeds, optimized for efficient peer-to-peer replication
 
 - [`flumedb`](https://github.com/flumedb/flumedb): modular database where logs are moved with streams
+  - [`flumelog-offset`](https://github.com/flumedb/flumelog-offset): An flumelog where the offset into the file is the key
+  - [`flumelog-memory`](https://github.com/flumedb/flumelog-memory): A simple in-memory flumelog
+  - [`flumeview-query`](https://github.com/flumedb/flumeview-query): A flumeview with map-filter-reduce queries
+  - [`flumeview-level`](https://github.com/flumedb/flumeview-level): A flumeview implemented on top of level
+  - [`flumeview-reduce`](https://github.com/flumedb/flumeview-reduce): A flumeview into a reduce function
+  - [`flumeview-hashtable`](https://github.com/flumedb/flumeview-hashtable): A in-memory hashtable based flumeview
+  - [`flumeview-search`](https://github.com/flumedb/flumeview-search): fulltext search as a flumeview
 - [`ssb-keys`](https://github.com/ssbc/ssb-keys): keyfile operations for ssb
 - [`ssb-feed`](https://github.com/ssbc/ssb-feed): create a secure-scuttlebutt feed
 - [`ssb-config`](https://github.com/ssbc/ssb-config): standard configuration for ssb
@@ -57,12 +65,16 @@ scuttlebot --> [`ssb-server`](https://github.com/ssbc/scuttlebot/issues/378)
 - [`mdmanifest`](https://github.com/ssbc/mdmanifest): markdown manifests for mux rpc apis
 - [`muxrpcli`](https://github.com/ssbc/muxrpcli): command-line interface to mux rpc servers
 - [`secret-stack`](https://github.com/ssbc/secret-stack): connect peers to each other using secret-handshakes
+- [`ssb-validate`](https://github.com/ssbc/ssb-validate): validate ssb messages, completely functionally
 - [`ssb-query`](https://github.com/dominictarr/ssb-query): a functional query engine, that operates over streams of js objects, and can be optimized via database indexes.
 - [`ssb-blobs`](https://github.com/ssbc/ssb-blobs): blob gossiping ssb-subprotocol
+- [`ssb-friends`](https://github.com/ssbc/ssb-friends): the logic around who to replicate or not
 - [`multiblob`](https://github.com/dominictarr/multiblob): a content-addressable-store that supports multiple hashing algorithms
+- [`ssb-ooo`](https://github.com/dominictarr/ssb-ooo): out-of-order messages
 - [`ssb-ebt`](https://github.com/ssbc/ssb-ebt): replication with epidemic-broadcast-trees
-- [`easy-ssb-pub`](https://github.com/staltz/easy-ssb-pub): an easy-to-host server that runs an SSB "Pub"
-- [`ssb-pub`](https://github.com/ahdinosaur/ssb-pub): easily host your own ssb pub in a docker container
+- pubs
+  - [`easy-ssb-pub`](https://github.com/staltz/easy-ssb-pub): an easy-to-host server that runs an SSB "Pub"
+  - [`ssb-pub`](https://github.com/ahdinosaur/ssb-pub): easily host your own ssb pub in a docker container
 
 ## Client
 
@@ -88,3 +100,22 @@ scuttlebot --> [`ssb-server`](https://github.com/ssbc/scuttlebot/issues/378)
 - [`git-ssb`](https://git.scuttlebot.io/%25n92DiQh7ietE%2BR%2BX%2FI403LQoyf2DtR3WQfCkDKlheQU%3D.sha256): Git repos, issue tracking, and pull requests using SSB
   - [`git-remote-ssb`](https://git.scuttlebot.io/%25ZVTOK3GA2aewEDI2rPxJqKXEIv4OIUN2swMPE2FeJm8%3D.sha256): A git remote helper for using `ssb://` URLs with git
   - [`git-ssb-web`](https://git.scuttlebot.io/%25q5d5Du%2B9WkaSdjc8aJPZm%2BjMrqgo0tmfR%2BRcX5ZZ6H4%3D.sha256): A web server for browsing repos locally
+
+## App helpers
+
+- [`ssb-schema-definitions`](https://github.com/ssbc/ssb-schema-definitions): Standardised schema definitions for ssb message types using is-my-json-valid
+- [`scuttle-shell`](https://github.com/ssbc/scuttle-shell): A system tray app for running Secure Scuttlebutt and providing sbot features to your local system
+- [`scuttle-poll`](https://github.com/ssbc/scuttle-poll): Create and vote on polls on ssb 
+  - [`ssb-poll-schema`](https://github.com/ssbc/ssb-poll-schema): Gives parsers and validators for all known schema versions of ssb-poll messages
+- [`scuttle-gathering`](https://github.com/ssbc/scuttle-gathering): Returns a set of functions as an API for validating, building, publishing and reading records related to gatherings
+  - [`ssb-gathering-schema`](https://github.com/ssbc/ssb-gathering-schema)
+- [`scuttle-tag`](https://github.com/ssbc/scuttle-tag): Tag reading and manipulation plugin for secure scuttlebutt.
+- [`scuttle-blog`](https://github.com/ssbc/scuttle-blog): A helper module which covers all your ssb blog related needs from `blog` data
+- [`ssb-meme`](https://github.com/ssbc/ssb-meme): Uses flumeview-search to build an index of all images names.
+- [`ssb-chat-core`](https://github.com/stripedpajamas/ssb-chat-core): All the core functionality used by [`scat`](./applications.md#scat)
+- [`ssb-bot`](https://github.com/ahdinosaur/ssb-bot): conversational user interfaces for Scuttlebutt :robot:
+
+## Dev helpers
+
+- [`scuttle-playbook`](https://github.com/maackle/scuttle-playbook): A very opinionated but very convenient way to test Secure Scuttlebutt applications
+- [`ssb-utils`](https://github.com/kseistrup/ssb-utils): CLI utilities for use with Secure Scuttlebutt (SSB)

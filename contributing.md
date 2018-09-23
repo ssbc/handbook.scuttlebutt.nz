@@ -1,5 +1,7 @@
 # Contributing
 
+![Hermies watering](assets/garden/hermies-watering.gif)
+
 This project is open commons that anyone can improve.
 
 We welcome all contributions, such as but not limited to:
