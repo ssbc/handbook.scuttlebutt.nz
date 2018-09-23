@@ -34,9 +34,11 @@ We aim for autonomous solving of collaborative problems with a common vision.
 
 ## Hosting a [Pub server](concepts/pub.md)
 
-The easiest way to start hosting a [Pub server](concepts/pub.md) is to use [`easy-ssb-pub`](https://github.com/staltz/easy-ssb-pub).
+The easiest way to start hosting a [Pub server](concepts/pub.md) is to use
 
-Or, follow the ["Create a Pub" guide at scuttlebot.io](http://scuttlebot.io/docs/config/create-a-pub.html).
+- [`ssb-pub`](https://github.com/ahdinosaur/ssb-pub) ([one click installer!](http://butt.nz/install?url=https://github.com/ahdinosaur/ssb-pub)),
+- [`easy-ssb-pub`](https://github.com/staltz/easy-ssb-pub),
+- or, follow the ["Create a Pub" guide at scuttlebot.io](http://scuttlebot.io/docs/config/create-a-pub.html)
 
 ## Contributing Code
 
