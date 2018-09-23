@@ -1,5 +1,7 @@
 # Concepts
 
+![Hermies watering](/assets/garden/hermies-watering.gif)
+
 This section is a collection of concepts that are useful to understand the scuttleverse.
 
 A lot of these are common to many of the current p2p database protocols, however there are important differences to keep in mind.

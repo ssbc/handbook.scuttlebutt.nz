@@ -6,20 +6,34 @@
     height="256"
   />
   <br />
+  <img src="./assets/garden/small-grass.gif" alt="small grass">
+  <img src="./assets/garden/lavender.gif" alt="lavender">
+  <img src="./assets/garden/small-hermies-dancing.gif" alt="small hermies dancing">
+  <img src="./assets/garden/medium-grass.gif" alt="medium grass">
   Scuttlebutt
+  <img src="./assets/garden/medium-grass.gif" alt="medium grass">
+  <img src="./assets/garden/small-hermies-dancing.gif" alt="small hermies dancing">
+  <img src="./assets/garden/lavender.gif" alt="lavender">
+  <img src="./assets/garden/small-grass.gif" alt="small grass">
 </h1>
 
 <h2 align="center">
+  <img src="./assets/garden/small-hermies-star.gif" alt="small hermies star">
   a decent(ralised) secure gossip platform
+  <img src="./assets/garden/small-hermies-love.gif" alt="small hermies love">
 </h2>
 
 <h4 align="center">
   sea-slang for gossip - a scuttlebutt is basically a watercooler on a ship
 </h4>
 
+<img src="./assets/garden/sailing-away.gif" alt="sailboat sailing away">
+
 {% vimeo %}236358264{% endvimeo %}
 
 ## Ready to get started?
+
+<img src="./assets/garden/hermies-watering.gif" alt="hermies watering">
 
 **We have a detailed [Getting Started Guide](getting-started.md) which is
 recommended if you've got a few minutes.**
@@ -43,6 +57,8 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 
 ## Have Other Questions?
 
+<img src="./assets/garden/hermies-gift.gif" alt="hermies gift">
+
 A great place to learn more is our [FAQ page](faq/index.md)
 
 In addition, you'll find a wealth of resources within this handbook, accessible through the sidebar.  
@@ -60,3 +76,16 @@ The resources are organized by these topics:
 * [Concepts](concepts/index.md)
 * [Guides](guides/index.md)
 * [Glossary](glossary.md)
+
+
+<div align="center">
+  <img src="./assets/garden/medium-grass.gif" alt="medium grass">
+  <img src="./assets/garden/dandelion-puff.gif" alt="dandelion puff">
+  <img src="./assets/garden/large-grass.gif" alt="large grass">
+  <img src="./assets/garden/dandelion-gold.gif" alt="dandelion gold">
+  <img src="./assets/garden/medium-grass.gif" alt="medium grass">
+  <img src="./assets/garden/dandelion-puff.gif" alt="dandelion puff">
+  <img src="./assets/garden/large-grass.gif" alt="large grass">
+  <img src="./assets/garden/dandelion-gold.gif" alt="dandelion gold">
+  <img src="./assets/garden/medium-grass.gif" alt="medium grass">
+</div>

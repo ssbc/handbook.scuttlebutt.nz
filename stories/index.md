@@ -2,6 +2,7 @@
 
 A collection of stories about ssbc \(technological and social\)
 
+![solarpunk oranges](/assets/solarpunk-oranges.jpg)
 
 ## Media
 
@@ -32,6 +33,7 @@ text | [The History of Scuttlebot with Dominic Tarr](http://gwenbell.com/dt-inte
 Name | Author | Date
 --- | --- | --- | ---
 [Dweb: Social Feeds with Secure Scuttlebutt](https://hacks.mozilla.org/2018/08/dweb-social-feeds-with-secure-scuttlebutt/) | André Staltz | 8 August 2018
+[A Praise Chorus](dat://2295a89c2cdfb57ed91b135608627119199d5d834fbaede70a8713b2cedf6fe1/)  | Zach Mandeville | 11 July 2018
 [Online socializing - let's try something else](http://l0010o0001l.logdown.com/posts/2018/04/16/scuttlebutt) | Tara Planas | 16 April 2018
 [Decentralisation and Scuttlebutt](https://lancewicks.com/2018/01/08/decentralisation-and-scuttlebutt/) | Lance Wicks | 8 January 2018
 [The Future Will Be Technical](https://coolguy.website/writing/the-future-will-be-technical/) (SSB Non-dev Resources Grant) | Zach Mandeville | 13 December 2017

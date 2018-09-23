@@ -1,4 +1,13 @@
-# Modules
+<h1>
+  Modules
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+  <img src="./assets/garden/small-hermies-computer.gif" alt="small hermies computer">
+</h1>
 
 > Isaac Schlueter (creator of npm) puts it very well: agreement is very difficult, so limit the amount of agreement necessary.
 >
@@ -109,3 +118,4 @@ stack module outline:
 ## Dev helpers
 
 - [`scuttle-playbook`](https://github.com/maackle/scuttle-playbook): A very opinionated but very convenient way to test Secure Scuttlebutt applications
+- [`ssb-utils`](https://github.com/kseistrup/ssb-utils): CLI utilities for use with Secure Scuttlebutt (SSB)

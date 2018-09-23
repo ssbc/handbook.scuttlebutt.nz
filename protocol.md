@@ -1,5 +1,7 @@
 # Protocol
 
+![Hermies with a spade](assets/garden/hermies-whack.gif)
+
 This section is a collection of specifications, documentation, and references that are useful to understanding the Scuttlebutt protocol.
 
 - [**Scuttlebutt Protocol Guide**](https://ssbc.github.io/scuttlebutt-protocol-guide/)

@@ -1,5 +1,7 @@
 # Scuttlebutt Apps
 
+![Hermies with a firehose](assets/garden/hermies-firehose.gif)
+
 Your scuttlebutt is the data you carry with you - imagine a little slice of a parallel universe in your pocket.
 This data is yours and you can interact with it however you like. 
 

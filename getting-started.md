@@ -1,5 +1,4 @@
-
-![Scuttlebutt Logo](assets/hermies-300x300.png)
+![large Hermies dancing](assets/garden/large-hermies-dancing.gif)
 
 Ok, you've been hearing about [Scuttlebutt](https://scuttlebutt.nz)  and decided
 that "Yes, I do want to join an amazing social network with lots of good people

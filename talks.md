@@ -1,5 +1,7 @@
 # Scuttlebutt Talks
 
+![Hermies gift](assets/garden/hermies-gift.gif)
+
 ## Reinvent the Social Web
 
 ### André Staltz @ FullStackFest 2018
