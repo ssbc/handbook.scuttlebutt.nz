@@ -44,7 +44,7 @@
 * [FAQ](faq/index.md)
   - [Basics](faq/basics/basics.md)
     - [What is the difference between Patchwork and Scuttlebutt?](faq/basics/patchwork-vs-scuttlebutt.md)
-    - [Secure-scuttlebutt vs scuttlebutt vs scuttlebot vs sbot?](faq/basics/ssb-vs-scuttlebutt-vs-scuttlebot-vs-sobt.md)
+    - [Secure-scuttlebutt vs scuttlebutt vs scuttlebot vs sbot?](faq/basics/ssb-vs-scuttlebutt-vs-scuttlebot-vs-sbot.md)
     - [What is a pub?](faq/basics/pub.md)
     - [Should I follow multiple pubs?](faq/basics/multiple-pubs.md)
     - [What do you mean SSB works through gossip?](faq/basics/gossip.md)
