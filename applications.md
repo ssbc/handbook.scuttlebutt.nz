@@ -63,9 +63,9 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
 
 ## [Patchwork](https://github.com/ssbc/patchwork)
 
-A decentralized messaging and sharing app built using [patchcore](https://github.com/ssbc/patchcore). The goal is to make a standalone, [easy to install](./#how-to-get-started), "social" view into the SSB world.
+A decentralized messaging and sharing app. The goal is to make a standalone, [easy to install](./getting-started.md), "social" view into the SSB world.
 
-[**How to get started**](./#how-to-get-started) (must read) | [Installers](https://github.com/ssbc/patchwork/releases)
+[**How to get started**](./getting-started.md) (must read) | [Installers](https://github.com/ssbc/patchwork/releases)
 
 <img src='./assets/screenshots/patchwork.jpg' class=''/>
 
