@@ -6,9 +6,11 @@
 
 ### André Staltz @ FullStackFest 2018
 
-_TODO_ once video is published
+> The times we live in have made it necessary to disrupt mainstream social networks. In this talk, Andre will present Scuttlebutt, a decentralized social network protocol from the Node.js hacker community. We will see how it works from a programmer's perspective, and specially how to build social apps using it. With fully offline browsing, new types of interactions, cryptographic authenticity, and data ownership, several opportunities for innovation are unlocked.
 
-https://twitter.com/andrestaltz/status/1036553690176540672
+[![Andre on reinventing the social web](./assets/andrestaltz-full-stack-fest-2018.jpg)](https://youtu.be/8GE5C9-RUpg)
+
+https://youtu.be/8GE5C9-RUpg
 
 ## a tour of the Scuttlebutt Ecosystem
 
