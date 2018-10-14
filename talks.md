@@ -36,7 +36,7 @@ https://decentralizedweb.net/videos/tech-talk-what-is-the-meaning-of-decentraliz
 
 > The world is beginning to learn about problems of the smartphone era that affect everything from our minds to our politics. But the smartphones are not to be blamed. The infrastructure of the Internet, often hidden from our sight, provided the technological foundational for the problems we are seeing today. It is possible to build an alternative Internet made with modern wireless technologies and new software, that make a new foundation for freedom in the digital era. André is developing software for the new Internet, and blogs about the current macroscopic changes in Cyberspace. He wrote viral blog posts such as "The Web began dying in 2014", "A plan to rescue the Web from the Internet", and "Layers of the Internet Economy". He works as an open source programmer funded by donations, and is developing a free and decentralized social network for phones, together with other pioneers. André also teaches programming through workshops and conference talks, having had spoken at dozens of conferences around Europe. 
 
-[![André on building the next Internet](./assets/andrestaltz-tedx-its-time-to-build-the-next-internet.jpg)](https://youtu.be/UjfWAbGfPh0)
+[![André on building the next Internet](./assets/andrestaltz-tedx-its-time-to-build-our-own-internet.jpg)](https://youtu.be/UjfWAbGfPh0)
 
 https://youtu.be/UjfWAbGfPh0
 
@@ -46,7 +46,7 @@ https://youtu.be/UjfWAbGfPh0
 
 > Nenhuma tecnologia desaparece da noite pro dia. Assim como o telefone fixo e o Flash, tecnologias sofrem uma gradual redução de uso que pode durar anos ou décadas até desaparecerem completamente. Os primeiros sinais do fim da internet original, aberta e decentralizada, já estão surgindo. Nesta palestra você vai descobrir quais são esses sinais, o que vai acontecer nos próximos anos, e como uma alternativa à internet está sendo criada, usando apenas JavaScript.
 
-[![André on the end of the Internet](./assets/andrestaltz-braziljs-o-fim-da-internt.jpg)](https://youtu.be/CcDMWrH6VHU)
+[![André on the end of the Internet](./assets/andrestaltz-braziljs-o-fim-da-internet.jpg)](https://youtu.be/CcDMWrH6VHU)
 
 https://youtu.be/CcDMWrH6VHU
 
