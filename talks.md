@@ -2,6 +2,22 @@
 
 ![Hermies gift](assets/garden/hermies-gift.gif)
 
+## Scuttlebutt and a Decentralized Future
+
+### Zenna Fiscella @ Radical Networks 2018
+
+> This talk is about Scuttlebutt and how it can be transformative for society, decentralizing and enabling local community development free of big corp. Scuttlebutt is a fast growing decentralized social network. As an alternative to the large corporate social networks it enables autonomy for the users and a free zone from big data harvesting.
+>
+> It’s based on a protocol (referred to as SSB) which connects the users via a blockchain base with each user functioning as a node. Since the information is collected via a 2 or 3 step social connection it’s completely usable while offline and syncs when connected to a local network, a friend or wifi.
+>
+> Scuttlebutt has a large community of users who together develop the platform. Completely open-source there are many initiatives of projects, maintenance and initiatives as part of the Scuttlebutt ecosystem. Some of these projects range from local community on-boarding by @luandro in Quilombola - Brazil, git-ssb by @cel, or a chess interface!
+>
+> As the Scuttlebutt interface is interchangeable, with the most widely used one being Patchwork, there is a possibility to utilize the same network with multiple applications. Perfect for local communities in rural areas or for environments which require offline workability, the potentials are grand. As of today the estimate is that the user base is beyond 10.000 individuals.
+
+[![Zenna on Scuttlebutt and a decentralized future](./assets/zelf-radical-networks-2018.jpg)](https://youtu.be/5R0x_WRZdFM)
+
+<https://youtu.be/5R0x_WRZdFM>
+
 ## Reinvent the Social Web
 
 ### André Staltz @ FullStackFest 2018
