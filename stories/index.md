@@ -11,6 +11,7 @@ Name | Author | Date
 [Scuttlebutt, A Decentralized Social Platform](https://www.inthemesh.com/archive/secure-scuttlebutt-facebook-alternative/) | Andre Staltz | 19 April 2018
 [The Nomad Who’s Exploding the Internet Into Pieces](https://www.theatlantic.com/technology/archive/2017/05/meet-the-counterantidisintermediationists/527553/) | The Atlantic | 22 May 2017
 [Scuttlebutt: an "off-grid" P2P social network that runs without servers and can fall back to sneakernet](http://boingboing.net/2017/04/07/bug-in-tech-for-antipreppers.html) | Boing Boing | 7 April 2017
+[Manyverse and Scuttlebutt: A human-centric technology stack for social applications](https://www.zdnet.com/article/manyverse-and-scuttlebutt-a-human-centric-technology-stack-for-social-applications/) | ZDNet | 25 October 2018
 
 
 ## Interviews
