@@ -8,7 +8,7 @@ people wouldn't normally associate with you. This is known as a [handle](https:/
 
 ## Use private messages for private conversations
 
-[Private messages](https://www.scuttlebutt.nz/concepts/private-message.html) in Scuttlebutt always use [end to end encryption](https://en.wikipedia.org/wiki/End-to-end_encryption). Although a private messages is relayed throughout your network, they are only readable by the recipients of the message. Other peers can only see that you have sent a private message and not the content of the message or who it has been sent to.
+[Private messages](https://www.scuttlebutt.nz/concepts/private-message.html) in Scuttlebutt always use [end-to-end encryption](https://en.wikipedia.org/wiki/End-to-end_encryption) (encryption 'in transit' and 'at rest'). Although a private messages is relayed throughout your network, they are only readable by the recipients of the message. Other peers can only see that you have sent a private message and not the content of the message or who it has been sent to.
 
 ## Only share what you are comfortable with sharing
 
@@ -42,7 +42,7 @@ sbot publish --type about --about "<YOURID>" --publicWebHosting
 
 ## Obscure your internet location
 
-Connecting in a peer-to-peer manner to exchange gossip messages will reveal your [IP adddress](https://en.wikipedia.org/wiki/IP_address) to other peers which could be be used to de-anonymise you.
+Despite using a [secure channel](https://github.com/auditdrivencrypto/secret-handshake) to communicate with peers, connecting in a peer-to-peer manner to exchange gossip messages will reveal your [IP adddress](https://en.wikipedia.org/wiki/IP_address) to other peers which could be be used to de-anonymise you.
 
 In the future, Scuttlebutt will not automatically gossip with any peer you know about (or knows about you), but allow for finer control over which peers you connect to, by default only connecting to trusted peers (and thus only revealing your location to those you trust).
 
