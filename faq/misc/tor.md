@@ -4,7 +4,7 @@ Scuttlebutt has built in support for
 [Tor](https://torproject.org/). You need to be running the TOR daemon
 for scuttlebutt to relay messages through the onion network. If you
 want secure scuttlebutt to ONLY connect to other Tor nodes, you need
-to pass a –tor-only flag when running sbot.
+to pass a `–tor-only` flag when running sbot.
 
 You can find a list pubs available over Tor at the
 [wiki](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers). Please
@@ -24,10 +24,12 @@ Glad you asked.
 
 If you configure Tor as a hidden service and redirect port 8008 to
 localhost 8008 then your sbot service will be available over Tor. Add
-the following to /etc/tor/torrc:
+the following to `/etc/tor/torrc`:
 
+```
 HiddenServiceDir /var/lib/tor/hidden_service/
 HiddenServicePort 8008 127.0.0.1:8008
+```
 
 And reload tor, then your onion address will be available in
 /var/lib/tor/hidden_service/hostname.
@@ -39,7 +41,7 @@ directly. No need to open ports in your firewall!
 
 This means that its possible to do p2p connections without pubs and
 talk direcly to your friends. If you create an invite from your
-machine (you probably need "allowPrivate": true in ~/.ssb/config),
+machine (you probably need "allowPrivate": true in `/.ssb/config`),
 replace the ip or hostname with your onion adress and send that to a
 friend. They will be able to connect directly to you and start
 receiving messages straight away, assuming your machine is running of
