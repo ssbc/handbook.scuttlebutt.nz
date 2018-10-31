@@ -42,7 +42,7 @@ sbot publish --type about --about "<YOURID>" --publicWebHosting
 
 ## Use Tor to obscure your location
 Connecting in a peer to peer manner to exchange gossip messages will reveal your [IP adddress](https://en.wikipedia.org/wiki/IP_address) to other peers which could be be used to de-anonymise you. Luckily, Scuttlebutt has built in support for
-the [Tor](https://torproject.org/) which is an anonymity network. See the [SSB handbook page on Tor](tor.md) for more details.
+[Tor](https://torproject.org/) which is a volunteer run anonymity network. See the [SSB handbook page on Tor](tor.md) for more details.
 
 ## Use a VPN to obscure your location
 You can also use a Virtual Private Network to obscure your [IP adddress](https://en.wikipedia.org/wiki/IP_address). Note that this is not as good for preserving your privacy as using Tor. You have to place a lot of trust in your VPN provider to keep your data safe and a good VPN will also tend to cost you money. Here is some more info on [choosing a VPN that is right for you](https://ssd.eff.org/en/module/choosing-vpn-thats-right-you).
