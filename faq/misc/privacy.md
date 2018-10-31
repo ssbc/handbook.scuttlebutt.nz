@@ -6,7 +6,7 @@ Scuttlebutt does not require to use your real name. You can use
 whatever you like. If you want to stay a bit more private, choose a name that 
 people wouldn't normally associate with you. This is known as a [handle](https://en.wikipedia.org/wiki/User_(computing)).
 
-## Use private messages
+## Use private messages for private conversations
 
 [Private messages]((https://www.scuttlebutt.nz/concepts/private-message.html) in Scuttlebutt always use [end to end encryption](https://en.wikipedia.org/wiki/End-to-end_encryption). Although a private messages is relayed throughout your network, they are only readable by the recipients of the message. Other peers can only see that you have sent a private message and not the content of the message or who it has been sent to.
 
@@ -22,7 +22,7 @@ Because Scuttlebutt is a decentralised append only database shared amongst your 
 
 The concept of privacy in Scuttlebutt is that you create a trusted network of peers moderated in a human way by your friends. If there is a bad actor in your network, you must rely on yourself and your friends to block that entity and therefore remove them from your network. Scuttlebutt is a network that supports both the practice of [free speech and of free listening](https://www.scuttlebutt.nz/principles/). You and your peers have the tools to create a community of respect and consent without relying on any third parties.
 
-## Keep it in the Scuttleverse
+## Keep your data in the Scuttleverse
 
 Scuttlebutt has a way of indicating to public gateways (places that mirror Scuttlebutt
 content onto the old web such as the volunteer run [viewer.scuttlebutt.io](https://viewer.scuttlebot.io)) that you don't want anything you say to show up there. This opt-out is enabled by default when installing Scuttlebutt using the [Patchwork](https://github.com/ssbc/patchwork) client.
