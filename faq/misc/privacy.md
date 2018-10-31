@@ -8,7 +8,7 @@ people wouldn't normally associate with you. This is known as a [handle](https:/
 
 ## Use private messages for private conversations
 
-[Private messages]((https://www.scuttlebutt.nz/concepts/private-message.html) in Scuttlebutt always use [end to end encryption](https://en.wikipedia.org/wiki/End-to-end_encryption). Although a private messages is relayed throughout your network, they are only readable by the recipients of the message. Other peers can only see that you have sent a private message and not the content of the message or who it has been sent to.
+[Private messages](https://www.scuttlebutt.nz/concepts/private-message.html) in Scuttlebutt always use [end to end encryption](https://en.wikipedia.org/wiki/End-to-end_encryption). Although a private messages is relayed throughout your network, they are only readable by the recipients of the message. Other peers can only see that you have sent a private message and not the content of the message or who it has been sent to.
 
 ## Only share what you are comfortable with sharing
 
