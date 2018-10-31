@@ -30,5 +30,5 @@ sbot publish --type about --about "<YOURID>" --publicWebHosting
 Connecting to other peers to exchange gossip
 messages will reveal your IP and might be used to de-anonymize
 you. Luckily scuttlebutt has built in support for
-[TOR](https://torproject.org/). See the [tor page](tor.md) for more details.
+[Tor](https://torproject.org/). See the [SSB handbook page on Tor](tor.md) for more details.
 
