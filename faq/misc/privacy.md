@@ -1,9 +1,9 @@
 # How can I preserve my privacy when using Secure Scuttlebutt?
 
-## Don't use your real name
+## Use your preferred name
 
 Scuttlebutt does not require to use your real name. You can use
-whatever you like. If you want to stay a bit more private, choose a name that 
+whatever name or pseudonym you like. If you want to stay a bit more private, choose a name that 
 people wouldn't normally associate with you. This is known as a [handle](https://en.wikipedia.org/wiki/User_(computing)).
 
 ## Use private messages for private conversations
@@ -40,14 +40,23 @@ If you ever want to re-enable it you can say
 sbot publish --type about --about "<YOURID>" --publicWebHosting
 ```
 
-## Use Tor to obscure your location
-Connecting in a peer to peer manner to exchange gossip messages will reveal your [IP adddress](https://en.wikipedia.org/wiki/IP_address) to other peers which could be be used to de-anonymise you. Luckily, Scuttlebutt has built in support for
+## Obscure your internet location
+
+Connecting in a peer-to-peer manner to exchange gossip messages will reveal your [IP adddress](https://en.wikipedia.org/wiki/IP_address) to other peers which could be be used to de-anonymise you.
+
+In the future, Scuttlebutt will not automatically gossip with any peer you know about (or knows about you), but allow for finer control over which peers you connect to, by default only connecting to trusted peers (and thus only revealing your location to those you trust).
+
+### Use Tor
+
+Luckily, Scuttlebutt has built in support for
 [Tor](https://torproject.org/) which is a volunteer run anonymity network. See the [SSB handbook page on Tor](tor.md) for more details.
 
-## Use a VPN to obscure your location
+### Use a VPN
+
 You can also use a Virtual Private Network to obscure your [IP adddress](https://en.wikipedia.org/wiki/IP_address). Note that this is not as good for preserving your privacy as using Tor. You have to place a lot of trust in your VPN provider to keep your data safe and a good VPN will also tend to cost you money. Here is some more info on [choosing a VPN that is right for you](https://ssd.eff.org/en/module/choosing-vpn-thats-right-you).
 
 ## Use a passphrase and full disk encryption to secure your local device
+
 Part of the security model for Scuttlebutt is that your [secret key](https://ssbc.github.io/scuttlebutt-protocol-guide/#keys-and-identities) is kept safe from unauthorised access. Your secret key is stored unencrypted on your devices file system. For example, under the Linux operating system your secret key can be found at `~/.ssb/secret`. If someone gains access to that file then can impersonate you and access all your data.
 
 You can secure this key by requiring a strong passphrase to unlock your device though it is possible to bypass the passphrase by accessing the storage directly. You can also further secure your data by encrypting the file system of your device. This is referred to as full disk encryption as is available on most popular operating systems. It means your data cannot be accessed when the device is powered off. You can find more information on [keeping your data safe here](https://ssd.eff.org/en/module/keeping-your-data-safe).
