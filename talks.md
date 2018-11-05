@@ -28,6 +28,12 @@
 
 https://youtu.be/8GE5C9-RUpg
 
+### Anders (arj) @ Techfestival 2018
+
+> A talk given at the [Algorithmic Sovereignty](http://algosov.org/) summit during Techfestival in Copenhagen. The talk touches on how Scuttlebutt can be used to regain some sovereignty over how data is shared and bring transparancy to the algorithms that runs on the data.
+
+https://people.iola.dk/anders/techfestival-talk/
+
 ## a tour of the Scuttlebutt Ecosystem
 
 ### Mikey (dinosaur) @ DWebSummit 2018
