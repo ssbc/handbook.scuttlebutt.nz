@@ -9,7 +9,7 @@ Scuttlebutt is not the only dex project:
 - [cjdns](https://github.com/cjdelisle/cjdns)
 - [Dat](http://datproject.org/)
 - [Ethereum](https://www.ethereum.org/)
-- [Indie](https://ind.ie/)
+- [Indie Net](https://indienet.info/)
 - [IPFS](https://ipfs.io/)
 - [MaidSafe](http://maidsafe.net/)
 - [Matrix](http://matrix.org/)
