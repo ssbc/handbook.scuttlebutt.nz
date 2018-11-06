@@ -11,7 +11,7 @@ Scuttlebutt is not the only dex project:
 - [Ethereum](https://www.ethereum.org/)
 - [Indie Net](https://indienet.info/)
 - [IPFS](https://ipfs.io/)
-- [MaidSafe](http://maidsafe.net/)
+- [SAFE Network](https://safenetwork.tech/)
 - [Matrix](http://matrix.org/)
 - [RetroShare](http://retroshare.sourceforge.net)
 - [Snackis](https://github.com/andreas-gone-wild/snackis)
