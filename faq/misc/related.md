@@ -4,6 +4,7 @@
 
 Scuttlebutt is not the only dex project:
 
+- [Aether](https://getaether.net/)
 - [Bitcoin](https://bitcoin.org/)
 - [cjdns](https://github.com/cjdelisle/cjdns)
 - [Dat](http://datproject.org/)
