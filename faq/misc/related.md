@@ -14,7 +14,7 @@ Scuttlebutt is not the only dex project:
 - [SAFE Network](https://safenetwork.tech/)
 - [Matrix](http://matrix.org/)
 - [RetroShare](http://retroshare.sourceforge.net)
-- [Solid](https://github.com/solid/solid)
+- [Solid](https://solid.mit.edu/)
 - [StrongLink](https://github.com/btrask/stronglink)
 - [Syncthing](https://syncthing.net/)
 - [Twister](http://twister.net.co/)
