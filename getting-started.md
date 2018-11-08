@@ -42,7 +42,7 @@ Boot it up and set up your profile.
 ![patchwork new profile screenshot](assets/screenshots/patchwork-first-boot.png)
 
 It doesn't matter what name you put. It can be your real name. It can be a
-nickname. Like the real world it's entirely possible for multiple people to have
+nickname. Like in the real world it's entirely possible for multiple people to have
 the same name. Your friends can give you nicknames too. 
 
 You don't need to upload an image, but we recommend that you do, because it's
@@ -68,7 +68,7 @@ that Scuttlebutt uses to share information.
 
 The more people you follow, the more your network opens up.
 
-Every additional person, and pub you follow is another channel for gossip to use
+Every additional person and pub you follow is another channel for gossip to use
 to flow through to you. If you don't follow _anyone_ (not even pubs) you won't
 receive _any_ new posts because there won't be anyone gossiping with you.
 Channels may look bare because the only people talking in them are too distant
@@ -168,7 +168,7 @@ discouraging experience. We're a friendly bunch so please don't be shy! Come and
 tell us a bit about yourself in #new-people are we can help you find other people 
 that you might be interested in getting to know better.
 
-**NOTE:** There is no edit. There is no Undo. There is no delete. So, use your
+**NOTE:** There is no edit. There is no undo. There is no delete. So, use your
 spellcheck, actually look at the Preview, and don't publish in anger. You won't be
 able to take it back. 
 
@@ -184,8 +184,8 @@ channels. Just start typing a `#` and the channel's name instead.
 
 ### Everything else
 
-Linking to an external web page with Markdown is easy just say 
-`[display text](destination url)` 
+Linking to an external web page with Markdown is easy, just say
+`[display text](destination url)`.
 
 How do you link to other messages _in_ Scuttlebutt though? Well, first you need
 the message id. Right click on a link to the message you want to link to and
@@ -216,7 +216,7 @@ shown on public sites or in search results on sites like Google. Check out the
 
 ## Stay Happy and Safe
 
-Don't worry, if come across someone whose views make you uncomfortable. You can
-always block them, and you'll never receive any of their posts again, and they
+Don't worry, if you come across someone whose views make you uncomfortable, you can
+always block them. Then you'll never receive any of their posts again, and they
 won't get yours either. 
 
