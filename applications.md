@@ -38,6 +38,7 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
         <li><a href='#ssb-npm'>ssb-npm</a> (code packages)</li>
         <li><a href='#scat'>scat</a> (chat)</li>
         <li><a href='#ticktack'>Ticktack</a> (blogging)</li>
+        <li><a href='#infinite-game'>Infinite Game</a> (weaving the future with friends)</li>
         <li><a href='#talenet'>tale:net</a> (skills)</li>
         <li><a href='#ssb-chess'>ssb-chess</a></li>
         <li><a href='#patch-book'>patch-book</a></li>
@@ -261,6 +262,19 @@ Source code: `ssb://%zoL1riX2mELF0j3dydWtQ+go4nI4jaByvm5Z02cRyaQ=.sha256`
 <img src='https://github.com/cn-uofbasel/ssbdrv/raw/1f7e6b11373ef6f73415f0e9c62f1ade29739251/doc/demo-20180831.gif' />
 
 Source code : [GitHub](https://github.com/cn-uofbasel/ssbdrv/)
+
+---
+
+## [Infinite Game](https://github.com/mixmix/infinite-game/releases)
+
+> Infinite Game is a tool to help you grow connections with new friends, and to help invite the future you want to see into the world. It lets you look back and reflect on the exciting things you and your friends have done, and be inspired and excited for the future.
+
+> Right now it looks like a calendar, some gatherings tools (private or public events), and a tool called scry to help invoke and settle gatherings (simliar to <a href="https://doodle.com">doodle</a>).
+
+<img src='./assets/screenshots/infinite-game.png' />
+
+Source code : [git-ssb](http://git-ssb.celehner.com/%25Eyq2PrN8Wk0DTqBJI1Xila7yJ18ZWGTShMNLc1O5vjo%3D.sha256) | [GitHub](https://github.com/mixmix/infinite-game) | `ssb://%Eyq2PrN8Wk0DTqBJI1Xila7yJ18ZWGTShMNLc1O5vjo=.sha256`
+
 
 ---
 
