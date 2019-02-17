@@ -44,7 +44,7 @@ sbot publish --type about --about "<YOURID>" --publicWebHosting
 
 Despite using a [secure channel](https://github.com/auditdrivencrypto/secret-handshake) to communicate with peers, connecting in a peer-to-peer manner to exchange gossip messages will reveal your [IP adddress](https://en.wikipedia.org/wiki/IP_address) to other peers which could be be used to de-anonymise you.
 
-In the future, Scuttlebutt will not automatically gossip with any peer you know about (or knows about you), but allow for finer control over which peers you connect to, by default only connecting to trusted peers (and thus only revealing your location to those you trust).
+Scuttlebutt will by default automatically gossip with any peer you know about, but it is possible to only connect to pubs run by your friends by using the [ssb-friend-pub](https://github.com/ssbc/ssb-friend-pub) plugin, and thus only revealing your location to those you trust.
 
 ### Use Tor
 
