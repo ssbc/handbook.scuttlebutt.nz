@@ -3,8 +3,10 @@
 Scuttlebutt has built in support for
 [Tor](https://torproject.org/). You need to be running the TOR daemon
 for scuttlebutt to relay messages through the onion network. If you
-want secure scuttlebutt to ONLY connect to other Tor nodes, you need
-to pass a `–tor-only` flag when running sbot.
+want secure scuttlebutt to ONLY connect to other Tor nodes, you can
+configure it as described in
+[this](https://github.com/ssbc/ssb-config#example-connnections-configurations)
+ssb-config example.
 
 You can find a list pubs available over Tor at the
 [wiki](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers). Please
