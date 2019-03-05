@@ -1,3 +1,4 @@
+
 # Scuttlebutt Apps
 
 ![Hermies with a firehose](assets/garden/hermies-firehose.gif)
@@ -24,7 +25,7 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
         <li><a href='#patchwork'>Patchwork</a></li>
         <li><a href='#patchbay'>Patchbay</a></li>
         <li><a href='#patchfoo'>Patchfoo</a></li>
-        <li><a href='#mmmmm'>MMMMM</a></li>
+        <li><a href='#manyverse'>manyverse</a></li>
         <li><a href='#patchfox'>Patchfox</a></li>
         <li><a href='#patchless'>Patchless</a></li>
         <li><a href='#ngx-ssb-client'>ngx-ssb-client</a></li>
@@ -98,15 +99,13 @@ Source code : [git-ssb](http://git.scuttlebot.io/%25YAg1hicat%2B2GELjE2QJzDwlAWc
 
 ---
 
-## [MMMMM](https://github.com/staltz/mmmmm-mobile)
+## [manyverse](https://manyver.se)
 
-A _very_ early mobile version of scuttlebutt for android.
-
-[**Installers**](https://github.com/staltz/mmmmm-mobile/releases)
+A social network off the grid · Scuttlebutt for mobile
 
 ![mmmmm](./assets/screenshots/mmmmm.jpg)
 
-Source code : [GitHub](https://github.com/staltz/mmmmm-mobile)
+Source code : [GitHub](https://github.com/staltz/manyverse)
 
 ---
 
