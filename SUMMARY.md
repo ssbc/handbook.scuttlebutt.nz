@@ -9,6 +9,7 @@
   - [Using Trust in Open Networks](stories/using-trust-in-open-networks.md)
 * [Talks](talks.md)
 * [Contributing](contributing.md)
+* [Code of Conduct](code-of-conduct.md)
 
 ---
 
