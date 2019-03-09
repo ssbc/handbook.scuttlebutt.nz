@@ -43,7 +43,7 @@ If you are using ssb-server (previously sbot) you can do this as follows.
 ssb-server start
 ```
 
-It will take a while to resync everything so give it a while - something like 20 minutes on a good connection. It is not necessary for it to completely sync. Once your ```~/.ssb``` dir is restored you can safely restart patchwork or other programs which will read from the same dir.
+It will take a while to resync everything so give it a while. It's imporant to wait until your feed completely syncs before posting (or linking) anything, or you can fork your feed. Once your ```~/.ssb``` dir is restored you can safely restart patchwork or other programs which will read from the same dir.
 
 ---
 **Sources**
