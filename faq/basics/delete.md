@@ -16,7 +16,7 @@ If things get 'corrupted' locally and you want to resync your .ssb data from you
 
 These instructions assume you are using terminal on OSX or Linux but, the same steps should also run on Windows.
 
-First **back up your .ssb dir** which is probably in your home directory, ```~/.ssb```
+First **back up your .ssb dir** which is probably in your home directory, `~/.ssb`
 ```
 > cd ~                                          
 > mkdir ssb_bak                                                                   
@@ -43,7 +43,7 @@ If you are using ssb-server (previously sbot) you can do this as follows.
 ssb-server start
 ```
 
-It will take a while to resync everything so give it a while. It's imporant to wait until your feed completely syncs before posting (or linking) anything, or you can fork your feed. Once your ```~/.ssb``` dir is restored you can safely restart patchwork or other programs which will read from the same dir.
+It will take a while to resync everything so give it a while. It's imporant to wait until your feed completely syncs before posting (or linking) anything, or you can fork your feed. Once your `~/.ssb` dir is restored you can safely restart patchwork or other programs which will read from the same dir.
 
 ---
 **Sources**
