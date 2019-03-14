@@ -28,7 +28,7 @@ video | [Interview with Dominic Tarr from Secure Scuttlebutt](https://www.youtub
 text | [Dominic Tarr : Secure-Scuttlebutt](https://theinitialcommit.com/2017/04/04/dominic-tarr/) | \_theInitialCommit | 4 Apr 2017
 audio | [OH004 – Secure Scuttlebutt](https://oktahedron.diskordia.org/?podcast=oh004-secure-scuttlebutt) | Oktahedron | 30 November 2016
 video | [Interview with Rob Knight (hexayurt vc) and Dominic Tarr (secure scuttlebutt)](https://www.youtube.com/watch?v=JolzQo8iLaY) | Vinay Gupta | 4 November 2016
-text | [The History of Scuttlebot with Dominic Tarr](http://gwenbell.com/dt-interview/) | Gwen Bell | 1 September 2016
+text | [The History of Scuttlebot with Dominic Tarr](https://web.archive.org/web/20180429021039/http://gwenbell.com/dt-interview/) | Gwen Bell | 1 September 2016
 
 ## Posts
 
