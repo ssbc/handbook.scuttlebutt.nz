@@ -356,7 +356,7 @@ Source code : [GitHub](https://github.com/ssbc/ssb-graphviz) | `ssb://%hNm67sfnZ
 ---
 ## ssb-bot-eed
 
-Scuttlebutt bot that read RSS feed and post updates automatically.
+Scuttlebutt bot that read RSS feeds and post updates automatically
 
 Source code : [GitHub](https://github.com/klarkc/ssb-bot-feed)
 
