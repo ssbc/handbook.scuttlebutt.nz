@@ -57,6 +57,7 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
         <li><a href='#ssb-to-graphml'>ssb-to-graphml</a></li>
         <li><a href='#ssb-usage-stats'>ssb-usage-stats</a></li>
         <li><a href='#ssb-graphviz'>ssb-graphviz</a></li>
+        <li><a href='#ssb-bot-feed'>ssb-bot-feed</a></li>
       </ul>
     </td>
   </tr>
@@ -351,6 +352,13 @@ An interactive visualisation of your local scuttleverse. Fly with [w,a,s,d] and 
 <img src='./assets/screenshots/graph-viz.png' class='shadow'/>
 
 Source code : [GitHub](https://github.com/ssbc/ssb-graphviz) | `ssb://%hNm67sfnZFtWkD/+1qxH3UfzhXykfpKtOL1C/XbLANA=.sha256`
+
+---
+## ssb-fbot-eed
+
+Scuttlebutt bot that read RSS feed and post updates automatically.
+
+Source code : [GitHub](https://github.com/klarkc/ssb-bot-feed)
 
 ---
 
