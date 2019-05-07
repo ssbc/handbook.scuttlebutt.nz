@@ -354,9 +354,9 @@ An interactive visualisation of your local scuttleverse. Fly with [w,a,s,d] and 
 Source code : [GitHub](https://github.com/ssbc/ssb-graphviz) | `ssb://%hNm67sfnZFtWkD/+1qxH3UfzhXykfpKtOL1C/XbLANA=.sha256`
 
 ---
-## ssb-fbot-eed
+## ssb-bot-feed
 
-Scuttlebutt bot that read RSS feed and post updates automatically.
+Scuttlebutt bot that read RSS feeds and post updates automatically
 
 Source code : [GitHub](https://github.com/klarkc/ssb-bot-feed)
 
