@@ -33,7 +33,8 @@ text | [The History of Scuttlebot with Dominic Tarr](https://web.archive.org/web
 ## Posts
 
 Name | Author | Date
---- | --- | --- | ---
+--- | --- | ---
+[Walled Garden Breakout, Pt. 2: Secure Scuttlebutt](https://gopher.floodgap.com/gopher/gw?gopher://sdf.org:70/0/users/rusty/Post04-ssb) | Rusty | 28 May 2019
 [Dweb: Social Feeds with Secure Scuttlebutt](https://hacks.mozilla.org/2018/08/dweb-social-feeds-with-secure-scuttlebutt/) | André Staltz | 8 August 2018
 [A Praise Chorus](dat://2295a89c2cdfb57ed91b135608627119199d5d834fbaede70a8713b2cedf6fe1/)  | Zach Mandeville | 11 July 2018
 [Online socializing - let's try something else](http://l0010o0001l.logdown.com/posts/2018/04/16/scuttlebutt) | Tara Planas | 16 April 2018
