@@ -19,6 +19,7 @@ Name | Author | Date
 Format | Name | Author | Date
 --- | --- | --- | ---
 audio | [The Third Web #11 - Scuttlebutt & Cypherspace](https://soundcloud.com/arthurfalls/the-third-web-11-scuttlebutt-cypherspace) | Arthur Falls | 21 November 2018
+audio | [Build our own internet with André Staltz](https://javascript-podcast.com/podcast/18) | ScriptCast | 31 October 2018
 audio | [Datcast Episode 4 - Stephen Whitmore (@noffle)](https://dat-cast.hashbase.io/DCUP0.html?ep=CGMRJ5UU-NNX9A4I) | Datcast | 21 Sept 2018
 audio | [Rich Decibels on Teal, Scuttlebutt and Solarpunk](https://anchor.fm/stephenreid321/episodes/Rich-Decibels-on-Teal--Scuttlebutt-and-Solarpunk-e24qf9) | Stephen Reid In Dialogue | 2 Sept 2018
 audio | ['Scuttlebutt Social', with Scuttlebutt](https://stealthisshow.com/s04e04/) | StealThisShow | 31 August 2018
