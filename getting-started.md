@@ -91,7 +91,7 @@ the video they're described as being more like bartenders than pubs, because
 it's the bartender who you gossip with at the pub, and shares the gossip of
 others.
 
-Go to [the list of pub servers](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers). 
+Go to [the list of pub servers](https://github.com/ssbc/ssb-server/wiki/Pub-Servers). 
 
 Open one up in a new tab and you'll see something like this.
 

@@ -129,4 +129,4 @@ $ sbot private.unbox "cZOlfY2YQBM..."
 }
 ```
 
-That's just a brief introduction to the Scuttlebutt network using the sbot command line tool. For more information, check out the [API/CLI reference](https://ssbc.github.io/scuttlebot/api.html) and the [Secure Scuttlebutt](https://ssbc.github.io/secure-scuttlebutt/) protocol overview.
+That's just a brief introduction to the Scuttlebutt network using the sbot command line tool. For more information, check out the [API/CLI reference](https://ssbc.github.io/ssb-server/api.html) and the [Secure Scuttlebutt](https://ssbc.github.io/ssb-db/) protocol overview.
