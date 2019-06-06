@@ -47,4 +47,9 @@ It will take a while to resync everything so give it a while. It's imporant to w
 
 ---
 **Sources**
-* Answer compiled from [this thread.](https://viewer.scuttlebot.io/%259tfp%2F8bCful8ZvMskklXYO6C%2F7%2FgIaBKH9jNwJI6%2BTM%3D.sha256) and [this thread](https://viewer.scuttlebot.io/%AyrmGv9lfW6cFb2DVUGjUW//OdaEo3bRGELZkgZGmWs=.sha256) Shoutouts to @claytonkoenig for asking the question, and to @ezdiy, @keks and others for their answers.
+* Answer compiled from these threads:
+
+- %9tfp/8bCful8ZvMskklXYO6C/7/gIaBKH9jNwJI6+TM=.sha256
+- %AyrmGv9lfW6cFb2DVUGjUW//OdaEo3bRGELZkgZGmWs=.sha256
+
+Shoutouts to @claytonkoenig for asking the question, and to @ezdiy, @keks and others for their answers.

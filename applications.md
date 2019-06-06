@@ -249,7 +249,7 @@ Source code: `ssb://%zoL1riX2mELF0j3dydWtQ+go4nI4jaByvm5Z02cRyaQ=.sha256`
 
 <img src="./assets/screenshots/recipes.gif" alt="recipes" class="shadow" />
 
-([%6ZmujAEWSxaNo5olG+gPoUq/pLrD5iPBdvoBuy8AHPg=.sha256](https://viewer.scuttlebot.io/%256ZmujAEWSxaNo5olG%2BgPoUq%2FpLrD5iPBdvoBuy8AHPg%3D.sha256))
+- %6ZmujAEWSxaNo5olG+gPoUq/pLrD5iPBdvoBuy8AHPg=.sha256
 
 ---
 

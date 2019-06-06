@@ -11,4 +11,6 @@ You _would_ see those messages if you later became friends (which is likely, sin
 ---
 
 **Sources**
-* Answer taken from [this thread](https://viewer.scuttlebot.io/%256Jajc1TsINMv6%2FUMSEHThi0uTcHIbdluzyOVORsZkr8%3D.sha256)
+* Answer taken from this thread:
+
+- %6Jajc1TsINMv6/UMSEHThi0uTcHIbdluzyOVORsZkr8=.sha256

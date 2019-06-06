@@ -38,4 +38,9 @@ In both cases, blobs take up significant space.  If this is a concern, you can d
 
 ----
 **Sources**
-* Answer compiled from [this thread](https://viewer.scuttlebot.io/%25bUEQtn85jtL8Vxjup4sS%2F7wcaswS4fThUPVH7G5IvjU%3D.sha256) and [this thread](https://viewer.scuttlebot.io/%25Ayi7UUbJnIZ12S%2FgbHof60oHBlmjdrv7TUyFCq5cOTQ%3D.sha256)  Shoutouts to @cryptix and @keks for awesome answers.
+* Answer compiled from these threads:
+
+- %bUEQtn85jtL8Vxjup4sS/7wcaswS4fThUPVH7G5IvjU=.sha256
+- %Ayi7UUbJnIZ12S/gbHof60oHBlmjdrv7TUyFCq5cOTQ=.sha256
+
+Shoutouts to @cryptix and @keks for awesome answers.

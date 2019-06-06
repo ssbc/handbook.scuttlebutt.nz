@@ -10,9 +10,14 @@ Channels are a way to organize your messages and conversations, but offer no add
 
 An analogy! If scuttlebutt works as a big diary--with each message you post added to the end of your diary and shared with your friends-- then channels are like writing a diary entry with a different colored pen.  They are simply a pleasing,  personal form of organization.  But  luckily your friends follow this same technique and use the same pens and so you can easily share your related messages.
 
-There has been discussion on whether channels should work more like hashtags, and to have a distinct "group" feature that would behave closer to a slack channel or discussion group.  You can read more of that conversation [here](https://viewer.scuttlebot.io/%25gTHLf3Rlc48RSjwATVDJZpe9VlWGfxMmio1%2Bo3KXvjA%3D.sha256)
+There has been discussion on whether channels should work more like hashtags, and to have a distinct "group" feature that would behave closer to a slack channel or discussion group.  You can read more of that conversation here:
+
+- %gTHLf3Rlc48RSjwATVDJZpe9VlWGfxMmio1+o3KXvjA=.sha256
 
 ---
 **Sources**
-* Answer compiled from multiple posts on [this thread](https://viewer.scuttlebot.io/%256Jajc1TsINMv6%2FUMSEHThi0uTcHIbdluzyOVORsZkr8%3D.sha256) Shoutouts to @kas, @dinosaur, and @dominic for the help!
+* Answer compiled from multiple posts on this thread:
 
+%6Jajc1TsINMv6/UMSEHThi0uTcHIbdluzyOVORsZkr8=.sha256
+
+Shoutouts to @kas, @dinosaur, and @dominic for the help!

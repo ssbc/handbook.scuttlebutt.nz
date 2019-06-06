@@ -8,4 +8,5 @@ Yep! If you use the same private key (found at .ssb/secret).  This is a short an
 
 ---
 **Sources**
-* The answer is taken from [this thread.](https://viewer.scuttlebot.io/%25m8%2B25i3i5LCRioA%2FCAqARVb0HNA6TTdvi4B0CxBd8eo%3D.sha256)  Shoutout to @ralphtheninja for the awesome answer.
+
+- %25m8%2B25i3i5LCRioA%2FCAqARVb0HNA6TTdvi4B0CxBd8eo%3D.sha256  Shoutout to @ralphtheninja for the awesome answer.

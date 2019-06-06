@@ -13,4 +13,6 @@ Scuttlebot uses the ports 8008 and 8989.
 
 *Sources*
 
-This FAQ is thanks to [this thread](https://viewer.scuttlebot.io/%252x%2FOMldq1XbwJtUWqQg2HF4z0fsdfIvuG4ezcS%2FQcww%3D.sha256) started by CustomDesigned and answered by CustomDesigned and ev.
+This FAQ is thanks to this thread started by CustomDesigned and answered by CustomDesigned and ev:
+
+- %2x/OMldq1XbwJtUWqQg2HF4z0fsdfIvuG4ezcS/Qcww=.sha256
