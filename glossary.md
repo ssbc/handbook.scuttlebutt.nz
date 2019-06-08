@@ -1,5 +1,29 @@
 # Scuttlebutt glossary
 
+## Secure-Scuttlebutt (SSB)
+ 
+A protocol for replicating logs in a global gossip network.
+ 
+## Scuttlebot
+ 
+An SSB server. Now named `ssb-server`.
+ 
+## Feeds
+ 
+A user's stream of signed messages. Also called a log.
+ 
+## Gossip
+ 
+A Peer-to-Peer networking technique where peers connect randomly to each other and ask for new updates.
+
+## Pub Servers
+
+SSB peers which run on public IPs, and provide connectivity and hosting for users on private IPs. Pubs are not privileged, and do not hold special authority in the network. They are not hosts.
+
+## Invite codes
+
+Tokens which may be used to command specific Pub servers to follow a user. These are used to join Pubs.
+
 ## decent
 
 short for "decentralized"
