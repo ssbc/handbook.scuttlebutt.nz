@@ -15,4 +15,6 @@ This concept of pubs is one of the densest and most complex with Scuttlebutt. Yo
 
 ---
 **Sources**
-* [_Answer compiled mostly from this thread. Shoutouts to @mixmix for the original answer.](https://viewer.scuttlebot.io/%25lxUClUyoEVHQ0OIRq2uslFPcPJeJ2UmPROKdl996RFU%3D.sha256)
+* Answer compiled mostly from this thread. Shoutouts to @mixmix for the original answer:
+
+- %lxUClUyoEVHQ0OIRq2uslFPcPJeJ2UmPROKdl996RFU=.sha256

@@ -6,7 +6,9 @@
 
 Currently, you cannot.  Identities are tied to a single user on a single device.  You could use scuttlebutt on multiple devices, but you would be maintaining multiple identities and feeds.
 
-There is an ongoing conversation around this, though, that you can follow [here](https://viewer.scuttlebot.io/%25PwYjgBO4qwpz4ya%2BFLiXphHyuwdFHntrMGd%2FbXJc17o%3D.sha256)
+There is an ongoing conversation around this, though, that you can follow here:
+
+- %25PwYjgBO4qwpz4ya%2BFLiXphHyuwdFHntrMGd%2FbXJc17o%3D.sha256
 
 ---
 **Sources**
