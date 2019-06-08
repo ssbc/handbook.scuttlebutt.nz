@@ -37,7 +37,7 @@ stack module outline:
 
 ## Database
 
-[`secure-scuttlebutt`](https://github.com/ssbc/secure-scuttlebutt): database of unforgable append-only feeds, optimized for efficient peer-to-peer replication
+[`ssb-db`](https://github.com/ssbc/ssb-db): database of unforgable append-only feeds, optimized for efficient peer-to-peer replication
 
 - [`flumedb`](https://github.com/flumedb/flumedb): modular database where logs are moved with streams
   - [`flumelog-offset`](https://github.com/flumedb/flumelog-offset): An flumelog where the offset into the file is the key
@@ -59,7 +59,7 @@ stack module outline:
 
 ## Server
 
-[`scuttlebot`](https://github.com/ssbc/scuttlebot): peer-to-peer log store used as a database, identity provider, and messaging system
+[`ssb-server`](https://github.com/ssbc/ssb-server): peer-to-peer log store used as a database, identity provider, and messaging system
 
 - [`muxrpc`](https://github.com/ssbc/muxrpc): lightweight multiplexed rpc
 - [`mdmanifest`](https://github.com/ssbc/mdmanifest): markdown manifests for mux rpc apis

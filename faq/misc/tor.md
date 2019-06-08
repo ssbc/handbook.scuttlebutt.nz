@@ -9,7 +9,7 @@ configure it as described in
 ssb-config example.
 
 You can find a list pubs available over Tor at the
-[wiki](https://github.com/ssbc/scuttlebot/wiki/Pub-Servers). Please
+[wiki](https://github.com/ssbc/ssb-server/wiki/Pub-Servers). Please
 note that you might need to contact the person running it for an
 invite.
 

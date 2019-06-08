@@ -2,12 +2,12 @@
 
 I'm new to Scuttlebutt and Patchwork, and writing this as I start to explore its possibilities with the sbot command line tool. Feel free to respond with any suggestions or questions. My interest in Scuttlebutt was piqued by [@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)'s post, [An Off-Grid Social Network](https://staltz.com/an-off-grid-social-network.html), especially how the decentralized, peer-to-peer architecture works to support offline use and avoids reliance on any servers with special authority.
 
-Scuttlebutt applications depend on a *server* component that maintains the connection with the Scuttlebutt network. Many Scuttlebutt applications, including Patchwork, use [Scuttlebot](https://github.com/ssbc/scuttlebot) in this role as a server, and interact with the Scuttlebutt network via Scuttlebot. The first time you run Scuttlebot (or an application using it), an identity is created (in the form of a public and private key pair) and this identity is used by all applications that communicate via Scuttlebot.
+Scuttlebutt applications depend on a *server* component that maintains the connection with the Scuttlebutt network. Many Scuttlebutt applications, including Patchwork, use [ssb-server](https://github.com/ssbc/ssb-server) to interact with the Scuttlebutt network. The first time you run ssb-server (or an application using it), an identity is created (in the form of a public and private key pair) and this identity is shared by all applications that communicate via ssb-server.
 
-**sbot** is a command line tool included with Scuttlebot. To install it, install the *scuttlebot* Node.js package globally by running:
+**sbot** is a command line tool included with ssb-server. To install it, install the *ssb-server* Node.js package globally by running:
 
 ```
-npm install --global scuttlebot
+npm install --global ssb-server
 ```
 
 This should let you run *sbot* on the command line. Let's start by using **whoami** to verify that sbot can connect to a Scuttlebot server and has the right identity.
@@ -129,4 +129,4 @@ $ sbot private.unbox "cZOlfY2YQBM..."
 }
 ```
 
-That's just a brief introduction to the Scuttlebutt network using the sbot command line tool. For more information, check out the [API/CLI reference](https://ssbc.github.io/scuttlebot/api.html) and the [Secure Scuttlebutt](https://ssbc.github.io/secure-scuttlebutt/) protocol overview.
+That's just a brief introduction to the Scuttlebutt network using the sbot command line tool. For more information, check out the [API/CLI reference](https://ssbc.github.io/ssb-server/api.html) and the [Secure Scuttlebutt](https://ssbc.github.io/ssb-db/) protocol overview.

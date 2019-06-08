@@ -46,7 +46,7 @@ To understand what code is in the Scuttlebutt ecosystem and how the modules asse
 
 To get started developing [Patchwork](https://github.com/ssbc/patchwork) (the primary user interface), first [follow the instructions to build from source](https://github.com/ssbc/patchwork/blob/master/README.md#or-build-from-source).
 
-To get started developing [Scuttlebot](https://github.com/ssbc/scuttlebot) (the data server), see the ["Introduction to Using Scuttlebot" guide](https://ssbc.github.io/docs/scuttlebot/tutorial.html).
+To get started developing [ssb-server](https://github.com/ssbc/ssb-server) (the data server), see the ["Introduction to Using Scuttlebot" guide](https://ssbc.github.io/docs/scuttlebot/tutorial.html).
 
 ### Native Build Dependencies
 
