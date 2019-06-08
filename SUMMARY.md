@@ -7,7 +7,7 @@
   - [Gossiping Securely is the new Email](stories/gossiping-securely-is-the-new-email.md)
   - [Scuttlebutt Genesis](stories/scuttlebutt-genesis.md)
   - [Using Trust in Open Networks](stories/using-trust-in-open-networks.md)
-  - [Secure private channels: the good, the bad, and the ugly](secure-private-channels.md)
+  - [Secure private channels: the good, the bad, and the ugly](stories/secure-private-channels.md)
 * [Talks](talks.md)
 * [Contributing](contributing.md)
 * [Code of Conduct](code-of-conduct.md)
