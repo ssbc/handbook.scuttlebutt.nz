@@ -54,6 +54,7 @@ Name |
 [Design Challenge: Sybil Attacks](./design-challenge-sybil-attacks.md) |
 [Scuttlebutt Genesis](./scuttlebutt-genesis.md) |
 [Using Trust in Open Networks](./using-trust-in-open-networks.md) |
+[Secure private channels: the good, the bad, and the ugly](./secure-private-channels.md) |
 
 ## Ideas
 
