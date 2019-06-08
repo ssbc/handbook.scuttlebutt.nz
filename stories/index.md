@@ -18,6 +18,7 @@ Name | Author | Date
 
 Format | Name | Author | Date
 --- | --- | --- | ---
+audio & video | [Dominic Tarr: Secure Scuttlebutt – The “Localized” but Distributed Social Network](https://letstalkbitcoin.com/blog/post/epicenter-dominic-tarr-secure-scuttlebutt-the-localized-but-distributed-social-network) | Epicenter Bitcoin | 4 June 2019
 audio | [The Third Web #11 - Scuttlebutt & Cypherspace](https://soundcloud.com/arthurfalls/the-third-web-11-scuttlebutt-cypherspace) | Arthur Falls | 21 November 2018
 audio | [Build our own internet with André Staltz](https://javascript-podcast.com/podcast/18) | ScriptCast | 31 October 2018
 audio | [Datcast Episode 4 - Stephen Whitmore (@noffle)](https://dat-cast.hashbase.io/DCUP0.html?ep=CGMRJ5UU-NNX9A4I) | Datcast | 21 Sept 2018
