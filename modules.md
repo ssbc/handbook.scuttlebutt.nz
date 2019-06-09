@@ -19,11 +19,11 @@
 
 stack concept outline:
 
-![stack concepts](/assets/stack-concepts.jpg)
+<img alt="stack concepts" width="50%" src="/assets/stack-concepts.svg" />
 
 stack module outline:
 
-![stack modules](/assets/stack-modules.jpg)
+<img alt="stack modules" width="50%" src="/assets/stack-modules.svg" />
 
 ## Streams
 
