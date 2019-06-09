@@ -3,7 +3,7 @@
 To get your ID:
 
 ```bash
-sbot whoami
+ssb-server whoami
 ```
 ```js
 sbot.whoami(cb)

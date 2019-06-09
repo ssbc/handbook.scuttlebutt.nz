@@ -3,7 +3,7 @@
 To get your address:
 
 ```bash
-sbot getAddress
+ssb-server getAddress
 ```
 ```js
 sbot.getAddress(cb)

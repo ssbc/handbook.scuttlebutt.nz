@@ -20,23 +20,23 @@ sudo apt-get install autotools-dev automake
 **Install:**
 
 ```bash
-npm install scuttlebot -g
+npm install ssb-server -g
 ```
 
 **Run:**
 
-Start scuttlebot as server.
+Start scuttlebutt server.
 
 ```bash
-sbot server
+ssb-server start
 ```
 
 Then, in another session, use the cli tool to access the API:
 
 ```bash
-sbot whoami
-sbot publish --type post --text "Hello, world"
-sbot log
+ssb-server whoami
+ssb-server publish --type post --text "Hello, world"
+ssb-server log
 ```
 
 You can get help with `-h`.
@@ -62,7 +62,7 @@ sudo apt-get install autotools-dev automake
 **Install:**
 
 ```bash
-git clone https://github.com/ssbc/scuttlebot.git
+git clone https://github.com/ssbc/ssb-server.git
 cd scuttlebot
 npm install
 ```

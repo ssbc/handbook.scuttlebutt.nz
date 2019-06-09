@@ -5,7 +5,7 @@ If you're operating a Pub, you'll need to create invites for new members to join
 The command to create an invite code is:
 
 ```bash
-sbot invite.create {num-uses}
+ssb-server invite.create {num-uses}
 ```
 
 Where `{num-uses}` is the number of times the invite can be used before expiring.

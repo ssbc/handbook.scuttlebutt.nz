@@ -7,8 +7,8 @@ First get an invite-code from a Pub operator you know, or [setup your own pub](h
 If you're using Patchwork, you can use the UI to use the code.
 However, if you want to use Scuttlebot, you can use the following command:
 
-```
-sbot invite.accept {code}
+```bash
+ssb-server invite.accept {code}
 ```
 
 Your Scuttlebot will now connect to, and sync with, the Pub.

@@ -44,20 +44,20 @@ npm install -g scuttlebot
 
 To update scuttlebot in the future, simply run the global install again.
 
-## 4. Create a run-sbot.sh script
+## 4. Create a run-server.sh script
 
-Save the following script somewhere easy to find, such as `~/run-sbot.sh`.
+Save the following script somewhere easy to find, such as `~/run-server.sh`.
 This script will help ensure uptime, even if scuttlebot experiences a crash:
 
 ```bash
 #!/bin/bash
 while true; do
-  sbot server --host {your-hostname}
+  ssb-server start --host {your-hostname}
 done
 ```
 
 Be sure to replace `{your-hostname}` with the actual hostname of your server
-For instance, if your server is `foobar.com`, then you should enter `sbot server --host foobar.com`.
+For instance, if your server is `foobar.com`, then you should enter `ssb-server start --host foobar.com`.
 
 ## 5. Run the server script
 
@@ -65,17 +65,17 @@ Use a session-manager such as [screen](https://www.rackaid.com/blog/linux-screen
 Start the session and run the script:
 
 ```bash
-sh ~/run-sbot.sh
+sh ~/run-server.sh
 ```
 
 Then, detach the session.
 
 ## 6. Confirm Scuttlebot server is running
 
-To check if sbot is running, use the following command:
+To check if the server is running, use the following command:
 
 ```bash
-sbot whoami
+ssb-server whoami
 ```
 
 If all is well, your Pub's ID will be logged to the console.
@@ -84,11 +84,11 @@ If this fails, check that the server-script is still active, and isn't failing d
 ## 7. Create the Pub's profile
 
 It's a good idea to give your Pub a name, by publishing one on its feed.
-To do this, first get the Pub's ID, with `sbot whoami`.
+To do this, first get the Pub's ID, with `ssb-server whoami`.
 Then, publish a name with the following command:
 
 ```bash
-sbot publish --type about --about {pub-id} --name {name}
+ssb-server publish --type about --about {pub-id} --name {name}
 ```
 
 It's a good idea to use your Pub's hostname.
@@ -96,7 +96,7 @@ Also, don't use spaces, or include the `@` symbol.
 Here's an example usage (dont copy this!):
 
 ```bash
-sbot publish --type about --about @2mIg4e/GO53+hKJBBrn+KZtb+1aMYazb/9FGEHoQp3U=.ed25519 --name foobar.com
+ssb-server publish --type about --about @2mIg4e/GO53+hKJBBrn+KZtb+1aMYazb/9FGEHoQp3U=.ed25519 --name foobar.com
 ```
 
 ## 8. Create invites
@@ -105,7 +105,7 @@ For a last step, you should create invite codes, which you can send to other use
 The command to create an invite code is:
 
 ```bash
-sbot invite.create 1
+ssb-server invite.create 1
 ```
 
 This may now be given out to friends, to command your pub to follow them.

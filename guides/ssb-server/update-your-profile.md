@@ -5,7 +5,7 @@
 To name yourself, publish this `about` message:
 
 ```bash
-sbot publish --type about --about {yourId} --name {name}
+ssb-server publish --type about --about {yourId} --name {name}
 ```
 ```js
 sbot.publish({type: 'about', about: yourId, name: name}, cb)
@@ -17,7 +17,7 @@ To set your picture, first [add the image to the blobstore](howto-publish-a-file
 Then, publish this `about` message:
 
 ```bash
-sbot publish --type about --about {yourId} --image {fileId}
+ssb-server publish --type about --about {yourId} --image {fileId}
 ```
 ```js
 sbot.publish({type: 'about', about: yourId, image: fileId}, cb)

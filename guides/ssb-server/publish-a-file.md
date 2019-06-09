@@ -4,9 +4,9 @@ The blobs plugin gives you access to a content-addressed files database.
 [Here is the API](../api/scuttlebot-blobs.md).
 
 ```bash
-$ echo "hello, world" | sbot blobs.add
+echo "hello, world" | ssb-server blobs.add
 &hT/5N2Kgbdv3IsTr6d3WbY9j3a6pf1IcPswg2nyXYCA=.sha256
-$ sbot blobs.get "&hT/5N2Kgbdv3IsTr6d3WbY9j3a6pf1IcPswg2nyXYCA=.sha256"
+ssb-server blobs.get "&hT/5N2Kgbdv3IsTr6d3WbY9j3a6pf1IcPswg2nyXYCA=.sha256"
 hello, world
 ```
 ```js
@@ -25,7 +25,7 @@ After adding a file to the blobstore, you can mention the file in a post to publ
 When peers receive your message, they'll see the file reference (if they can decrypt the message) and sync the file using the blobs api.
 
 ```bash
-sbot publish --type post --text "checkout this pic! ![CHC.jpg](&akkg6hKV7ee6sATu3mLeR6KfhgUbNGHWl/QJeALpQ0Y=.sha256)" --mentions.0.name CHC.jpg --mentions.0.link &akkg6hKV7ee6sATu3mLeR6KfhgUbNGHWl/QJeALpQ0Y=.sha256 --mentions.0.size 288388 --mentions.0.type image/jpeg
+ssb-server publish --type post --text "checkout this pic! ![CHC.jpg](&akkg6hKV7ee6sATu3mLeR6KfhgUbNGHWl/QJeALpQ0Y=.sha256)" --mentions.0.name CHC.jpg --mentions.0.link &akkg6hKV7ee6sATu3mLeR6KfhgUbNGHWl/QJeALpQ0Y=.sha256 --mentions.0.size 288388 --mentions.0.type image/jpeg
 ```
 ```js
 sbot.publish({
