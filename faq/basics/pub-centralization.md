@@ -1,5 +1,7 @@
 # Why do you have pub servers? isn't that a point of centralization?
 
+---
+
 Routers with Network Address Translation ("NAT") and firewalls, and the shortage of IP addresses, make p2p difficult.
 The simplest way around this problem was to create "pub servers".
 

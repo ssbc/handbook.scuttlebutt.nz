@@ -3,6 +3,7 @@
 *Patchwork messages can be written with markdown, but what specific flavor or dialect of markdown?  I want a style guide!*
 
 ---
+
 Here you go!
 
 	***
@@ -102,8 +103,8 @@ This line has an empty line above it so will appear as unquoted
 
 > And then this one will be a new block quote
 
-
 ---
-*Sources*
+
+**Sources**
 
 This answer was taken almost verbatim from @nanomonkey's fantastic answer on Patchwork.

@@ -1,5 +1,7 @@
 # How do you ensure data consistency between users?
 
+---
+
 Sometimes, you want to make sure that other users are aware of a given change.
 This can be implemented by posting acknowledgement messages.
 

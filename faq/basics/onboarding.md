@@ -1,5 +1,7 @@
 # How do new users join the system?
 
+---
+
 To join the network, a user needs to know a server in the system.
 To have their data replicated, they need someone to follow them.
 

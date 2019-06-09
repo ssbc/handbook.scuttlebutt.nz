@@ -1,5 +1,7 @@
 # How does user identity work?
 
+---
+
 Users are identified by public keys.
 This means it is not necessary to have a global registry of user names, nor to have a central server that tracks the action of users.
 Instead, every user action (post) is signed, and this can be verified by any peer.

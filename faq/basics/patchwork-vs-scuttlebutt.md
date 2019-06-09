@@ -17,7 +17,8 @@ A better analogy for all of this would be that Patchwork is a car you ride in an
 	- Patchfoo: jeep
 	- git-ssb: digger.
 
-----
+---
+
 **Sources**
 * The answer is compiled from multiple posts from this thread:
 

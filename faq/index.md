@@ -4,7 +4,7 @@
 
 See also: [P2P FAQ](https://github.com/noffle/p2p-faq)
 
-----
+---
 
 * [Basics](basics/basics.md)
   - [What is the difference between Patchwork and Scuttlebutt?](basics/patchwork-vs-scuttlebutt.md)
@@ -40,7 +40,7 @@ See also: [P2P FAQ](https://github.com/noffle/p2p-faq)
   - [What does a message look like?](protocol/message.md)
   - [How do you ensure data consistency between users?](protocol/data-consistency.md)
   - [What are attachments?](protocol/attachments.md)
-* [Miscellaneous](misc/concepts.md)
+* [Miscellaneous](misc/misc.md)
   - [This seems really cool?](misc/cool.md)
   - [What other dex projects exist?](misc/related.md)
   - [How can I preserve my privacy?](misc/privacy.md)

@@ -1,5 +1,7 @@
 # Can I deploy applications over SSB?
 
+---
+
 It would be possible to deploy applications over ssb by sending the assets for that application as an attachment.
 Then other users could run that app on their local machine.
 

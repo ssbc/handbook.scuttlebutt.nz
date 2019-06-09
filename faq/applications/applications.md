@@ -1,7 +1,8 @@
 # Applications
+
 *Questions around the different ssb-apps and how they work*
 
-----
+---
 
 - [How do posts work across apps?](patchwork-and-patchbay.md)
 - [If I decide to move from one Scuttlebutt app to another, can I keep my feed and history?](moving-ssb-apps.md)

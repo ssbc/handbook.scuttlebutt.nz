@@ -2,7 +2,7 @@
 
 *Questions about scuttlebutt in general, and confusions that come up when folks first get started.*
 
-----
+---
 
 - [What is the difference between Patchwork and Scuttlebutt?](patchwork-vs-scuttlebutt.md)
 - [How do new users join the system?](onboarding.md)
@@ -18,4 +18,3 @@
 - [What ports does Scuttlebutt use?](port.md)
 - [How much space will scuttlebutt take up on my computer?](size.md)
 - [What happens if I unfollowed all my friends and deleted  my .ssb folder? Would all my   messages disappear from the scuttleverse?](delete.md)
-

@@ -73,7 +73,7 @@
     - [What does a message look like?](faq/protocol/message.md)
     - [How do you ensure data consistency between users?](faq/protocol/data-consistency.md)
     - [What are attachments?](faq/protocol/attachments.md)
-  - [Miscellaneous](faq/misc/concepts.md)
+  - [Miscellaneous](faq/misc/misc.md)
     - [This seems really cool?](faq/misc/cool.md)
     - [What other dex projects exist?](faq/misc/related.md)
     - [How can I preserve my privacy?](faq/misc/privacy.md)

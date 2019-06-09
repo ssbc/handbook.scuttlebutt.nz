@@ -1,5 +1,7 @@
 # Could games be built on top of SSB?
 
+---
+
 SSB would be quite suitable for turn based games.
 
 Generally, games are competitive, and so ensuring fairness requires consistency, i.e. turns. 
