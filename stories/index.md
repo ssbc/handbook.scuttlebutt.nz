@@ -18,6 +18,7 @@ Name | Author | Date
 
 Format | Name | Author | Date
 --- | --- | --- | ---
+audio | [P2P Messaging & Scuttlebutt with Dominic Tarr](https://www.zeroknowledge.fm/81) | Zero Knowledge | 12 June 2019 
 audio & video | [Dominic Tarr: Secure Scuttlebutt – The “Localized” but Distributed Social Network](https://letstalkbitcoin.com/blog/post/epicenter-dominic-tarr-secure-scuttlebutt-the-localized-but-distributed-social-network) | Epicenter Bitcoin | 4 June 2019
 audio | [The Third Web #11 - Scuttlebutt & Cypherspace](https://soundcloud.com/arthurfalls/the-third-web-11-scuttlebutt-cypherspace) | Arthur Falls | 21 November 2018
 audio | [Build our own internet with André Staltz](https://javascript-podcast.com/podcast/18) | ScriptCast | 31 October 2018
