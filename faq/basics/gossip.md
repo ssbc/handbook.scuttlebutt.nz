@@ -10,8 +10,7 @@ Part of the philosophy behind Scuttlebutt is that software should better represe
 
 There are some great pages posted on scuttlebutt.nz that go into gossip as a protocol,[found here](https://www.scuttlebutt.nz/concepts/gossip.html). But gossip as a concept-- you meet to talk to your friends about your mutual friends and catch up on what everyone's been up to and saying-- serves as a great summary of how scuttlebutt functions.
 
-
-----
+---
 
 **Sources**
 * Answer taken from section of this thread:
@@ -19,4 +18,3 @@ There are some great pages posted on scuttlebutt.nz that go into gossip as a pro
 - %m8+25i3i5LCRioA/CAqARVb0HNA6TTdvi4B0CxBd8eo=.sha256
 
 Shoutouts to @ferrouswheel for asking the question! 
-

@@ -1,7 +1,9 @@
 # Should I follow multiple pubs?
+
 *Is it worth it to follow(befriend/subscribe to)  more than one Pub server? Are all the pub servers synced to each other?*
 
 ---
+
 *(For this, we can quote verbatim @winmix's answer from the scuttleverse*
 
 Many of the pubs sync each other.
@@ -12,6 +14,7 @@ following more pubs = finding out about more people
 getting more pubs to follow you = more always-online nodes that for-sure replicate your messages
 
 ---
-*Sources*
+
+**Sources**
 
 Thanks to @Ds for asking the question and @winmix for the answer!

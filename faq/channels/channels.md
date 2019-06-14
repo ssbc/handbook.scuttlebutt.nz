@@ -15,6 +15,7 @@ There has been discussion on whether channels should work more like hashtags, an
 - %gTHLf3Rlc48RSjwATVDJZpe9VlWGfxMmio1+o3KXvjA=.sha256
 
 ---
+
 **Sources**
 * Answer compiled from multiple posts on this thread:
 

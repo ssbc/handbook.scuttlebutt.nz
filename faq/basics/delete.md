@@ -46,6 +46,7 @@ ssb-server start
 It will take a while to resync everything so give it a while. It's imporant to wait until your feed completely syncs before posting (or linking) anything, or you can fork your feed. Once your `~/.ssb` dir is restored you can safely restart patchwork or other programs which will read from the same dir.
 
 ---
+
 **Sources**
 * Answer compiled from these threads:
 
