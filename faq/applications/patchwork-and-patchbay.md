@@ -13,6 +13,7 @@ However, different applications will have different _opinions_ on what types of 
 What this means is that if you are on Patchwork and your friend is on Patchbay, and your friend posts their opinion on John Wick 2, you will be able to see it.  But if your friend makes a pull request to update the code on their John Wick 2 dating sim, you would not be able to see it because Patchwork has no opinion on that type of message. 
 
 ---
+
 **Sources**
 * The answer is compiled from multiple posts from this thread:
 

@@ -14,6 +14,7 @@ When you first get started on Scuttlebutt it can appear incredibly empty until y
 This concept of pubs is one of the densest and most complex with Scuttlebutt. You can read more about it [here](https://www.scuttlebutt.nz/concepts/pub.html) and [here](https://www.scuttlebutt.nz/stories/design-challenge-avoid-centralization-and-singletons.html).  Or just not worry about it too much right now and simply  know: while pubs are not required to use scuttleverse they certainly make it simpler. Just like in real life, when you are new to the area, a pub is a great way to meet new friends.
 
 ---
+
 **Sources**
 * Answer compiled mostly from this thread. Shoutouts to @mixmix for the original answer:
 

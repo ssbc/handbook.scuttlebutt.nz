@@ -1,7 +1,8 @@
 # Concepts
+
 *Miscellaneous questions around the _ideas_ behind Scuttlebutt and the scuttleverse.  Also questions around the FAQ itself.*
 
-----
+---
 
 - [This seems really cool?](cool.md)
 - [What other dex projects exist?](related.md)
