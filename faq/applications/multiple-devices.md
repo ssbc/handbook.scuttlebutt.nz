@@ -8,7 +8,7 @@ Currently, you cannot.  Identities are tied to a single user on a single device.
 
 There is an ongoing conversation around this, though, that you can follow here:
 
-- %25PwYjgBO4qwpz4ya%2BFLiXphHyuwdFHntrMGd%2FbXJc17o%3D.sha256
+- %PwYjgBO4qwpz4ya+FLiXphHyuwdFHntrMGd/bXJc17o=.sha256
 
 ---
 

@@ -17,4 +17,4 @@ What this means is that if you are on Patchwork and your friend is on Patchbay, 
 **Sources**
 * The answer is compiled from multiple posts from this thread:
 
-- %25m8%2B25i3i5LCRioA%2FCAqARVb0HNA6TTdvi4B0CxBd8eo%3D.sha256  Shoutout to @ralphtheninja for the awesome answer.
+- %m8+25i3i5LCRioA/CAqARVb0HNA6TTdvi4B0CxBd8eo=.sha256  Shoutout to @ralphtheninja for the awesome answer.

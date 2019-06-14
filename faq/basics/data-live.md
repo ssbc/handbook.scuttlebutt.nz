@@ -20,6 +20,7 @@ The messages you've sent live in a leveldb database within this folder (specific
 **Sources**
 * Answer compiled mostly from experience and this thread:
 
+
 - %bUEQtn85jtL8Vxjup4sS/7wcaswS4fThUPVH7G5IvjU=.sha256
 
 Shoutouts to @cryptix for the answer on encryption and the leveldb database.
