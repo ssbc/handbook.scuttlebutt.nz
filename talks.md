@@ -2,6 +2,14 @@
 
 ![Hermies gift](assets/garden/hermies-gift.gif)
 
+## The Internet in 2030
+
+### André Staltz @ Mixit 19
+
+> The centralizing powers of the internet are showing a need for radical change towards freedom and user rights. A new movement is building the new internet, but there are even more difficulties approaching: climate crisis, crowd social engineering, and the next impending economic crisis, all of which are interconnected. This talk will show you how we are coming to the end of an era, and how one promising approach can benefit the environment, the economy, humanity, and the internet: décroissance.
+
+[![André on the internet in 2030](./assets/andrestaltz-internet-in-2030.jpg)](https://mixitconf.org/2019/the-internet-in-2030)
+
 ## Scuttlebutt and a Decentralized Future
 
 ### Zenna Fiscella @ Radical Networks 2018
