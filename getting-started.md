@@ -25,130 +25,191 @@ ways around this but it's beyond the scope of this document.
 ![screenshot of Patchwork](assets/screenshots/patchwork.jpg)
 
 
-## Step 0 
+## Step 0: What is Scuttlebutt?
 
 If you haven't done so already go to [the Scuttlebutt Home Page](README.md) 
 and watch the video. Then come back. 
 
-## Step 1 
+## Step 1: Install Patchwork, a Scuttlebutt app
 
 [Download Patchwork](http://dinosaur.is/patchwork-downloader/), and
 install it like any other app. 
  
-## Step 2 
+## Step 2: Set up your profile
 
-Boot it up and set up your profile. 
+Start up Patchwork and set up your profile. 
 
 ![patchwork new profile screenshot](assets/screenshots/patchwork-first-boot.png)
 
-It doesn't matter what name you put. It can be your real name. It can be a
-nickname. Like in the real world it's entirely possible for multiple people to have
-the same name. Your friends can give you nicknames too. 
+Choose a name.  Names in Scuttlebutt are not unique, just like in the real world --
+you can be "Fern" even if there are other people named "Fern" already.
 
 You don't need to upload an image, but we recommend that you do, because it's
 much easier to figure out who is talking when there's a visual, and the defaults
 are really generic. Some people use a photo of themselves. Some people use a
 random avatar they like, just like on Twitter.
 
-The text area, like every text area in Patchwork uses
+You can change this all later (name, photo, and description).
+**It's possible to discover your old names** and photo and description, so
+consider the privacy implications of whatever you choose.  You may want to start
+with a temporary-feeling identity and change it later once you settle in.
+
+The description area like every text area in Patchwork uses
 [markdown](http://commonmark.org/help/) formatting.
 
 Save that when you're done.
 
-## Step 3 
+## Step 3: Connections to people and pubs
 
-Get connected. 
+Create social connections and network connections.
 
-Because Scuttlebutt is a distributed network you need to find
-some people to follow. This is partially because it's really _really_ boring if
-you're not listening to anyone and no-one is listening to you. It's also because
-you get "gossip" from the people you follow. "Gossip" is more than just info
-about people you're interested in. It is also the name of [a protocol](concepts/gossip.md) 
-that Scuttlebutt uses to share information. 
+Scuttlebutt is unusual so it's worth understanding how this works:
 
-The more people you follow, the more your network opens up.
+Social connections (following someone) indicate that you're interested in reading their posts.
+This is about the same concept as on Twitter.
+Your computer uses your social connections to know what data it's interested in when it's syncing.
 
-Every additional person and pub you follow is another channel for gossip to use
-to flow through to you. If you don't follow _anyone_ (not even pubs) you won't
-receive _any_ new posts because there won't be anyone gossiping with you.
-Channels may look bare because the only people talking in them are too distant
-(in terms of friend relationships) for you to hear. 
+Network connections happen when two computers find each other and try to exchange data.
+Your scuttlebutt app will try to connect with **any other Scuttlebutt computers it can find**
+just in case they have data about people you're interested in.
 
-### Connecting Locally 
+So each person's computer acts like a courier or mail carrier, ferrying around messasges and giving
+them to other nearby computers that are interested.  We call this process "gossip".
 
-Most of us don't happen to be sitting next to someone
-else on the same network.  If you _are_ you'll see them listed under "local" on
-the left, otherwise this will be hidden. Click their profile to see more about
-them, and click "Follow" if you feel like following what that person has to say
-(just like Twitter).  You'll start downloading information from them that
-they've posted to the network _and_ information their friends have posted. 
+Scuttlebutt downloads everything it can up front, so that it will work when you're offline.  In that
+way it's like an email client such as Outlook or Thunderbird.
 
-### Remotely 
+### More about social connections and how posts travel
 
-Even if you _are_ next to someone you'll still want to connect to a
-"pub" server so that you can exchange info with others if no-one is nearby. In
-the video they're described as being more like bartenders than pubs, because
-it's the bartender who you gossip with at the pub, and shares the gossip of
-others.
+Your scuttlebutt app is interested in the people you follow, and the people **they** follow (2 hops out).
+It won't show those more distant people to you in most screens of the app,
+but it will try to download their posts in case you try to look at them.
 
-Go to [the list of pub servers](https://github.com/ssbc/ssb-server/wiki/Pub-Servers). 
+If you're not following anyone, your computer won't request any posts and there will be nothing
+for you to read.
+And if nobody is following you, your posts won't get very far out into the network.
 
-Open one up in a new tab and you'll see something like this.
+So your next task is to follow and become followed.
+
+### Connecting to people locally
+
+If you're sitting in the same room as someone, on the same wifi or wired network,
+your computers will discover each other.  You'll see them listed in the left sidebar under "Local".
+
+Click their profile to see more about them, and click "Follow" if you feel like
+following what that person has to say and helping to ferry their data around.
+
+Your computers will talk to each other even if you're not following each other, because
+you might happen to have gossip about a mutual friend to sync.
+
+### Pubs help you connect over a distance
+
+"Pubs" are robot friends to get you started.
+Think of them as bartenders in a neighborhood pub who know a lot of people, and help spread gossip.
+
+They work the same as actual people on the network, except you can get them to follow you by "joining" them with an "invite code".
+
+They exist for 2 reasons:
+* To create more social connections, like that friend of yours who knows everybody in town, so gossip
+can travel further and you can meet new people
+* To create easier network connections, since they're always online and reachable from anywhere on the internet.
+
+You don't have to use pubs if you and your friends carry your laptops around and sync up in person from
+time to time.
+But if you want to find new people, or distant people, you should join a couple of pubs.
+
+### Time to join some pubs
+
+"Joining" a pub causes you and the pub to become mutual followers.
+
+Choose a pub from [the list of pub servers](https://github.com/ssbc/ssb-server/wiki/Pub-Servers).
+
+Open one up and you'll see something like this.
 
 ![pub server example](assets/screenshots/pub-server-page-1.png)
 
 Click the button to "Get An Invitation" and it'll generate a custom invitation
 code just for you. Copy the whole thing. Then click the "+ Join Pub" button in
-Patchwork. 
+Patchwork at the top left.
 
 ![Join Pub button](assets/screenshots/patchwork-join-pub-button.png)
 
-There's a limit to how far gossip will travel through a network of people, and
-the bartender at a pub is just another "person" in the chain. Because of this
-it's good to connect to a few pubs. Also, it spreads the load. 
+It's good to join a few pubs for better reliability, in case one of them breaks.
 
-**Note:** If you've already got a friend on Scuttlebutt, ask them what pub(s)
-they follow. Otherwise it's possible that you'll be out of range of each other,
-so to speak. 
+If you've already got a friend on Scuttlebutt, try to join at least one of the
+same pubs as them so that you can see each other.  (Ask them which pubs they're on.)
 
-The pubs you're currently connected to are listed on the left side if you click
-on "Public".
+## Step 4: Getting all the Gossip
 
-## Getting all the Gossip
+**The first time you join the network there will be a
+lot to download and process - expect this to take up to an hour and use a
+couple of gigabytes.**  It's a good time to go have a cup of tea.
 
-As soon as you connect to a pub or start following a person Scuttlebutt will
-start syncing down all the "gossip" they have for you, and pass on any "gossip"
-you have for them. *The first time you connect to a pub server there will be a
-lot to download.* So, give it some time.
+Patchwork is downloading the entire history of the all people you're interested in.
+Once this is done you can use it offline!
 
-(Please note that if you unfollow the pub before following other people you will not 
-be able to see anything and the network will appear empty. Since the pub still follows 
-you, others will see you but you will not be able to hear what they say.)
+It goes faster if you have a friend's computer on your wifi because you can get
+most of the content from their computer instead of from across the internet.
 
-The pub is a robot friend to get you started. When you are invited to join a pub 
-it follows you back. That way you can see friends of that pub. Robots are great but 
-following people is even nicer. 
+There's a progress bar at the top of the window.  During this time it's best
+to leave the app alone and not try to use it because it can seem slow or broken.
+It's safe to quit and restart the app while this is happening.
 
+Patchwork has a bug - after the first long syncing process is done you need to
+restart the app in order to see most of the content.
 
-## Get Social!
+### What are all these pubs listed in the Patchwork sidebar?  I didn't join those!
 
-You'll see some channels listed in "Active channels" on the left, but the "More"
-menu up at the top has a "Browse All" option under "Channels".
+In the left sidebar is a list of "connected pubs".  These are network connections,
+not social connections.
+
+You computer is talking to every computer it can find in case there's relevant gossip to share.
+You haven't necessarily "joined" those pubs, your computer is just looking everywhere
+for news from your friends.
+
+The pubs you've "joined" show up on your profile page, mixed in with the people you're following.
+
+## Step 5: Get Social!
+
+The "Public" page shows you posts that your friends wrote or commented on.
+
+The "Private" page lets you write private messages to up to 7 people at a time.
+
+"Channels" are really more like hashtags on Twitter.  The Active Channels list shows recently
+used channels, and you can find more in the More menu.  Channels are useful for organizing
+topics of conversation, and for finding people to follow.
 
 ![browse all button](assets/screenshots/patchwork-browse-all.png)
 
- 
-Find a topic that looks interesting and start reading. Hint: perhaps the most important 
-channel when you start is #new-people. When you're ready to "Publish" remember that 
-it uses Markdown formatting. 
+There's a search box in the top right.  Start with "@" to search for people, "#" to find
+channels, or just put words you want to find.
 
-Remember, it doesn't matter if you're online or not. You'll still see all the
-images, and you'll be able to respond to posts and create new ones. The next
-time you connect to a local person or a pub server everything will connect up.
-When you're online this will happen constantly, and responses can appear very
-quickly. 
+We have a tradition that new people write introductions in the #new-people channel.
+The easiest way to get there is to search for "#new-people"
 
+### Writing
 
+You can write new posts at the top of the Public page or any Channel page,
+or comment on someone else's post.
+
+Posts are written with [Markdown formatting](https://commonmark.org/help/).
+You can mention people using "@" and they will get a notification on their Mentions page.
+
+When you're done, click "Preview & Publish".  This lets you check that your
+formatting looks good, then you can actually publish it.
+
+**NOTE!** Posts are permanent!  You can't edit or delete them.  This isn't
+an ideological thing, just a technical challenge that we're working on fixing.
+
+So, use your spellcheck, actually look at the Preview, and don't publish in anger.
+You won't be able to take it back. 
+
+Scuttlebutt works offline just like email clients like Outlook and Thunderbird.
+You can write posts and comments offline and they will sync later when you connect again.
+Why not take your computer outside and write to your friends from under a tree?
+
+Expect an email-like speed of communication - sometimes people respond quickly,
+and sometimes it's more like having a penpal and waiting for the mail to arrive.
 
 ### Some places to start
 
@@ -158,19 +219,15 @@ Once onboard patchwork, check out the following channels by typing their name
 * #new-people: introduce yourself
 * #faq: first impressions, what is confusing as a new user?
 * #patchwork: report bugs, suggestions, etc
-* #scuttlebutt: protocol related discussion
+* #scuttlebutt: technical discussion
 
 Introducing yourself in the #new-people channel is a great way to encounter others you 
 might like to follow and who might like to follow you. Unless you do so, even though 
 other people are able to see your posts, it is possible that nobody will notice your 
 arrival especially if things are busy at the time and this might lead to a lonely and 
 discouraging experience. We're a friendly bunch so please don't be shy! Come and 
-tell us a bit about yourself in #new-people are we can help you find other people 
+tell us a bit about yourself in #new-people so we can help you find other people 
 that you might be interested in getting to know better.
-
-**NOTE:** There is no edit. There is no undo. There is no delete. So, use your
-spellcheck, actually look at the Preview, and don't publish in anger. You won't be
-able to take it back. 
 
 ## Linking To Things 
 
@@ -181,42 +238,53 @@ typing `@` and the person's name and Patchwork will help you out with suggestion
 as you type. Hit enter when you have the right one. The same applies to
 channels. Just start typing a `#` and the channel's name instead. 
 
+You can use multiple channel names in the text of your message, just like hashtags on Twitter.
 
 ### Everything else
 
 Linking to an external web page with Markdown is easy, just say
-`[display text](destination url)`.
+`[display text](https://whatever.com)`.
 
 How do you link to other messages _in_ Scuttlebutt though? Well, first you need
 the message id. Right click on a link to the message you want to link to and
 choose "Copy Message ID" Then make a link just like a normal url link but use
-the message id as the destination url. 
+the message id as the destination. 
 
-Profiles are a little different. A profile is a feed for a single person. So, in
-that case you want to use "Copy Link Ref" For example, if I wanted to link to
-André's profile I'd say 
-`[here's André's profile](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)` OR you can do
-it the easy way. Just type `@andre` and hitting enter when the autocomplete has
-chosen the right one. Then edit the display text to be whatever you want. 
+Profiles are a little different and normally you just let Patchwork autocomplete
+for you when you type `@`.  To do it manually, you can find their "feed id" on their
+profile page just under their name.  It's a long random series of characters starting
+with an `@`.
 
 ### Sharing Scuttlebutt things with other people 
 
-If you want to share a really interesting conversation with a friend who
-isn't on Scuttlebutt yet, just right click on the first message in the
-thread, chose "Copy External Link" and then message them that link. You could
-Tweet it or post it on Facebook, or whatever.  The link goes to a public site
-where you can see, but not interact with, posts on Scuttlebutt. Note: the public
-viewer is kept running by the generosity of 
+We had a system to put Scuttlebutt content on the normal internet but it's being phased out now.
+If you want to try it, right-click a post and "Copy External Link".
+
+The public viewer is kept running by the generosity of 
 [a community member](https://github.com/clehner) not some mega-corp. with racks 
 of backup servers. ;) 
 
-It should be noted that people can indicate that they don't want their stuff
-shown on public sites or in search results on sites like Google. Check out the
-[Privacy page](/faq/misc/privacy.md) for details. 
+Only people who have opted-in to the public viewer will show up there.
+Check out the [Privacy page](/faq/misc/privacy.md) for details. 
 
 ## Stay Happy and Safe
 
-Don't worry, if you come across someone whose views make you uncomfortable, you can
-always block them. Then you'll never receive any of their posts again, and they
-won't get yours either. 
+If someone is bothering you or saying things you don't want to hear, you can block or ignore them
+from their profile page (in the Options button).  This will hide their messages and comments from you.
 
+You can loudly **block** someone, or quietly **ignore** them.
+
+A block is public and everyone can see it.
+Blocking is a way to demonstrate community norms and alert your friends to someone they may also want to block.
+Sometimes it starts useful conversations.
+
+Ignoring quietly is a secret action that only you will know about.  It hides the person from your view.
+
+We want Scuttlebutt to be a safe cozy place but there are still some things we need to fix:
+* Blocked people can see your public messages.
+* Content from blocked people is still on your computer.  (This is almost fixed!)
+* Patchwork has some bugs that let you see blocked people in certain situations when they should be hidden
+* Scuttlebutt doesn't provide IP address anonymity by itself, but you can use it with a VPN or Tor.
+* Messages can't be deleted yet.
+
+We know this isn't enough safety for many people and we're working on these issues now.
