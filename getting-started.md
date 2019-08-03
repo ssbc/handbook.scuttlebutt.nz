@@ -145,6 +145,8 @@ same pubs as them so that you can see each other.  (Ask them which pubs they're 
 lot to download and process - expect this to take up to an hour and use a
 couple of gigabytes.**  It's a good time to go have a cup of tea.
 
+![Initial Sync Island](assets/initial-sync-island.png)
+
 Patchwork is downloading the entire history of the all people you're interested in.
 Once this is done you can use it offline!
 
