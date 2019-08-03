@@ -10,6 +10,7 @@ Scuttlebutt is not the only dex project:
 - [Dat](http://datproject.org/)
 - [Ethereum](https://www.ethereum.org/)
 - [Indie Net](https://indienet.info/) (Federated)
+- [IndieWeb](https://indieweb.org) (Optionally federated)
 - [IPFS](https://ipfs.io/)
 - [SAFE Network](https://safenetwork.tech/)
 - [Matrix](http://matrix.org/) (Federated)
