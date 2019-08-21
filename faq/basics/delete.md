@@ -12,6 +12,13 @@ But if you just want delete your account on purpose, your friends may still temp
 
 ## Deleting and 'resetting' your .ssb database
 
+---
+
+> **NOTE** - please talk with a scuttlebutt developer before attempting this. This is not a _basic_ move, and it's easy to get yourself into bad trouble with this.
+>
+> We really need to make a tool which handles this safely
+----
+
 If things get 'corrupted' locally and you want to resync your .ssb data from your peers you could do the following to create a clean copy,  
 
 These instructions assume you are using terminal on OSX or Linux but, the same steps should also run on Windows.
@@ -43,7 +50,7 @@ If you are using ssb-server (previously sbot) you can do this as follows.
 ssb-server start
 ```
 
-It will take a while to resync everything so give it a while. It's imporant to wait until your feed completely syncs before posting (or linking) anything, or you can fork your feed. Once your `~/.ssb` dir is restored you can safely restart patchwork or other programs which will read from the same dir.
+It will take a while to resync everything so give it a while. **It's imporant to wait until your feed completely syncs before posting (or linking) anything, or you can fork your feed.** Once your `~/.ssb` dir is restored you can safely restart patchwork or other programs which will read from the same dir.
 
 ---
 
