@@ -1,6 +1,6 @@
 # Setup a Pub
 
-Note, this guide assumes moderate technical ability.
+Note, this guide assumes moderate technical ability. If you are looking for easier ways to setup a SSB pub, you might want to try [ssb-pub](https://github.com/ahdinosaur/ssb-pub) or [ssb-easy-pub](https://github.com/ahdinosaur/easy-ssb-pub).
 
 ## 1. Get the Server
 
@@ -14,23 +14,17 @@ Scuttlebot by default uses port `8008`, so make sure to expose that port (or wha
 
 ## 2. Install Node
 
-On the server, install [NVM](https://github.com/creationix/nvm):
+On the server, install [NVM](https://github.com/nvm-sh/nvm):
 
 ```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
 
-Then install node 5.3.x:
+Then install NodeJS:
 
 ```bash
-nvm install 5.3
-nvm alias default v5.3.0
-```
-
-And update NPM to 3.5.x:
-
-```bash
-npm install -g npm@3.5
+nvm install 10
+nvm alias default 10
 ```
 
 ## 3. Install Scuttlebot
@@ -39,7 +33,7 @@ Install Scuttlebot using NPM.
 (If you prefer to install using git, [follow the instructions here](./install.md)).
 
 ```bash
-npm install -g scuttlebot
+npm install -g ssb-server
 ```
 
 To update scuttlebot in the future, simply run the global install again.
@@ -53,6 +47,7 @@ This script will help ensure uptime, even if scuttlebot experiences a crash:
 #!/bin/bash
 while true; do
   ssb-server start --host {your-hostname}
+  sleep 3
 done
 ```
 
