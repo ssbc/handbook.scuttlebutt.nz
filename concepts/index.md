@@ -10,7 +10,7 @@ A lot of these are common to many of the current p2p database protocols, however
 
 > twitter implements a social network (decentralized network of friends and influencers) on a computer network with a different topology (data center hub and user spokes)
 >
-> Twister implement a social network (again, dexnet of friends & followors) on a uniformly distributed decentralized network, user feeds distributed across a DHT (distributed hash table) and a blockchain (for user names) - twister is decentralized, but it's uniformly decentralized, each peer puts in roughly the same commitment of resources, which sounds like a good thing, sure.
+> Twister implements a social network (again, dexnet of friends & followors) on a uniformly distributed decentralized network, user feeds distributed across a DHT (distributed hash table) and a blockchain (for user names) - twister is decentralized, but it's uniformly decentralized, each peer puts in roughly the same commitment of resources, which sounds like a good thing, sure.
 But this means that twister is a decentralized implementation of a centralized idea, and thus conceputallly centralized.
 >
 > But secure-scuttlebutt is different, it maps a the social network on to a computer network that is essentially the same topology! that is, the connections between humans maps approximately to the the connections between computers. if you follow someone, you really actually follow them at the data layer.
