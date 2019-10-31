@@ -1,9 +1,14 @@
 # Guides
 
-This section is a collection of guides that are useful to introductions for Scuttlebutt applications and tools.
+This section has a collection of guides that are useful as introductions for developing Scuttlebutt applications and tools.
 
+- [ssb-server, ssb-client & Core Functions](ssb-server-context.md)
+  - guides, tutorials, and breakdowns of ssb-servers core functions
+- [Scuttlebutt Pubs](ssb-server/setup-a-pub.md)
+
+
+External Links:
 - [Scuttlebutt Guide](https://github.com/ssbc/scuttlebutt-guide)
-- [First steps with sbot](./cli-first-steps.md)
 - [SSB field guide](https://github.com/nichoth/ssb-field-guide)
 - [Introduction to SSB: Your Test Playground](https://josiahwitt.com/2018/07/08/scuttlebutt-intro-test-playground.html)
 - [Introduction to SSB: Flume & Plugins](https://josiahwitt.com/2018/07/08/scuttlebutt-intro-flume.html)
