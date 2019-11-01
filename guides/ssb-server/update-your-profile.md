@@ -13,7 +13,7 @@ sbot.publish({type: 'about', about: yourId, name: name}, cb)
 
 ## Picture
 
-To set your picture, first [add the image to the blobstore](howto-publish-a-file.md).
+To set your picture, first [add the image to the blobstore](publish-a-file.md).
 Then, publish this `about` message:
 
 ```bash
