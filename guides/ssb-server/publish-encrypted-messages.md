@@ -1,7 +1,7 @@
 # Publish Encrypted Messages
 
 You can publish messages which are encrypted for up to 7 other recipients.
-This is done with the `private` plugin.
+This is done by adding the [ssb-private](https://github.com/ssbc/ssb-private) plugin.
 
 ## Private.publish
 

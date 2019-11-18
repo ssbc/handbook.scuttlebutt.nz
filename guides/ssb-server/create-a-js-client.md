@@ -1,7 +1,6 @@
 # Create a JS Client
 
-The current process for connecting to Scuttlebot involves loading the master keypair from sbot's config (`~/.ssb/secret`).
-Do this automatically with the [ssb-client](https://github.com/ssbc/ssb-client) module.
+The [ssb-client](https://github.com/ssbc/ssb-client) module can be used for making a connection to a running `ssb-server` process. Internally, it does use some defaults of configuration that at different times and other use cases you may wish to customize, such as the location of the configuration and private keys that it looks up.
 
 ```js
 var ssbClient = require('ssb-client')

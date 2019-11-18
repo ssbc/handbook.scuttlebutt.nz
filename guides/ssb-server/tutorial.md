@@ -1,12 +1,12 @@
-# Introduction to Using Scuttlebot
+# Introduction to Using ssb-server
 
-This tutorial will help you familiarize with Scuttlebot, so you can build scripts and applications.
+This tutorial will help you familiarize with ssb-server, so you can build scripts and applications.
 
-Scuttlebot is pretty unusual compared to datastores like MySQL or Redis, so let's get started with some basics.
+ssb-server is pretty unusual compared to datastores like MySQL or Redis, so let's get started with some basics.
 
-## What is Scuttlebot?
+## What is ssb-server?
 
-Scuttlebot is a peer-to-peer log store.
+ssb-server is a peer-to-peer log store.
 Its data model is similar to that of [Apache Kafka](https://kafka.apache.org/), and it's part of a pattern that's now referred to as the [Kappa Architecture](http://kappa-architecture.com/).
 
 What is Kappa Architecture?
@@ -18,7 +18,7 @@ What is Kappa Architecture?
 So, imagine if Twitter supported JSON posts, and allowed more characters.
 Now imagine your JSON-Twitter was also peer-to-peer.
 
-In a nutshell, that's Scuttlebot.
+In a nutshell, that's ssb-server.
 
 ## How do you write applications with it?
 
@@ -70,22 +70,21 @@ With the right processing code, we could easily scan these messages and produce 
 }
 ```
 
-And that's exactly how Scuttlebot applications work.
+And that's exactly how ssb-server applications work.
 So, let's dig into the practical steps of making that happen.
 
 ## Setup the Server
 
-The first step is to [install](./install.html) Scuttlebot.
+The first step is to [install](./install.html) ssb-server.
 You'll want the server running on the device that's running your application.
 
-Scuttlebot is meant to be used on users' devices, in a P2P network.
-It can be embedded ([Patchwork](https://ssbc.github.io/patchwork/) does this) but that's going to create conflicts after the user installs two Scuttlebot-embedding apps.
-So, for now, it's best to tell your users to install and run Scuttlebot or Patchwork themselves, as dependencies to your app.
+ssb-server is meant to be used on users' devices, in a P2P network.
+It can be embedded ([Patchwork](https://ssbc.github.io/patchwork/) does this) but that's going to create conflicts after the user installs two ssb-server-embedding apps.
+So, for now, it's best to tell your users to install and run ssb-server or Patchwork themselves, as dependencies to your app.
 
 ## Create the Client
 
-The current process for connecting to scuttlebot involves loading the master keypair from sbot's config (~/.ssb/secret).
-You can do this automatically with the [ssb-client](https://github.com/ssbc/ssb-client) module.
+The [ssb-client](https://github.com/ssbc/ssb-client) module can be used for making a connection to a running ssb-server process.
 
 ```js
 var ssbClient = require('ssb-client')
@@ -94,12 +93,12 @@ ssbClient(function (err, sbot) {
 })
 ```
 
-NOTE: Scuttlebot's CLI translates directly from the shell to RPC calls.
-That means any call you can make programmatically can be made from the shell as well.
+> ssb-server's CLI translates directly from the shell to RPC calls.
+> That means any call you can make programmatically can be made from the shell as well.
 
 ## Publishing Messages
 
-Publishing messages in Scuttlebot is very simple:
+Publishing messages is very simple:
 
 ```js
 sbot.publish({ type: type, ... }, cb)
@@ -160,7 +159,7 @@ removeFile(sbot, 'My Files Package', 'my-picture.jpg')
 ## Attaching Files to Messages
 
 Messages have an 8kb limit, including the headers that are automatically added, so it's not a good idea to try to cram base64-encoded files into them.
-Instead, we should use Scuttlebot's blob-store to publish the files, which presently has a 5MB limit.
+Instead, we should use ssb-server's blob-store to publish the files, which presently has a 5MB limit.
 
 We'll add another function to do this:
 
@@ -203,14 +202,14 @@ The result is something more like this:
 ```
 
 The value of `fileData` is now a [content-hash link](https://ssbc.github.io/docs/ssb/linking.html).
-When other Scuttlebots see it, they'll ask their peers for the blob that matches that sha256 hash.
+When other ssb-servers see it, they'll ask their peers for the blob that matches that sha256 hash.
 That means the file will lag behind the message a little bit, but it'll get there eventually!
 
 ## Reading the Messages
 
 Now that we've got the publishing handled, we need to read the messages in, and process them into our output state.
 
-Scuttlebot uses [pull-streams](https://github.com/dominictarr/pull-stream).
+ssb-server uses [pull-streams](https://github.com/dominictarr/pull-stream).
 In most cases, you'll use them like this:   
 
 ```js
@@ -229,7 +228,7 @@ pull(sbot.foo(), pull.collect(function (err, msgs) {
 }))
 ```
 
-We'll use them now with [createLogStream](http://ssbc.github.io/docs/api/scuttlebot.html#createlogstream-source) to create a persistent live stream of messages.
+We'll use them now with [createLogStream](http://ssbc.github.io/docs/api/ssb-server.html#createlogstream-source) to create a persistent live stream of messages.
 As each message is added, either due to network-gossip, or by the local user, it will be emitted here:
 
 ```js
@@ -275,7 +274,7 @@ function onCreatePackage (msg) {
 ```
 
 Notice that `msg.value.content.package` is validated, but `msg.value.author` is not.
-Scuttlebot's internal APIs will validate everything in `msg.value.*` except for `msg.value.content.*`.
+ssb-server's internal APIs will validate everything in `msg.value.*` except for `msg.value.content.*`.
 That's up to the application.
 
 Like incoming HTTP requests, you should always validate the content of the message, as it may be incorrect or harmful.
