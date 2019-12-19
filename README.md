@@ -2,8 +2,8 @@
   <img
     alt="Hermies the hermit crab"
     src="assets/hermies.png"
-    width="256"
-    height="256"
+    width="180"
+    height="180"
   />
   <br />
   <img src="./assets/garden/small-grass.gif" alt="small grass">
@@ -29,31 +29,13 @@
 
 <img src="./assets/garden/sailing-away.gif" alt="sailboat sailing away">
 
-{% vimeo %}236358264{% endvimeo %}
+This site is primarily for onboarding technical people and developers into knowledge of the SSB protocol and orientations from the conceptual to the practical aspects of writing and using SSB based applications.
 
-## Ready to get started?
-
-<img src="./assets/garden/hermies-watering.gif" alt="hermies watering">
-
-**We have a detailed [Getting Started Guide](getting-started.md) which is
-recommended if you've got a few minutes.**
-
-If you just need to get up and running ASAP here's what you need to know:
-
-### Quick Start
-
-1. [Install Patchwork](http://dinosaur.is/patchwork-downloader/).
-2. Boot it up and set up your profile. 
-3. Go to [the list of pub servers](https://github.com/ssbc/ssb-server/wiki/Pub-Servers) and get an invite code from one.
-4. Click "+ Join Pub" in the top left corner of Patchwork and paste in the invite code.
-5. Explore by browsing public posts and channels, expand into your extended network (Click on More > Extended Network).
-6. Introduce yourself on the #new-people channel.
-7. Follow people you find interesting. You will download content authored by everyone you follow, and everyone who they follow.
-8. Have fun, and be respectful of others. The scuttleverse is a nice place.
+If you would like to view a less technical and friendlier introduction to SSB, please visit [scuttlebutt.nz/docs](https://scuttlebutt.nz/docs).
 
 ## Contributor Code of Conduct
 
-Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](https://scuttlebutt.nz/docs/code-of-conduct/). By participating in this project you agree to abide by its terms.
 
 ## Have Other Questions?
 
@@ -61,22 +43,17 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 
 A great place to learn more is our [FAQ page](faq/index.md)
 
-In addition, you'll find a wealth of resources within this handbook, accessible through the sidebar.  
+In addition, you'll find a wealth of resources within this handbook, accessible through the sidebar.
 
 The resources are organized by these topics:
 
-* [Contributing](contributing.md)
-* [Talks](talks.md)
-* [Applications](applications.md)
-* [Principles](principles/index.md)
-* [FAQ](faq/index.md)
-* [Stories](stories/index.md)
-* [Protocol](protocol.md)
-* [Modules](modules.md)
-* [Concepts](concepts/index.md)
-* [Guides](guides/index.md)
-* [Glossary](glossary.md)
-
+- [Applications](applications.md)
+- [Concepts](concepts/index.md)
+- [Protocol](protocol.md)
+- [Guides](guides/index.md)
+- [Modules](modules.md)
+- [FAQ](faq/index.md)
+- [Glossary](glossary.md)
 
 <div align="center">
   <img src="./assets/garden/medium-grass.gif" alt="medium grass">
