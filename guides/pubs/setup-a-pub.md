@@ -10,7 +10,7 @@ The easiest way to get a public server is by renting a virtual server from busin
 After renting the server, follow the guides provided by your host to configure the software.
 We recommend using a common Linux distribution, such as Ubuntu.
 
-Scuttlebot by default uses port `8008`, so make sure to expose that port (or whatever port you configure scuttlebot to use) to the internet.
+ssb-server by default uses port `8008`, so make sure to expose that port (or whatever port you configure ssb-server to use) to the internet.
 
 ## 2. Install Node
 
@@ -27,21 +27,21 @@ nvm install 10
 nvm alias default 10
 ```
 
-## 3. Install Scuttlebot
+## 3. Install ssb-server
 
-Install Scuttlebot using NPM.
+Install `ssb-server` using NPM.
 (If you prefer to install using git, [follow the instructions here](./install.md)).
 
 ```bash
 npm install -g ssb-server
 ```
 
-To update scuttlebot in the future, simply run the global install again.
+To update `ssb-server` in the future, simply run the global install again.
 
 ## 4. Create a run-server.sh script
 
 Save the following script somewhere easy to find, such as `~/run-server.sh`.
-This script will help ensure uptime, even if scuttlebot experiences a crash:
+This script will help ensure uptime, even if ssb-server experiences a crash:
 
 ```bash
 #!/bin/bash
@@ -65,7 +65,7 @@ sh ~/run-server.sh
 
 Then, detach the session.
 
-## 6. Confirm Scuttlebot server is running
+## 6. Confirm ssb-server server is running
 
 To check if the server is running, use the following command:
 
@@ -110,4 +110,4 @@ If you want to let a single code be used more than once, you can provide a numbe
 
 It's a good idea to regularly backup the Pub's data directory, in case of failures.
 The data-directory will include the Pub's keypair, messages, and files.
-It can be found at `~/.ssb`, where `~` points to the home directory of the user running Scuttlebot.
+It can be found at `~/.ssb`, where `~` points to the home directory of the user running ssb-server.
