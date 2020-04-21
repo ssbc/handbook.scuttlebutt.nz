@@ -14,8 +14,7 @@ This produces an arms race between spammers and spam filterers.
 Spammers must strive to create messages which beat the filter, while filterers have to improve their model.
 
 One particularly interesting example of this is (snail) mail advertisers that employ [handwriting services](http://www.writeonresults.com/) to write the addresses on their envelopes.
-This fools the receiver into believing that an actual human sent them the letter making them much more likely to open it. 
-(This is even being [automated](https://hellobond.com/).)
+This fools the receiver into believing that an actual human sent them the letter making them much more likely to open it.
 
 ### Social Networks
 
