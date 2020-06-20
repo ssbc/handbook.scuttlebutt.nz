@@ -31,6 +31,7 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
         <li><a href='#ngx-ssb-client'>ngx-ssb-client</a></li>
         <li><a href='#mvd'>mvd</a></li>
         <li><a href='#patchwork-classic'>Patchwork Classic</a></li>
+        <li><a href='#feedless'>Feedless</a></li>
       </ul>
     </td>
     <td> 
@@ -159,6 +160,16 @@ The first major messaging interface built on SSB, using React. Currently has ins
 Tour (old version) : [youtube](https://www.youtube.com/watch?v=vmQUfZMCVJ0)
 
 Source code : [GitHub](https://github.com/ssbc/patchwork-classic-electron)
+
+---
+
+## [Feedless](https://feedless.social)
+
+The non-addictive social network. Available on iOS and on the web (desktop and mobile), with Mac and Linux installers for local setup.
+
+<img src='./assets/screenshots/feedless.png' class='shadow'/>
+
+Source code : [GitHub](https://github.com/rogeriochaves/feedless)
 
 ---
 
