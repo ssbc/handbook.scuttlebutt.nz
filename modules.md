@@ -54,6 +54,7 @@ stack module outline:
 
 ## Crypto
 
+- [`chloride`](https://github.com/ssb-js/chloride): a cryptographic library for JavaScript environments, often wrappping libsodium.
 - [`secret-handshake`](https://github.com/auditdrivencrypto/secret-handshake): secure-channel based on a a mutually authenticating key agreement handshake, with forward secure identity metadata.
 - [`private-box`](https://github.com/auditdrivencrypto/private-box): private message between two parties (with no `to` field)
 
@@ -68,6 +69,9 @@ stack module outline:
 - [`ssb-validate`](https://github.com/ssbc/ssb-validate): validate ssb messages, completely functionally
 - [`ssb-query`](https://github.com/dominictarr/ssb-query): a functional query engine, that operates over streams of js objects, and can be optimized via database indexes.
 - [`ssb-blobs`](https://github.com/ssbc/ssb-blobs): blob gossiping ssb-subprotocol
+- [`ssb-serve-blobs`](https://github.com/ssbc/ssb-serve-blobs): HTTP server to expose blobs
+- [`ssb-conn`](https://github.com/staltz/ssb-conn): automatically manage connections with peers
+- [`ssb-replicate`](https://github.com/ssbc/ssb-replicate): feed replication algorithm
 - [`ssb-friends`](https://github.com/ssbc/ssb-friends): the logic around who to replicate or not
 - [`multiblob`](https://github.com/dominictarr/multiblob): a content-addressable-store that supports multiple hashing algorithms
 - [`ssb-ooo`](https://github.com/dominictarr/ssb-ooo): out-of-order messages
@@ -75,6 +79,8 @@ stack module outline:
 - pubs
   - [`easy-ssb-pub`](https://github.com/staltz/easy-ssb-pub): an easy-to-host server that runs an SSB "Pub"
   - [`ssb-pub`](https://github.com/ahdinosaur/ssb-pub): easily host your own ssb pub in a docker container
+- rooms
+  - [`ssb-room`](https://github.com/staltz/ssb-room): easily host your own ssb room server in a docker container
 
 ## Client
 
