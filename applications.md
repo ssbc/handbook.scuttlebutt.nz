@@ -391,12 +391,12 @@ Source code : [GitHub](https://github.com/ssbc/ssb-usage-stats)
 
 ## Oasis
 
-Use your favorite web browser to read and write messages to the people you care about: Bring-Your-Own-Browser. Oasis runs a small HTTP server on your own computer, so you don't need to worry about adding another Electron app to your computer. It's just HTML and CSS as it does not run any JavaScript in the browser! Oasis has strict security rules that prevent any JavaScript from running in your browser, which helps us make Oasis accessible and easy to improve. All powered by SSB.
+Use your favorite web browser to read and write messages to the people you care about. Oasis runs a small HTTP server on your own computer. Oasis is just HTML and CSS. It has strict security rules that prevent any JavaScript from running in your browser, which helps make Oasis accessible and easy to improve.
 
 <a href='https://github.com/fraction/oasis' target='_blank'>
   <img src='https://raw.githubusercontent.com/fraction/oasis/master/docs/screenshot.png' class='shadow' alt='A screenshot of Oasis in a browser' /> 
 </a>
 
-Source code: [Github](https://github.com/fraction/oasis)
+Source code: [Github](https://github.com/fraction/oasis) | [Gitlab](https://gitlab.com/fraction/oasis)
 
 ---
