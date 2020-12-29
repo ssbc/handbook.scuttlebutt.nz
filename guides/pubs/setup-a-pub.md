@@ -2,6 +2,8 @@
 
 Note, this guide assumes moderate technical ability. If you are looking for easier ways to setup a SSB pub, you might want to try [ssb-pub](https://github.com/ahdinosaur/ssb-pub) or [ssb-easy-pub](https://github.com/ahdinosaur/easy-ssb-pub).
 
+Pubs can easily be configured as Tor hidden services; see [this step-by-step guide](pubs/pub-hidden-service.md)
+
 ## 1. Get the Server
 
 Pub servers need a static, publicly-reachable IP address.
