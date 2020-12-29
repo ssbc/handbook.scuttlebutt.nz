@@ -203,13 +203,15 @@ sbot publish --type about --about {id-from-whoami} --no-publicWebHosting
 ```
 
 Announce yourself to the world as a Pub
-``
-`ssb-server publish --type pub --address.key {feedId} --address.host {pub-address.onion} --address.port 8008
+```
+ssb-server publish --type pub --address.key {feedId} --address.host {pub-address.onion} --address.port 8008
 ```
 
 ### Invite people to the Pub
 Run the command below to create an invite that can be used 100 times. Adjust the number as you wish.
-`ssb-server invite.create 100`
+```
+ssb-server invite.create 100
+```
 
 This creates output like
 ```
