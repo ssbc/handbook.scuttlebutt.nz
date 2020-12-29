@@ -198,13 +198,17 @@ ssb-server publish --type post --text "My First Post!"
 ```
 
 Request for HTTP/SSB bridges to please not serve webpages of your public posts
-`sbot publish --type about --about {id-from-whoami} --no-publicWebHosting`
+```
+sbot publish --type about --about {id-from-whoami} --no-publicWebHosting
+```
 
-Announce yourself to the world as a Pub!
-`ssb-server publish --type pub --address.key {feedId} --address.host {pub-address.onion} --address.port 8008`
+Announce yourself to the world as a Pub
+``
+`ssb-server publish --type pub --address.key {feedId} --address.host {pub-address.onion} --address.port 8008
+```
 
 ### Invite people to the Pub
-Run this command to create an invite that can be used 100 times. Adjust the number as you wish.
+Run the command below to create an invite that can be used 100 times. Adjust the number as you wish.
 `ssb-server invite.create 100`
 
 This creates output like
@@ -221,5 +225,5 @@ Maintaining your hidden SSB Pub is no different than doing so as a surface web P
 * Periodically update packages with `sudo dnf update`
 * Keep the ssb-server process running
 
-Please follow the remainder of the usual Pub setup instructions, starting with [Create a run-server.sh script](setup-a-pub.md#4.%32Create%32a%32run-server.sh%32script)
+Please follow the remainder of the usual Pub setup instructions, starting with [Create a run-server.sh script](setup-a-pub.md#4-create-a-run-serversh-script)
 
