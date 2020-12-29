@@ -40,7 +40,7 @@ echo '/dev/disk/{storage-dir} /mnt/mypub_ssb_storage ext4 defaults,nofail,discar
 
 ## 2. Set up Tor services
 
-See the [official Tor project Hidden Service guide](https://2019.www.torproject.org/docs/tor-onion-service.html.en) for mode background.
+See the [official Tor project Hidden Service guide](https://2019.www.torproject.org/docs/tor-onion-service.html.en) for more background.
 
 ### Install Tor packages
 `sudo dnf install libevent libevent-devel openssl openssl-devel zlib zlib-devel tor`
