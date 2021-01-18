@@ -33,6 +33,7 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
         <li><a href='#patchwork-classic'>Patchwork Classic</a></li>
         <li><a href='#feedless'>Feedless</a></li>
         <li><a href='#oasis'>Oasis</a></li>
+        <li><a href='#planetary'>Planetary</a></li>
       </ul>
     </td>
     <td> 
@@ -398,5 +399,17 @@ Use your favorite web browser to read and write messages to the people you care 
 </a>
 
 Source code: [Github](https://github.com/fraction/oasis)
+
+---
+
+## Planetary
+
+Native iOS secure scuttlebutt app using the go-ssb engine. The app's focus is on making scuttlebutt as a social app acessible to non-technical users. All powered by SSB.
+
+<a href='http://planetary.social' target='_blank'>
+  <img src='./assets/planetary.png' class='shadow' alt='' /> 
+</a>
+
+Source code: [Github](https://github.com/planetary-social/planetary-ios)
 
 ---
