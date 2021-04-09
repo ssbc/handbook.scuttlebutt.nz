@@ -34,6 +34,7 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
         <li><a href='#feedless'>Feedless</a></li>
         <li><a href='#oasis'>Oasis</a></li>
         <li><a href='#planetary'>Planetary</a></li>
+        <li><a href='#browserdemo'>SSB Browser demo</a></li>
       </ul>
     </td>
     <td> 
@@ -411,5 +412,19 @@ Native iOS secure scuttlebutt app using the go-ssb engine. The app's focus is on
 </a>
 
 Source code: [Github](https://github.com/planetary-social/planetary-ios)
+
+---
+
+## [SSB Browser demo](https://github.com/arj03/ssb-browser-demo)
+
+Run SSB in the browser with no server required. SSB Browser demo runs
+directly in your web browser meaning it can run on most devices
+including the default browser in iOS and android.
+
+<a href='https://github.com/arj03/ssb-browser-demo' target='_blank'>
+  <img src='./assets/browserdemo.jpg' class='shadow' alt='' /> 
+</a>
+
+Source code: [Github](https://github.com/arj03/ssb-browser-demo)
 
 ---
