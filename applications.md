@@ -13,6 +13,8 @@ Come explore with us!
 _If you are new, you might like to [start with Patchwork](./#how-to-get-started)!_
 
 
+### Supported / Maintained Secure Scuttlebutt Apps
+
 <table> 
   <tr>
     <th>Discussion Apps</th>
@@ -20,65 +22,80 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
     <th>Tools & Data Viz</th>
   </tr>
   <tr>
-    <td>
+    <td style="vertical-align: top;">
+      <ul>
+        <li><a href='#manyverse'>manyverse</a></li>
+        <li><a href='#planetary'>Planetary</a></li>
+        <li><a href='#patchfox'>Patchfox</a></li>
+        <li><a href='#patchfoo'>Patchfoo</a></li>
+        <li><a href='#feedless'>Feedless</a></li>
+        <li><a href='#patchbay'>Patchbay</a></li>
+        <li><a href='#perihelion'>Perihelion</a></li>
+        <li><a href='#browserdemo'>SSB Browser demo</a></li>
+      </ul>
+    </td>
+    <td style="vertical-align: top;"> 
+      <ul>
+        <li><a href='#git-ssb'>git-ssb</a> (code projects)</li>
+        <li><a href='#ssb-npm'>ssb-npm</a> (code packages)</li>
+        <li><a href='#recipes'>recipes</a></li>
+        <li><a href='#ssbdrv'>ssbdrv</a> (files)</li>
+      </ul>
+    </td>
+    <td style="vertical-align: top;"> 
+      <ul>
+        <li><a href='#ssb-web'>ssb-web</a></li>
+        <li><a href='#ssb-to-graphml'>ssb-to-graphml</a></li>
+        <li><a href='#ssb-usage-stats'>ssb-usage-stats</a></li>
+        <li><a href='#ssb-graphviz'>ssb-graphviz</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### Depricated apps no longer in active development
+
+<table> 
+  <tr>
+    <th>Discussion Apps</th>
+    <th>Other Apps</th>
+    <th>Tools & Data Viz</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">
       <ul>
         <li><a href='#patchwork'>Patchwork</a></li>
-        <li><a href='#patchbay'>Patchbay</a></li>
-        <li><a href='#patchfoo'>Patchfoo</a></li>
-        <li><a href='#manyverse'>manyverse</a></li>
-        <li><a href='#patchfox'>Patchfox</a></li>
         <li><a href='#patchless'>Patchless</a></li>
         <li><a href='#ngx-ssb-client'>ngx-ssb-client</a></li>
         <li><a href='#mvd'>mvd</a></li>
         <li><a href='#patchwork-classic'>Patchwork Classic</a></li>
-        <li><a href='#feedless'>Feedless</a></li>
         <li><a href='#oasis'>Oasis</a></li>
-        <li><a href='#planetary'>Planetary</a></li>
         <li><a href='#browserdemo'>SSB Browser demo</a></li>
       </ul>
     </td>
-    <td> 
+    <td style="vertical-align: top;"> 
       <ul>
-        <li><a href='#git-ssb'>git-ssb</a> (code projects)</li>
-        <li><a href='#ssb-npm'>ssb-npm</a> (code packages)</li>
         <li><a href='#scat'>scat</a> (chat)</li>
         <li><a href='#ticktack'>Ticktack</a> (blogging)</li>
         <li><a href='#infinite-game'>Infinite Game</a> (weaving the future with friends)</li>
         <li><a href='#talenet'>tale:net</a> (skills)</li>
         <li><a href='#ssb-chess'>ssb-chess</a></li>
         <li><a href='#patch-book'>patch-book</a></li>
-        <li><a href='#recipes'>recipes</a></li>
-        <li><a href='#ssbdrv'>ssbdrv</a> (files)</li>
         <li><a href='#ferment'>Ferment</a> (music)</li>
       </ul>
     </td>
-    <td> 
+    <td style="vertical-align: top;"> 
       <ul>
         <li><a href='#ssb-pub'>ssb-pub</a></li>
         <li><a href='#easy-ssb-pub'>easy-ssb-pub</a></li>
         <li><a href='#twitter-ssb-import'>twitter-ssb-import</a></li>
-        <li><a href='#ssb-web'>ssb-web</a></li>
-        <li><a href='#ssb-to-graphml'>ssb-to-graphml</a></li>
-        <li><a href='#ssb-usage-stats'>ssb-usage-stats</a></li>
-        <li><a href='#ssb-graphviz'>ssb-graphviz</a></li>
         <li><a href='#ssb-bot-feed'>ssb-bot-feed</a></li>
       </ul>
     </td>
   </tr>
 </table>
 
-
-## [Patchwork](https://github.com/ssbc/patchwork)
-
-A decentralized messaging and sharing app. The goal is to make a standalone, [easy to install](./getting-started.md), "social" view into the SSB world.
-
-[**How to get started**](./getting-started.md) (must read) | [Installers](https://github.com/ssbc/patchwork/releases)
-
-<img src='./assets/screenshots/patchwork.jpg' class=''/>
-
-Source code : [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU%3D.sha256) | [GitHub](https://github.com/ssbc/patchwork) | `ssb://%bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU=.sha256`
-
----
+ ## Maintained Scuttlebutt Applications
 
 ## [Patchbay](https://github.com/ssbc/patchbay)
 
@@ -110,61 +127,20 @@ A social network off the grid · Scuttlebutt for mobile
 
 ![mmmmm](./assets/screenshots/mmmmm.jpg)
 
-Source code : [GitHub](https://github.com/staltz/manyverse)
+[Install / Download](https://www.manyver.se/download) / Source code : [GitHub](https://github.com/staltz/manyverse)
 
 ---
 
-## [Patchfox](https://github.com/soapdog/patchfox)
+## [Patchfox](https://patchfox.org/)
 
 > A client for scuttlebutt network as a Firefox WebExtension
 
 <img src="./assets/screenshots/patchfox.png" alt="patchfox" class="shadow" />
 
-Source code : [GitHub](https://github.com/soapdog/patchfox)
+[Download](https://github.com/soapdog/patchfox/releases) / Source code : [GitHub](https://github.com/soapdog/patchfox)
 
 ---
 
-## [Patchless](https://github.com/patchless/patchless)
-
-> patchless is a standard for modular ui apps.
-
-<img src="./assets/screenshots/patchless.png" alt="patchless" class="shadow" />
-
-Source code : [GitHub](https://github.com/patchless/patchless)
-
----
-
-## [ngx-ssb-client](https://github.com/datenknoten/ngx-ssb-client)
-
-> secure scuttlebutt client using „modern“ web development technologies.
-
-<img src="./assets/screenshots/ngx-ssb-client.png" alt="ngx-ssb-client" class="shadow" />
-
-Source code : [GitHub](https://github.com/datenknoten/ngx-ssb-client)
-
----
-
-## [mvd](http://gitmx.com/)
-
-> This is a minimum viable full-stack Decent server and client.
-
-<img src="./assets/screenshots/mvd.png" alt="mvd" class="shadow" />
-
-Source code: [GitHub](https://github.com/evbogue/mvd) | [git-ssb](http://git-ssb.celehner.com/%25NPNNvcnTMZUFZSWl%2F2Z4XX%2BYSdqsqOhyPacp%2BlgpQUw%3D.sha256) | `ssb://%NPNNvcnTMZUFZSWl/2Z4XX+YSdqsqOhyPacp+lgpQUw=.sha256`
-
----
-
-## Patchwork "Classic"
-
-The first major messaging interface built on SSB, using React. Currently has installers for Mac and Linux, and translations.
-
-<img src='./assets/screenshots/patchwork-classic.png' class='shadow'/>
-
-Tour (old version) : [youtube](https://www.youtube.com/watch?v=vmQUfZMCVJ0)
-
-Source code : [GitHub](https://github.com/ssbc/patchwork-classic-electron)
-
----
 
 ## [Feedless](https://feedless.social)
 
@@ -205,59 +181,6 @@ Source code : [git-ssb](https://git.scuttlebot.io/%25iqhz%2FsQCZCSp91JYAqfQPzHuD
 
 ---
 
-## [scat](https://github.com/stripedpajamas/scat)
-
-tiny chat-like cli built on scuttlebutt :mouse:
-
-<img src="./assets/screenshots/scat.png" alt="scat" class="shadow" />
-
-Source code : [GitHub](https://github.com/stripedpajamas/scat)
-
----
-
-## Ticktack
-
-A blog publishing app for long-form articles. Also has private messaging integrated.
-
-[**Installers**](https://github.com/ticktackim/ticktack-workplan/releases) (auto connects you to some blogging parts of the archipelago)
-
-<img src='./assets/screenshots/ticktack.png' class='shadow'/>
-
-Source code : [git-ssb](https://git.scuttlebot.io/%25wnNDjViKYZH%2BRWpbNzDXR2oxLWmTagvvFBjy97Zko4I%3D.sha256) | [GitHub](https://github.com/ticktackim/ticktack-workplan/releases) | `ssb://%wnNDjViKYZH+RWpbNzDXR2oxLWmTagvvFBjy97Zko4I=.sha256`
-
----
-
-## [tale:net](https://t4l3.net/)
-
-Skill sharing and ideation app
-
-[**Installers**](https://t4l3.net/download/)
-
-<img src="./assets/screenshots/talenet-skilliverse.png" alt="tale:net" class="shadow" />
-
-Source code : [GitHub](https://github.com/talenet/talenet)
-
----
-
-## [ssb-chess](https://github.com/Happy0/ssb-chess)
-
-Correspondence chess built on top of the scuttlebutt platform.
-
-<img src='https://i.imgur.com/Xz9ovwX.png' class='shadow'/>
-
-Source code : [GitHub](https://github.com/Happy0/ssb-chess)
-
----
-
-## patch-book
-
-Review and discuss books overs scuttlebutt. Patch-book is a [patchcore](https://github.com/ssbc/patchcore) based plugin. You can use it in e.g. Patchbay.
-
-<img src='./assets/screenshots/patch-book.png' class='shadow'/>
-
-Source code: `ssb://%zoL1riX2mELF0j3dydWtQ+go4nI4jaByvm5Z02cRyaQ=.sha256`
-
----
 
 ## recipes
 
@@ -279,65 +202,11 @@ Source code : [GitHub](https://github.com/cn-uofbasel/ssbdrv/)
 
 ---
 
-## [Infinite Game](https://github.com/mixmix/infinite-game/releases)
-
-> Infinite Game is a tool to help you grow connections with new friends, and to help invite the future you want to see into the world. It lets you look back and reflect on the exciting things you and your friends have done, and be inspired and excited for the future.
-
-> Right now it looks like a calendar, some gatherings tools (private or public events), and a tool called scry to help invoke and settle gatherings (simliar to <a href="https://doodle.com">doodle</a>).
-
-<img src='./assets/screenshots/infinite-game.png' />
-
-Source code : [git-ssb](http://git-ssb.celehner.com/%25Eyq2PrN8Wk0DTqBJI1Xila7yJ18ZWGTShMNLc1O5vjo%3D.sha256) | [GitHub](https://github.com/mixmix/infinite-game) | `ssb://%Eyq2PrN8Wk0DTqBJI1Xila7yJ18ZWGTShMNLc1O5vjo=.sha256`
-
-
----
-
-## Ferment
-
-A music sharing app for musicians, remixers, creatores, Built using ssb + webtorrent.
-Note: Servers for the webtorrent part of this are currently not being maintained.
-
-<img src='./assets/screenshots/ferment.png' class='shadow'/>
-
-Tour : [youtube](https://www.youtube.com/watch?v=xgvxXbWYmrI)
-
-Source code : [git-ssb](https://git-ssb.celehner.com/%25t3XQv5Gk%2FdzJQM1fWFnMlaTlTvmtd3BHYCTIzhT%2F7G8%3D.sha256) | [GitHub](https://github.com/fermentation/ferment) | `ssb://%t3XQv5Gk/dzJQM1fWFnMlaTlTvmtd3BHYCTIzhT/7G8=.sha256`
-
----
-
-## ssb-pub 
-
-https://github.com/ahdinosaur/ssb-pub
-
----
-
-## easy-ssb-pub 
-
-![](https://github.com/staltz/easy-ssb-pub/raw/master/screenshot.png) 
-
-https://github.com/staltz/easy-ssb-pub
-
----
-
-## twitter-ssb-import
-
-> Script to import tweets from Twitter to ssb, so that they will display in Patchwork.
-
-<img src='./assets/screenshots/twitter-ssb-import.jpg' class='shadow'/>
-
-Source code : [GitHub](https://github.com/arcalinea/twitter-ssb-import)
-
 ---
 
 ## ssb-web
 
 %dBn9uyqFKuinu4wv4sEYY3Cp49kJswkrTMka7wJJXTM=.sha256
-
-### [ssb-webify](https://github.com/noffle/ssb-webify)
-
-> Convert a local file hierarchy into a scuttlebutt website
-
-Source code : [GitHub](https://github.com/noffle/ssb-webify)
 
 ### [ssb-web-resolver](https://github.com/noffle/ssb-web-resolver)
 
@@ -391,27 +260,17 @@ Source code : [GitHub](https://github.com/ssbc/ssb-usage-stats)
 
 ---
 
-## Oasis
-
-Use your favorite web browser to read and write messages to the people you care about. Oasis runs a small HTTP server on your own computer. Oasis is just HTML and CSS. It has strict security rules that prevent any JavaScript from running in your browser, which helps make Oasis accessible and easy to improve.
-
-<a href='https://github.com/fraction/oasis' target='_blank'>
-  <img src='https://raw.githubusercontent.com/fraction/oasis/master/docs/screenshot.png' class='shadow' alt='A screenshot of Oasis in a browser' /> 
-</a>
-
-Source code: [Github](https://github.com/fraction/oasis) | [Gitlab](https://gitlab.com/fraction/oasis)
-
----
 
 ## Planetary
 
-Native iOS secure scuttlebutt app using the go-ssb engine. The app's focus is on making scuttlebutt as a social app acessible to non-technical users. All powered by SSB.
+Native Mac / iOS secure scuttlebutt app using the go-ssb engine. The app's focus is on making scuttlebutt as a social app acessible to non-technical users. All powered by SSB.
 
 <a href='http://planetary.social' target='_blank'>
   <img src='./assets/planetary.png' class='shadow' alt='' /> 
 </a>
 
-Source code: [Github](https://github.com/planetary-social/planetary-ios)
+
+Links: [AppStore](https://apps.apple.com/us/app/planetary-app/id1481617318) /  Source code: [Github](https://github.com/planetary-social/planetary-ios)
 
 ---
 
@@ -428,3 +287,221 @@ including the default browser in iOS and android.
 Source code: [Github](https://github.com/arj03/ssb-browser-demo)
 
 ---
+
+
+## Perihelion
+
+Self hosted scuttlebutt social app using next.js
+
+Source code: [Github](https://github.com/nsantini/perihelion)
+
+---
+
+
+
+### Depricated Scuttlebutt Projects:
+
+## [Patchwork](https://github.com/ssbc/patchwork)
+
+> Not Activily Maintained
+
+A decentralized messaging and sharing app. The goal is to make a standalone, [easy to install](./getting-started.md), "social" view into the SSB world.
+
+[**How to get started**](./getting-started.md) (must read) | [Installers](https://github.com/ssbc/patchwork/releases)
+
+<img src='./assets/screenshots/patchwork.jpg' class=''/>
+
+Source code : [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU%3D.sha256) | [GitHub](https://github.com/ssbc/patchwork) | `ssb://%bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU=.sha256`
+
+---
+
+## Oasis
+
+> Not Activily Maintained
+
+Use your favorite web browser to read and write messages to the people you care about. Oasis runs a small HTTP server on your own computer. Oasis is just HTML and CSS. It has strict security rules that prevent any JavaScript from running in your browser, which helps make Oasis accessible and easy to improve.
+
+<a href='https://github.com/fraction/oasis' target='_blank'>
+  <img src='https://raw.githubusercontent.com/fraction/oasis/master/docs/screenshot.png' class='shadow' alt='A screenshot of Oasis in a browser' /> 
+</a>
+
+Source code: [Github](https://github.com/fraction/oasis) | [Gitlab](https://gitlab.com/fraction/oasis)
+
+---
+
+
+### [ssb-webify](https://github.com/noffle/ssb-webify)
+
+> Convert a local file hierarchy into a scuttlebutt website
+
+Source code : [GitHub](https://github.com/noffle/ssb-webify)
+
+## [ngx-ssb-client](https://github.com/datenknoten/ngx-ssb-client)
+
+> secure scuttlebutt client using „modern“ web development technologies.
+
+<img src="./assets/screenshots/ngx-ssb-client.png" alt="ngx-ssb-client" class="shadow" />
+
+Source code : [GitHub](https://github.com/datenknoten/ngx-ssb-client)
+
+---
+
+## [mvd](http://gitmx.com/)
+
+> Not Activily Maintained
+
+> This is a minimum viable full-stack Decent server and client.
+
+<img src="./assets/screenshots/mvd.png" alt="mvd" class="shadow" />
+
+Source code: [GitHub](https://github.com/evbogue/mvd) | [git-ssb](http://git-ssb.celehner.com/%25NPNNvcnTMZUFZSWl%2F2Z4XX%2BYSdqsqOhyPacp%2BlgpQUw%3D.sha256) | `ssb://%NPNNvcnTMZUFZSWl/2Z4XX+YSdqsqOhyPacp+lgpQUw=.sha256`
+
+---
+
+## Patchwork "Classic"
+
+> Not Activily Maintained
+
+The first major messaging interface built on SSB, using React. Currently has installers for Mac and Linux, and translations.
+
+<img src='./assets/screenshots/patchwork-classic.png' class='shadow'/>
+
+Tour (old version) : [youtube](https://www.youtube.com/watch?v=vmQUfZMCVJ0)
+
+Source code : [GitHub](https://github.com/ssbc/patchwork-classic-electron)
+
+---
+
+## [Patchless](https://github.com/patchless/patchless)
+
+> Not activily maintaind
+
+> patchless is a standard for modular ui apps.
+
+<img src="./assets/screenshots/patchless.png" alt="patchless" class="shadow" />
+
+Source code : [GitHub](https://github.com/patchless/patchless)
+
+---
+
+
+## [scat](https://github.com/stripedpajamas/scat)
+
+> Not Activily Maintained
+
+tiny chat-like cli built on scuttlebutt :mouse:
+
+<img src="./assets/screenshots/scat.png" alt="scat" class="shadow" />
+
+Source code : [GitHub](https://github.com/stripedpajamas/scat)
+
+---
+
+## Ticktack
+
+A blog publishing app for long-form articles. Also has private messaging integrated.
+
+[**Installers**](https://github.com/ticktackim/ticktack-workplan/releases) (auto connects you to some blogging parts of the archipelago)
+
+<img src='./assets/screenshots/ticktack.png' class='shadow'/>
+
+Source code : [git-ssb](https://git.scuttlebot.io/%25wnNDjViKYZH%2BRWpbNzDXR2oxLWmTagvvFBjy97Zko4I%3D.sha256) | [GitHub](https://github.com/ticktackim/ticktack-workplan/releases) | `ssb://%wnNDjViKYZH+RWpbNzDXR2oxLWmTagvvFBjy97Zko4I=.sha256`
+
+---
+
+## [tale:net](https://t4l3.net/)
+
+> Not Activily Maintained
+
+Skill sharing and ideation app
+
+[**Installers**](https://t4l3.net/download/)
+
+<img src="./assets/screenshots/talenet-skilliverse.png" alt="tale:net" class="shadow" />
+
+Source code : [GitHub](https://github.com/talenet/talenet)
+
+---
+
+## [ssb-chess](https://github.com/Happy0/ssb-chess)
+
+> Not Activily Maintained
+
+Correspondence chess built on top of the scuttlebutt platform.
+
+<img src='https://i.imgur.com/Xz9ovwX.png' class='shadow'/>
+
+Source code : [GitHub](https://github.com/Happy0/ssb-chess)
+
+---
+
+## patch-book
+
+> Not Activily Maintained
+
+Review and discuss books overs scuttlebutt. Patch-book is a [patchcore](https://github.com/ssbc/patchcore) based plugin. You can use it in e.g. Patchbay.
+
+<img src='./assets/screenshots/patch-book.png' class='shadow'/>
+
+Source code: `ssb://%zoL1riX2mELF0j3dydWtQ+go4nI4jaByvm5Z02cRyaQ=.sha256`
+
+
+## [Infinite Game](https://github.com/mixmix/infinite-game/releases)
+
+> Not Activily Maintained
+
+> Infinite Game is a tool to help you grow connections with new friends, and to help invite the future you want to see into the world. It lets you look back and reflect on the exciting things you and your friends have done, and be inspired and excited for the future.
+
+> Right now it looks like a calendar, some gatherings tools (private or public events), and a tool called scry to help invoke and settle gatherings (simliar to <a href="https://doodle.com">doodle</a>).
+
+<img src='./assets/screenshots/infinite-game.png' />
+
+Source code : [git-ssb](http://git-ssb.celehner.com/%25Eyq2PrN8Wk0DTqBJI1Xila7yJ18ZWGTShMNLc1O5vjo%3D.sha256) | [GitHub](https://github.com/mixmix/infinite-game) | `ssb://%Eyq2PrN8Wk0DTqBJI1Xila7yJ18ZWGTShMNLc1O5vjo=.sha256`
+
+
+---
+
+## Ferment
+
+> Not Activily Maintained
+
+A music sharing app for musicians, remixers, creatores, Built using ssb + webtorrent.
+Note: Servers for the webtorrent part of this are currently not being maintained.
+
+<img src='./assets/screenshots/ferment.png' class='shadow'/>
+
+Tour : [youtube](https://www.youtube.com/watch?v=xgvxXbWYmrI)
+
+Source code : [git-ssb](https://git-ssb.celehner.com/%25t3XQv5Gk%2FdzJQM1fWFnMlaTlTvmtd3BHYCTIzhT%2F7G8%3D.sha256) | [GitHub](https://github.com/fermentation/ferment) | `ssb://%t3XQv5Gk/dzJQM1fWFnMlaTlTvmtd3BHYCTIzhT/7G8=.sha256`
+
+---
+
+## ssb-pub 
+
+> Not Activily Maintained
+
+Host and run your own secure scuttlebutt pub in a docker image. 
+
+https://github.com/ahdinosaur/ssb-pub
+
+---
+
+## easy-ssb-pub 
+
+> Not Activily Maintained
+
+![](https://github.com/staltz/easy-ssb-pub/raw/master/screenshot.png) 
+
+https://github.com/staltz/easy-ssb-pub
+
+---
+
+## twitter-ssb-import
+
+> Not Activily Maintained
+
+> Script to import tweets from Twitter to ssb, so that they will display in Patchwork.
+
+<img src='./assets/screenshots/twitter-ssb-import.jpg' class='shadow'/>
+
+Source code : [GitHub](https://github.com/arcalinea/twitter-ssb-import)
