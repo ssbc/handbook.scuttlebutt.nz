@@ -32,6 +32,7 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
         <li><a href='#patchbay'>Patchbay</a></li>
         <li><a href='#perihelion'>Perihelion</a></li>
         <li><a href='#browserdemo'>SSB Browser demo</a></li>
+        <li><a href='#tilde-friends'>Tilde Friends</a></li>
       </ul>
     </td>
     <td style="vertical-align: top;"> 
@@ -297,6 +298,18 @@ Source code: [Github](https://github.com/nsantini/perihelion)
 
 ---
 
+
+## Tilde Friends
+
+SSB on mobile and web with a built-in application platform.
+
+<a href='https://www.tildefriends.net' target='_blank'>
+  <img src='./assets/tildefriends.png' class='shadow' alt='Tilde Friends SSB' /> 
+</a>
+
+[Install / Download / Demo](https://www.tildefriends.net/) / [Source Code](https://dev.tildefriends.net/cory/tildefriends)
+
+---
 
 
 ### Depricated Scuttlebutt Projects:
