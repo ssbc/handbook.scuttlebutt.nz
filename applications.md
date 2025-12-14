@@ -54,7 +54,7 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
   </tr>
 </table>
 
-### Depricated apps no longer in active development
+### Deprecated apps no longer in active development
 
 <table> 
   <tr>
@@ -312,7 +312,7 @@ SSB on mobile and web with a built-in application platform.
 ---
 
 
-### Depricated Scuttlebutt Projects:
+### Deprecated Scuttlebutt Projects:
 
 ## [Patchwork](https://github.com/ssbc/patchwork)
 
