@@ -29,7 +29,6 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
         <li><a href='#patchfox'>Patchfox</a></li>
         <li><a href='#patchfoo'>Patchfoo</a></li>
         <li><a href='#feedless'>Feedless</a></li>
-        <li><a href='#patchbay'>Patchbay</a></li>
         <li><a href='#perihelion'>Perihelion</a></li>
         <li><a href='#browserdemo'>SSB Browser demo</a></li>
         <li><a href='#tilde-friends'>Tilde Friends</a></li>
@@ -72,6 +71,7 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
         <li><a href='#patchwork-classic'>Patchwork Classic</a></li>
         <li><a href='#oasis'>Oasis</a></li>
         <li><a href='#browserdemo'>SSB Browser demo</a></li>
+        <li><a href='#patchbay'>Patchbay</a></li>
       </ul>
     </td>
     <td style="vertical-align: top;"> 
@@ -97,18 +97,6 @@ _If you are new, you might like to [start with Patchwork](./#how-to-get-started)
 </table>
 
  ## Maintained Scuttlebutt Applications
-
-## [Patchbay](https://github.com/ssbc/patchbay)
-
-Also built on [patchcore](https://github.com/ssbc/patchcore), but uses a tabbed interface instead and has some more bleeding edge features. The goal is to make a client developers love - it comes with social views, as well as chess, book reviews, and some git interface.
-
-[Installers](https://github.com/ssbc/patchbay/releases)
-
-<img src='https://github.com/ssbc/patchbay/raw/master/screenshot.png' class='shadow'/>
-
-Source code : [git-ssb](https://git-ssb.celehner.com/%25s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc%3D.sha256) | [GitHub](https://github.com/ssbc/patchbay) | `ssb://%s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc=.sha256`
-
----
 
 ## [Patchfoo](http://git.scuttlebot.io/%25YAg1hicat%2B2GELjE2QJzDwlAWcx0ML%2B1sXEdsWwvdt8%3D.sha256)
 
@@ -325,6 +313,18 @@ A decentralized messaging and sharing app. The goal is to make a standalone, [ea
 <img src='./assets/screenshots/patchwork.jpg' class=''/>
 
 Source code : [git-ssb](https://git-ssb.celehner.com/%25bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU%3D.sha256) | [GitHub](https://github.com/ssbc/patchwork) | `ssb://%bfG9dyXtlic9umNzgwYuG8nhjG0ycUrlBROprvyBZaU=.sha256`
+
+---
+
+## [Patchbay](https://github.com/ssbc/patchbay)
+
+Also built on [patchcore](https://github.com/ssbc/patchcore), but uses a tabbed interface instead and has some more bleeding edge features. The goal is to make a client developers love - it comes with social views, as well as chess, book reviews, and some git interface.
+
+[Installers](https://github.com/ssbc/patchbay/releases)
+
+<img src='https://github.com/ssbc/patchbay/raw/master/screenshot.png' class='shadow'/>
+
+Source code : [git-ssb](https://git-ssb.celehner.com/%25s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc%3D.sha256) | [GitHub](https://github.com/ssbc/patchbay) | `ssb://%s9mSFATE4RGyJx9wgH22lBrvD4CgUQW4yeguSWWjtqc=.sha256`
 
 ---
 
